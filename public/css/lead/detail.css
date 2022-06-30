@@ -1,0 +1,20 @@
+.matched-tabs {
+    display: flex;
+}
+
+.matched-tabs .tab {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px 15px;
+    padding: 10px 15px;
+}
+.matched-tabs .tab.active {
+    background: #00c0ef80;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    #crm_jm_formCustomSearchListing .btn-reset {
+        margin-top: 20px;
+    }
+}

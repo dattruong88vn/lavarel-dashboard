@@ -1,0 +1,99 @@
+.bl-my-account .bl-like {
+    background: url('/assets/images/version-4/icons/ic-heart.png') no-repeat center #fff;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 3;
+    border-radius: 50%;
+}
+.bl-my-account .bl-like.active {
+    background: url('/assets/images/version-4/icons/ic-heart-active.png') no-repeat center #f17423;
+}
+.bl-my-account .bl-listings .media-left .div-text a{
+	color: #fff;
+	padding: 0 10px;
+}
+.bl-my-account .bl-listings .media-body{
+	padding-left: 15px;
+	color: #676767;
+	position: relative;
+}
+.bl-my-account .bl-listings .media-heading{
+	font-size: 20px;
+	font-weight: bold;
+}
+.bl-my-account .bl-listings .p-price{
+	font-size: 22px;
+}
+.bl-my-account .bl-listings .p-price b{
+	font-weight: 900;
+}
+.bl-my-account .bl-listings .p-district{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 22px;
+}
+.bl-my-account .bl-button-group .btn{
+	background-color: transparent;
+	border: 1px solid #979797;
+	border-radius: 4px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 35px;
+	height: 27px;
+	margin-right: 5px;
+}
+.bl-my-account .bl-button-group .btn-share{
+	background-image: url('/assets/images/version-4/icons/ic-share.png');
+}
+.bl-my-account .bl-button-group .btn-edit{
+	background-image: url('/assets/images/version-4/icons/ic-edit.png');
+}
+.bl-my-account .bl-button-group .btn-recycle{
+	background-image: url('/assets/images/version-4/icons/ic-recycle.png');
+}
+.bl-my-account .div-type{
+	border-radius: 4px;
+	border: 1px solid;
+	height: 30px;
+	padding: 4px 12px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	right: 7px;
+	top: 0;
+}
+.bl-my-account .div-type.sell{
+	color: #f17423;
+	border-color: #f17423;
+}
+.bl-my-account .div-type.lease{
+	color: #155aa9;
+	border-color: #155aa9;
+}
+.bl-my-account .pagination>li>a, .pagination>li>span{
+	margin-right: 15px;
+	height: 28px;
+	width: 29px;
+	border-radius: 4px;
+	border-color: #c0c0c0;
+	font-size: 16px;
+	color: #363636;
+	padding: 3px 9px;
+}
+.bl-my-account .pagination>li.active>a, .bl-my-account .pagination>li>a:hover{
+	color: #4281c3;
+	background-color: transparent;
+	border-color: #c0c0c0;
+}
+.bl-my-account .pagination>li>a.next{
+	background: url('/assets/images/version-4/icons/ic-page-next.png') no-repeat center #f5f5f5;
+}
+.bl-my-account .pagination>li>a.prev{
+	background: url('/assets/images/version-4/icons/ic-page-prev.png') no-repeat center #f5f5f5;
+}
+.bl-my-account .pagination{
+	margin: 40px 30px 50px;
+}

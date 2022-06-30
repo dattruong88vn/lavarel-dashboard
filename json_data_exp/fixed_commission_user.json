@@ -1,0 +1,22 @@
+{
+    "result": true,
+    "code": "200",
+    "message": "Thao tác thành công",
+    "validatedMessage": null,
+    "data": {
+        "commissionId": 1,
+        "userId": 856,
+        "period": "7/2020",
+        "commissionAccumulate": null,
+        "type": "COMMISSION_FIXED",
+        "commissionUsers": [
+            {
+                "formula": null,
+                "commission": "15.0%",
+                "commissionValue": "3.818.181,818"
+            }
+        ],
+        "commissionAccumulateId": 4
+    },
+    "additional": null
+}

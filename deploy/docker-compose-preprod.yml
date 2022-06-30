@@ -1,0 +1,32 @@
+version: '3.7'
+services:
+
+  # The Application
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: propzyrepo/laravel-app:${TAG}
+    container_name: dashboard-app-${TAG}
+    working_dir: /var/www
+    restart: unless-stopped
+    volumes:
+      - ./:/var/www/
+      - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    tty: true
+    ports:
+      - "9000:9000"
+# The Web Server
+  web:
+    image: nginx:1.17-alpine
+    container_name: dashboard-web-${TAG}
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "7000:7000"
+      #- "443:443"
+    volumes:
+      - ./:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    depends_on:
+      - app

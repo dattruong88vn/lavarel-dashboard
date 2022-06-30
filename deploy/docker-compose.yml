@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+  laravel-app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: laravel-app
+    working_dir: /var/www/html/
+    restart: unless-stopped
+    extra_hosts:
+      - "devdashboard.propzy.vn:10.1.2.185"
+    volumes:
+      - ./:/var/www/html/
+      - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+      - ./cacert.pem:/var/www/cacert.pem
+    tty: true
+    ports:
+      - ${PORT}:80
+    networks:
+      backend:
+        aliases:
+          - laravel-app
+networks:
+  backend:
+    name: backend-network

@@ -1,0 +1,22 @@
+{
+  "result": true,
+  "code": "200",
+  "message": "Thao tác thành công",
+  "validatedMessage": null,
+  "data": [
+    {
+      "departmentId": 28,
+      "departmentType": "GROUP",
+      "departmentName": "Team 672",
+      "departmentShortName": "",
+      "departmentCode": null,
+      "parentId": 26,
+      "countries": null,
+      "cities": null,
+      "districts": null,
+      "wards": null,
+      "emailCCLegal": null
+    }
+  ],
+  "additional": null
+}

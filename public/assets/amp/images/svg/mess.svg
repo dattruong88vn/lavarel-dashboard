@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  width="32px" height="32px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.96204453,0 C2.6692918,0 0,2.50802498 0,5.60185129 C0,7.36475575 0.866977662,8.93723142 2.22187986,9.96408859 L2.22187986,12.1 L4.25190162,10.9694342 C4.79367012,11.1215806 5.36761876,11.2037036 5.96204453,11.2037036 C9.25479727,11.2037036 11.9240891,8.69568013 11.9240891,5.60185129 C11.9240891,2.50802498 9.25479727,0 5.96204453,0 L5.96204453,0 Z M6.55454507,7.54382819 L5.03626074,5.90061794 L2.0737546,7.54382819 L5.33251225,4.03333333 L6.88782833,5.67654358 L9.81330421,4.03333333 L6.55454507,7.54382819 L6.55454507,7.54382819 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MB---03.2a---Detail-MuaBan-(Less-Color)" transform="translate(-260.000000, -531.000000)">
+            <g id="Share-active" transform="translate(242.000000, 429.000000)">
+                <g id="Group-12" transform="translate(0.000000, 43.900000)">
+                    <g id="Group-9" transform="translate(14.000000, 22.400000)">
+                        <g id="messenger" transform="translate(0.000000, 31.500000)">
+                            <g id="youtube">
+                                <g id="Group-26" transform="translate(4.900000, 4.200000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Clip-2" fill="#2866B0" xlink:href="#path-1"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

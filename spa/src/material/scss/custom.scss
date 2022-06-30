@@ -1,0 +1,147 @@
+.custom-datepicker {
+    .react-datepicker-wrapper {
+        width: 100%;
+        .react-datepicker__input-container {
+            input {
+                display: block;
+                width: 100%;
+                height: 34px;
+                padding: 6px 12px;
+                font-size: 14px;
+                line-height: 1.42857143;
+                color: #555;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                outline: none;
+            }
+        }
+    }
+    .react-datepicker {
+        font-size: 1em;
+    }
+    .react-datepicker__header {
+        padding-top: 0.8em;
+    }
+    .react-datepicker__month {
+        margin: 0.4em 1em;
+    }
+    .react-datepicker__day-name,
+    .react-datepicker__day {
+        width: 1.9em;
+        line-height: 1.9em;
+        margin: 0.166em;
+    }
+    .react-datepicker__current-month {
+        font-size: 1em;
+    }
+    .react-datepicker__navigation {
+        top: 1em;
+        line-height: 1.7em;
+        border: 0.45em solid transparent;
+    }
+    .react-datepicker__navigation--previous {
+        border-right-color: #ccc;
+        left: 1em;
+    }
+    .react-datepicker__navigation--next {
+        border-left-color: #ccc;
+        right: 1em;
+    }
+}
+
+.custom-table-bordered {
+    border: 1px solid #d4d4d4;
+    tbody {
+        tr {
+            td {
+                border-top: 1px solid #d4d4d4;
+                height: 37px;
+            }
+        }
+    }
+    .table-last-td-width {
+        width: 36%;
+        border-left: 1px solid #d4d4d4;
+    }
+}
+
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    .tooltip-text {
+        visibility: hidden;
+        width: 150px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -60px;
+    }
+    .tooltip-dot {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 10px;
+        height: 10px;
+        color: #fff;
+        background-color: #000;
+        border-radius: 50%;
+        font-size: 9px;
+    }
+    &:hover {
+        .tooltip-text {
+            visibility: visible;
+        }
+    }
+}
+
+.custom-date-range-picker {
+    position: relative;
+    .date-range-wrap {
+        display: flex;
+        height: 34px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+        .date-range {
+            flex-basis: 0;
+            flex-grow: 1;
+            padding: 6px 12px;
+            border-right: 1px solid #ccc;
+        }
+        .input-group-addon {
+            display: flex;
+            align-items: center;
+            width: 38px;
+            background: none;
+            border: none;
+        }
+    }
+    .picker {
+        position: absolute;
+        top: 36px;
+        left: 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        z-index: 2;
+    }
+    .div-flex-column{
+        display: flex;
+        flex-direction: column;
+    }
+    .apply-button-view{
+        display: flex;
+        justify-content: flex-end;
+        padding: 5px 5px;      
+        background-color: white;  
+    }
+}

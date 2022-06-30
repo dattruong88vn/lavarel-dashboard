@@ -1,0 +1,185 @@
+#popup-login.modal-login .btn-login-fb, #popup-signup.modal-login .btn-register-fb {
+    background: #3b5998;
+    border: none;
+    text-transform: unset;
+    color: #fff;
+}
+
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.modal-login .bl-div {
+    position: relative;
+}
+.modal-login .bl-div {
+    margin-bottom: 10px;
+}
+#popup-login #form-login,  #popup-signup #form-register, #popup-forgot-password #forgotPassword {
+    width:100%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+    border-color: #d1d1d1 !important;
+    box-shadow: none !important;
+}
+.has-error .form-control {
+    box-shadow: none !important;
+}
+.has-error .form-control:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+.has-success .form-control {
+    border-color: #d1d1d1 !important;
+    box-shadow: none !important;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
+.bl-inline {
+    display: inline-block;
+    float: left;
+}
+.form-horizontal .checkbox, .form-horizontal .radio {
+    min-height: 27px;
+}
+.form-horizontal .checkbox, .form-horizontal .checkbox-inline, .form-horizontal .radio, .form-horizontal .radio-inline {
+    padding-top: 7px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bl-checkbox input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -20px;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+.bl-checkbox label {
+    padding-left: 30px;
+    cursor: pointer;
+    font-weight: normal;
+    position: relative;
+}
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+#popup-login .bl-checkbox label::before, #popup-login .bl-brand .bl-checkbox label::after {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    border-color: #888;
+    top: 2px;
+}
+.bl-checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+#popup-login .bl-checkbox label::before, #popup-login .bl-brand .bl-checkbox label::after {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    border-color: #888;
+    top: 2px;
+}
+.bl-checkbox label::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1px;
+    top: 1px;
+}
+@media (min-width: 768px) {
+    #form-login .col-sm-12 {
+        float: left;
+    }
+}
+#form-login .btn:active, #form-login .btn:hover {
+    background-color: #f17423;
+    border: none;
+    color: #fff;
+}
+#form-register .btn:active, #form-register .btn:hover {
+    background-color: #f17423;
+    border: none;
+    color: #fff;
+}
+#forgotPassword .btn:active, #forgotPassword .btn:hover {
+    background-color: #f17423;
+    border: none;
+    color: #fff;
+}
+.modal-login .i-radio label::before, .modal-login .i-radio label::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Popup require login  */
+#requireLogin .container {
+    max-width: 570px;
+    text-align: center;
+}
+
+#requireLogin .container .title-main {margin-bottom: 15px;}
+#requireLogin .container .title-main p {margin-bottom: 0px;line-height: 30px;font-size: 20px;color: #1e1e1e;}
+#requireLogin .container .button {margin-bottom: 30px;}
+#requireLogin .container .button a {padding: 0 45px;margin: 0 10px;font-size: 15px;}
+#requireLogin .container .button a.sign-in {background-color: #2866B0;border-color: #2866B0;}
+#requireLogin .container .benefits {max-width: 70%;margin: auto;text-align: left;}
+#requireLogin .container .benefits .title {font-size: 15px; color: #1e1e1e;margin-bottom: 5px;letter-spacing: 0.2px;}
+#requireLogin .container .benefits ul {list-style-type: none;}
+#requireLogin .container .benefits ul li {font-size: 12px; font-weight: 300; color: #1e1e1e; line-height: 25px;position: relative;padding-left: 25px;}
+#requireLogin .container .benefits ul li span {color: #EF7733;}
+#requireLogin .container .benefits ul li:before {content: '';position: absolute;top: 50%;left: 8px;background-image: url('/assets/images/ver-4/list.png');width: 16px;height: 16px;background-repeat: no-repeat;transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);}

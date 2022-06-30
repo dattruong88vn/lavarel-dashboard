@@ -1,0 +1,35 @@
+{
+  "result": true,
+  "code": "200",
+  "message": "Thao tác thành công",
+  "validatedMessage": null,
+  "data": [
+    {
+      "departmentId": 12,
+      "departmentType": "DEPARTMENT",
+      "departmentName": "CRM",
+      "departmentShortName": null,
+      "departmentCode": null,
+      "parentId": 0,
+      "countries": null,
+      "cities": null,
+      "districts": null,
+      "wards": null,
+      "emailCCLegal": null
+    },
+    {
+      "departmentId": 14,
+      "departmentType": "DEPARTMENT",
+      "departmentName": "POS",
+      "departmentShortName": null,
+      "departmentCode": null,
+      "parentId": 0,
+      "countries": null,
+      "cities": null,
+      "districts": null,
+      "wards": null,
+      "emailCCLegal": null
+    }
+  ],
+  "additional": null
+}

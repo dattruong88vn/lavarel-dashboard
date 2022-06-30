@@ -1,0 +1,56 @@
+.image-item-container {
+    width: 883px;
+    .block-upload {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #d1d1d1;
+        margin: 15px 0 0 0;
+
+        .red {
+            color:red;
+        }
+        .add-images-files {
+            cursor: pointer;
+            .fa {
+                margin-right:5px;
+            }
+        }
+    }
+    .block-image {
+        display: flex;
+        overflow: auto;
+        flex-wrap: nowrap;
+        &::-webkit-scrollbar {
+            height: 10px;
+        }
+        .image {
+            position: relative;
+            background: #fff;
+            margin: 0 8px 5px 0;
+            img {
+                width: 150px;
+                max-width: 150px;
+                cursor: pointer;
+            }
+            span {
+                position: absolute;
+                top: 3px;
+                right: 3px;
+                width: 21px;
+                background: #fff;
+                text-align: center;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.ReactModalPortal {
+    .ReactModal__Overlay {
+        z-index: 100000000 !important;
+    }
+}
+.alertModal {
+    z-index: 10000000 !important;
+}

@@ -1,0 +1,140 @@
+{
+    "result": true,
+    "code": 200,
+    "message": null,
+    "technicalMessage": null,
+    "data": [
+        {
+            "ratingId": null,
+            "bpoCreatedDate": 1605776690000,
+            "ratingUsers": [
+                {
+                    "ratingDate": 1605863420000,
+                    "name": "BSA - Chung Hoàng Dũng",
+                    "grade": 5,
+                    "questionId": 2,
+                    "questionName": "Bán được trong tháng tới",
+                    "bpoCloseDate": 1606669200000
+                },
+                {
+                    "ratingDate": 1605863420000,
+                    "name": "BA - Châu",
+                    "grade": 4,
+                    "questionId": 2,
+                    "questionName": "Bán được trong tháng tới",
+                    "bpoCloseDate": 1611047420000
+                },
+                {
+                    "ratingDate": 1605863441000,
+                    "name": "Lê Nguyễn Nhật Uyên",
+                    "grade": 5,
+                    "questionId": 2,
+                    "questionName": "Bán được trong tháng tới",
+                    "bpoCloseDate": 1606669200000
+                },
+                {
+                    "ratingDate": 1605863443000,
+                    "name": "Đỗ Phương Bình",
+                    "grade": 4,
+                    "questionId": 2,
+                    "questionName": "Bán được trong tháng tới",
+                    "bpoCloseDate": 1611047443000
+                }
+            ],
+            "finalRating": {
+                "bpoCloseGradeDate": 1605805200000,
+                "name": null,
+                "bpoCloseGrade": 5.0,
+                "bpoCloseDate": 1606669200000
+            }
+        },
+        {
+            "ratingId": 1,
+            "bpoCreatedDate": 1605860518000,
+            "ratingUsers": [
+                {
+                    "ratingDate": 1605860939000,
+                    "name": "BSA - Chung Hoàng Dũng",
+                    "grade": 5,
+                    "questionId": 1,
+                    "questionName": "Bán được trong tháng này",
+                    "bpoCloseDate": 1606669200000
+                },
+                {
+                    "ratingDate": 1605860941000,
+                    "name": "BA - Châu",
+                    "grade": 4,
+                    "questionId": 1,
+                    "questionName": "Bán được trong tháng này",
+                    "bpoCloseDate": 1611044941000
+                },
+                {
+                    "ratingDate": 1605860944000,
+                    "name": "Lê Nguyễn Nhật Uyên",
+                    "grade": 5,
+                    "questionId": 1,
+                    "questionName": "Bán được trong tháng này",
+                    "bpoCloseDate": 1606669200000
+                },
+                {
+                    "ratingDate": 1605860946000,
+                    "name": "Đỗ Phương Bình",
+                    "grade": 4,
+                    "questionId": 1,
+                    "questionName": "Bán được trong tháng này",
+                    "bpoCloseDate": 1611044946000
+                }
+            ],
+            "finalRating": {
+                "bpoCloseGradeDate": 1605805200000,
+                "name": null,
+                "bpoCloseGrade": 4.4,
+                "bpoCloseDate": 1611075600000
+            }
+        },
+        {
+            "ratingId": 2,
+            "bpoCreatedDate": 1605861702000,
+            "ratingUsers": [
+                {
+                    "ratingDate": 1605861789000,
+                    "name": "BSA - Chung Hoàng Dũng",
+                    "grade": 4,
+                    "questionId": 1,
+                    "questionName": "Bán được trong tháng này",
+                    "bpoCloseDate": 1611045789000
+                },
+                {
+                    "ratingDate": 1605861797000,
+                    "name": "BA - Châu",
+                    "grade": 3,
+                    "questionId": 2,
+                    "questionName": "Bán được trong tháng tới",
+                    "bpoCloseDate": 1613637797000
+                },
+                {
+                    "ratingDate": 1605861799000,
+                    "name": "Lê Nguyễn Nhật Uyên",
+                    "grade": 4,
+                    "questionId": 1,
+                    "questionName": "Bán được trong tháng này",
+                    "bpoCloseDate": 1611045799000
+                },
+                {
+                    "ratingDate": 1605861801000,
+                    "name": "Đỗ Phương Bình",
+                    "grade": 3,
+                    "questionId": 1,
+                    "questionName": "Bán được trong tháng này",
+                    "bpoCloseDate": 1613637801000
+                }
+            ],
+            "finalRating": {
+                "bpoCloseGradeDate": 1605805200000,
+                "name": "BSA - Chung Hoàng Dũng",
+                "bpoCloseGrade": 3.4,
+                "bpoCloseDate": 1613754000000
+            }
+        }
+    ]
+}

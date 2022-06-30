@@ -1,0 +1,30 @@
+.note-container {
+    padding: 2px 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+    .note-wrap {
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+        .note {
+            height: 15px;
+            width: 15px;
+            border-radius: 3px;
+            margin: 5px 5px;
+        }
+        .color-yellow {
+            background-color: #f8ec45;
+            display: flex;
+        }
+        .color-green {
+            background-color: #1a9d52;
+            display: flex;
+        }
+    }
+
+    .gray-text {
+        color: grey;
+    }
+}

@@ -1,0 +1,794 @@
+.bl-info-credibility .row{
+    margin: 0 -10px;
+}
+.bl-info-credibility [class*='col-xs-']{
+    padding-right: 8px;
+    padding-left: 10px;
+}
+.bl-info-credibility .col-title, .choose-img-from-step-2 .col-title{
+    background-color: #f1f1f1;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.bl-info-credibility .form-group{
+    margin-bottom: 5px;
+}
+.bl-info-credibility .col-title .form-group, .choose-img-from-step-2 .col-title .form-group{
+    padding-top: 5px;
+}
+.bl-info-credibility .bl-radio{
+    padding-top: 7px;
+}
+.bl-info-credibility .bl-radio input[type="radio"] {
+    opacity: 0;
+}
+.bl-info-credibility .bl-radio label {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.bl-info-credibility .bl-radio label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    margin-left: -20px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out;
+    top: -2px;
+}
+.bl-info-credibility .bl-radio label::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: -2px;
+    margin-left: -20px;
+    border-radius: 50%;
+    background:url('/assets/images/svg-icons.svg?v=03.06.2019') no-repeat -271px -349px #4282c3;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+.bl-info-credibility .bl-radio input[type="radio"]:checked + label::after {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+.bl-info-credibility .bl-radio input[type="checkbox"]:checked + label::after {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+.bl-info-credibility .control-label, .choose-img-from-step-2 .control-label{
+    text-align: left;
+    font-size: 15px;
+    padding-top: 7px;
+    color: #363636;
+    font-weight: 500;
+}
+.bl-info-credibility .col-title .control-label, .choose-img-from-step-2 .col-title .control-label{
+    color: #676767;
+}
+.bl-info-credibility .control-label .span.text{
+    display: block;
+}
+#lotSize::-ms-clear {
+    display: none;
+}
+.bl-info-credibility .form-control{
+    box-shadow: none;
+    border: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: right;
+    border-bottom: 0;
+    padding-right: 10px;
+    margin-top: 0;
+}
+.bl-info-credibility .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #616161;
+}
+.bl-info-credibility .form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #616161;
+}
+.bl-info-credibility .form-control:-ms-input-placeholder { /* IE 10+ */
+  color: #616161;
+}
+.bl-info-credibility .form-control:-moz-placeholder { /* Firefox 18- */
+  color: #616161;
+}
+.bl-info-credibility select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('/assets/images/version-4/icons/mobile/ic-select-2.png') no-repeat right center transparent;
+    background-size: 12px auto;
+    border: 0;
+    text-align-last: right;
+    margin-top: 0;
+    padding-right: 15px;
+}
+
+.bl-info-credibility select.form-control option{
+    direction: rtl;
+}
+.bl-info-credibility .col-border .form-group{
+    border-bottom: 1px solid #c7c7c7;
+    margin-right: -5px;
+    margin-left: -5px;
+    padding-bottom: 5px
+}.bl-info-credibility .col-border .form-group:last-child{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.bl-info-credibility .col-border [class*="col-xs-"]{
+    padding-right: 0;
+    padding-left: 0;
+}
+.bl-info-credibility .col-acreage .col-sm-1.control-label{
+    font-weight: normal;
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.bl-info-credibility .col-acreage .control-label{
+    padding-right: 2px;
+}
+.bl-info-credibility .col-need .col-sm-9 .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+.bl-info-credibility .btn-send{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #f17423;
+    font-size: 15px;
+    color: #f17423;
+    padding: 10px;
+    margin: 15px 0 40px;
+    border-radius: 40px;
+    height: 45px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.bl-info-credibility .col-need .bl-radio{
+    padding-top: 3px;
+    padding-bottom: 12px;
+}
+#popup-register-success .modal-body{
+    text-align: center;
+}
+#popup-register-success h4{
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    padding-top: 90px;
+    margin-bottom: 15px;
+}
+#popup-register-success h4:before{
+    content: '';
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    background: url('/assets/images/iconweb.svg?v=03.06.2019') no-repeat -360px -150px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -33px;
+}
+#popup-register-success p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.bl-info-credibility .bl-checkbox{
+    margin-bottom: 5px;
+}
+.bl-info-credibility .bl-checkbox input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+}
+.bl-info-credibility .bl-checkbox label {
+    padding-left: 35px;
+    cursor: pointer;
+    font-weight: normal;
+}
+.bl-info-credibility .bl-checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 4px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    top: 2px;
+}
+.bl-info-credibility .bl-checkbox label::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: -3px;
+    border-radius: 50%;
+}
+.bl-info-credibility .bl-checkbox input[type="checkbox"]:checked + label::after, .bl-checkbox input[type="checkbox"]:checked + i + label::after {
+    background: url('/assets/images/version-4/icons/ic-radio.png') no-repeat center #4282c3;
+}
+
+#popup-confirm-information .modal-body{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#popup-confirm-information .modal-body h1{
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#popup-confirm-information .modal-body p{
+    font-size: 18px;
+}
+#popup-confirm-information .modal-body h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#popup-confirm-information .bl-btn-group .btn{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 30px 10px 65px;
+    margin-right: 10px;
+    position: relative;
+}
+#popup-confirm-information .bl-btn-group .btn:last-child{
+    margin-right: 0;
+}
+#popup-confirm-information .bl-btn-group .btn-gray{
+    background-color: #6b6b6b;
+}
+#popup-confirm-information .bl-btn-group .btn-blue{
+    background-color: #164b85;
+}
+#popup-confirm-information .bl-btn-group .btn-red{
+    background-color: #fb7533;
+}
+#popup-confirm-information .bl-btn-group .btn:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/iconweb.svg?v=03.06.2019');
+    background-position-y: -30px;
+}
+#popup-confirm-information .bl-btn-group .btn-gray:before{
+    background-position-x: -600px;
+}
+#popup-confirm-information .bl-btn-group .btn-blue:before{
+    background-position-x: -570px;
+}
+#popup-confirm-information .bl-btn-group .btn-red:before{
+    background-position-x: -540px;
+}
+
+.remove-text {
+    border: 0;
+    height: 20px;
+    width: 20px;
+    margin-top: -24px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: url(/assets/images/close.png) no-repeat;
+}
+
+.block-imag-banner{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    max-width: 1053px;
+}
+.bl-marketing .bx-wrapper{
+    margin-bottom: 0;
+    padding: 0;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+    border: 0px solid #fff;
+}
+.bl-marketing{
+    margin: 10px auto;
+    max-width: 1053px;
+}
+.block-imag-banner img{
+    max-width: 1053px;
+    margin: auto;
+}
+.form-horizontal .has-feedback .form-control-feedback{
+    right:24px;
+    display: none !important;
+}
+.select-district-fav .form-control-feedback{
+    right:10px !important;
+}
+.form-horizontal .has-feedback .margin-error .form-control-feedback{
+    right:30px!important;
+}
+.form-control-feedback.glyphicon.glyphicon-ok{
+    color: #3c763d!important;
+}
+.require{
+    color: #c80811;
+}
+.help-block{
+    font-size: 83%;
+}
+.remove-icon-bootstrap-validate .form-control-feedback.glyphicon{
+    display: none!important;
+}
+
+
+
+
+.title-popup.text-center{
+    margin: 0px;
+    padding: 15px;
+}
+
+.popup-require-price .header{
+    background-color: #eee;
+}
+.popup-require-price .feature-text{
+    color: red;
+    font-weight: normal;
+}
+.popup-require-price table td, .popup-require-price table th{
+    padding:15px!important;
+}
+.popup-require-price .table-bordered>thead>tr>th{
+    border-bottom-width:1px!important;
+}
+.bl-checkbox-special input[type="checkbox"]:checked ~ label.label_active:after {
+    background: url('/assets/images/icons/ic-check.png') no-repeat center transparent;
+}
+.link-image {
+    position: absolute;
+    display: block;
+    top: 78%;
+    left: 63%;
+    width: 14%;
+    height: 12%;
+}
+.img-banner {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.dang-tin .content-dangtin {
+    font-size: 13px;
+    padding: 0 10px 0;
+    color: #616161;
+}
+.hidden-feedback-icon .form-control-feedback.glyphicon {
+    right: 10px !important;
+}
+.houseNumber-fav .form-control-feedback.glyphicon {
+    right: -2px !important;
+}
+.has-feedback .form-control{
+    padding-right: 2px;
+}
+.bl-info-credibility .col-acreage .p-r-0{
+    float: right;
+    padding-right: 15px;
+}
+.bl-info-credibility .col-acreage .p-r-0 span.span-m{
+    right: 22px;
+}
+#map{
+    width:100%;
+    height:500px;
+}
+.text-find{
+    width: 45%;
+    text-align: center;
+    float: left;
+    font-style: italic;
+}
+.col-btn {
+    width: 55%;
+    float: right;
+    padding-top: 8px;
+}
+.modal-backdrop {
+    z-index: 10;
+}
+.pac-container {
+/*    top: 2%!important;*/
+    background-color: #FFF;
+    z-index: 20;
+    position: fixed;
+    display: inline-block;
+    float: left;
+}
+.modal {
+    z-index: 20;
+}
+.dang-tin .title-dangtin{
+    font-size: 22px;
+    color: #363636;
+    font-weight: 500;
+    padding: 5px 0 20px;
+    text-align: center;
+}
+.col-description .form-control{
+    text-align: left;
+}
+.col-need .bl-checkbox label{
+    font-size: 15px;
+}
+.col-need .bl-checkbox{
+    margin: 10px 0;
+}
+#require-post-text{
+    font-size: 15px;
+}
+.col-need .label_active{
+    padding-left: 25px;
+}
+.bl-info-credibility.step-upload .col-title, .choose-img-from-step-2 .col-title{
+    height: 50px;
+    margin-bottom: 25px;
+}
+.bl-info-credibility.step-upload .col-title .control-label, .choose-img-from-step-2 .col-title .control-label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+.bl-info-credibility.step-upload .col-title .control-label span, .choose-img-from-step-2 .col-title .control-label span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #363636;
+}
+.bl-info-credibility.step-upload .col-upload{
+    padding-bottom: 30px;
+}
+.col-text-upload{
+    color: #676767;
+    font-size: 15px;
+}
+.col-text-upload p{
+    color: #363636;
+    font-weight: bold;
+    margin: 10px 0 15px;
+}
+.col-text-upload ul{
+    margin: 0;
+    padding: 0;
+}
+.col-text-upload li{
+    list-style: none;
+    background: url('/assets/images/version-4/icons/ic-dot.png')no-repeat left 8px;
+    padding-left: 15px;
+    margin: 10px 0;
+}
+
+.step-upload .div-col{
+    padding: 0;
+}
+.step-upload .div-col a{
+    height: 125px;
+    width: 100%;
+    display: inline-block;
+    color: #676767;
+    font-size: 15px;
+    border: 1px solid #fff;
+    background-color: #eaeaea;
+}
+.step-upload .div-col img{
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    color: #676767;
+    font-size: 15px;
+    border: 1px solid #fff;
+    background-color: #eaeaea;
+}
+.step-upload .col-camera a{
+    background: url('/assets/images/version-4/img-camera.png') no-repeat center 35px #eaeaea;
+    background-size: 42px auto;
+    text-align: center;
+    padding-top: 75px;
+}
+.bg-active{
+    display: none;
+}
+.step-upload-2 .div-col.active .bg-active{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('/assets/images/version-4/icons/ic-circle-check.png') no-repeat 96% 95% rgba(0,0,0,.4);
+    background-size: 22px auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #f17423;
+}
+.step-upload .btn-continue{
+    width: 90%;
+    background-color: #f17423;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 40px;
+    height: 45px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 5%;
+}
+.step-upload-3 .col-camera-add a{
+    background: url('/assets/images/version-4/img-camera-add.png') no-repeat center 35px #eaeaea;
+    background-size: 42px auto;
+    text-align: center;
+    padding-top: 75px;
+}
+.step-upload-3 .div-col.active .bg-active{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('/assets/images/version-4/icons/ic-circle-check-2.png') no-repeat center transparent;
+    background-size: 34px auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.step-upload-3 .div-close{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('/assets/images/version-4/icons/ic-circle-close.png') no-repeat center;
+    background-size: 22px auto;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+.btn-finish{
+    width: 100%;
+    background-color: #f17423;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+    margin: 0px 0 15px;
+    margin-top: 15px;
+    border-radius: 40px;
+    height: 48px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.dangtin-agent .help-block, .dang-tin-quickly .help-block{
+    text-align: right;
+    padding-right: 10px;
+}
+
+#stage_infos .input-infos-dang-tin-quick {
+    padding-left: 33px;
+}
+
+#popup-info-quickly.modal-login .bl-div {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px){
+    #popup-register-success .modal-dialog {
+        width: 738px;
+    }
+    #popup-confirm-information .modal-dialog {
+        width: 740px;
+    }
+}
+.ajax-file-upload-container, .ajax-file-upload-container-drawing {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.file-upload-preview-listing {
+    width: 135px;
+    height: 100px;
+}
+.ajax-file-upload-red {
+    display: inline-block;
+    font-size: 16px;
+    top: -30px;
+    left: -27px;
+    z-index: 20;
+    position: relative;
+    background-color: black;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ajax-file-upload-red i {
+    color: #fff;
+}
+.image-upload > input {
+  visibility:hidden;
+  width:0;
+  height:0
+}
+.ajax-file-upload-statusbar {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.lb-add-img{
+    display: block;
+}
+#popup-info-quickly .title-popup {
+    font-size: 20px;
+    color: #474747;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+.tab-header .nav-tabs {
+    border-color: #d1d1d1;
+    margin-bottom: 30px;
+}
+.tab-header .nav-tabs>li {
+    width: 50%;
+    text-align: center;
+}
+.tab-header .nav-tabs>li.active>a, .tab-header .nav-tabs>li.active>a:focus, .tab-header .nav-tabs>li.active>a:hover {
+    color: #f17423;
+    border: 0;
+    border-bottom: 2px solid #f17423;
+}
+.tab-header .nav-tabs>li>a {
+    font-size: 15px;
+    color: #676767;
+}
+#popup-info-quickly .modal-body{
+    padding: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+#popup-info-quickly .modal-dialog {
+    margin-top: -120px;
+}
+#popup-info-quickly {
+    overflow: scroll;
+}
+
+.form-group.map-label{
+    margin: 12px 0px;
+}
+#popup-map-dangtin .modal-dialog {
+    margin-top: -100px;
+}
+#popup-map-dangtin .close{
+	opacity: 1;
+    position: absolute;
+	right: -2px;
+	top: -35px;
+	width: 30px;
+	height: 30px;
+	background: url(/assets/images/iconweb.svg?v=03.06.2019) no-repeat -990px 0;
+}
+.dang-tin .help-block {
+    text-align: right;
+}
+.bl-choose-title {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e3e5e8;
+    text-align: center;
+    padding: 12px 0 15px;
+}
+.bl-choose-title .btn.active {
+    background-color: #173e69;
+    border: 0;
+    color: #fff;
+}
+.bl-choose-title .btn {
+    width: 136px;
+    height: 47px;
+    border: 1px solid #dadde0;
+    background-color: #fff;
+    font-size: 15px;
+    color: #676767;
+    font-weight: 400;
+    margin: 0 5px;
+}
+.img-mobile {
+    padding-top: 0px;
+    margin-top: -2px;
+}
+.btn-login-fb {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    height: 44px;
+    background: url(/assets/images/version-4/icons/ic-fb.png) no-repeat 5% center #3b5998;
+    padding-left: 40px;
+    text-align: center;
+    border-radius: 40px;
+}
+.label-isOwner:before {
+    margin-left: -24px !important;
+}
+.label-isOwner:after {
+    left: 0px !important;
+}
+.modal-login .bl-creat-account a {
+    padding-top: 10px;
+}
+.bl-info-credibility .col-commission [class*='col-xs-']{
+    padding-left: 8px;
+}
+.bl-info-credibility .col-commission .bl-radio label {
+    padding-left: 13px;
+}
+#propertyTypeSell, #propertyType {
+    padding-left: 3px;
+}
+.no-access {
+    text-align: center;
+    margin: 100px 0 -260px;
+}
+.p-no-access {
+    margin-bottom: 40px;
+}
+.btn-no-access, .btn-no-access:hover {
+    font-weight: bold;
+    font-size: 16px;
+    color: #f17523;
+    border: 1px solid #f17523;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 40px;
+    height: 47px;
+    padding: 12px 24px;
+}
+.ajax-file-upload-container .div-close, .ajax-file-upload-container-drawing .div-close{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url(/assets/images/version-4/icons/ic-circle-close.png) no-repeat center;
+    background-size: 22px auto;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}

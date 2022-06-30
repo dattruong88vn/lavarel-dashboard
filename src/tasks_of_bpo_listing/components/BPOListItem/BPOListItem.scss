@@ -1,0 +1,119 @@
+.list-item {
+    padding: 15px;
+    margin-bottom: 40px;
+    display: flex;
+
+    &__images {
+        max-width: 300px;
+        min-height: 150px;
+        background-size: cover;
+        width: 300px;
+        cursor: pointer;
+        background: #fff;
+        opacity: 0.9;
+        position: relative;
+    }
+
+    &__liveType {
+        background-color: #dd4b39b3;
+        padding: 5px;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        color: white;
+    }
+
+    &__img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    &__information {
+        margin-left: 20px;
+        flex: 1;
+    }
+
+    .lis-id {
+        font-size: 17px;
+        a {
+            cursor: pointer;
+        }
+    }
+    .lis-address {
+        font-size: 17px;
+    }
+    .lis-price-mix-acreage {
+        font-size: 17px;
+    }
+    .lis-bpo {
+        .strong {
+            font-weight: 700;
+        }
+        a {
+            font-size: 15px;
+        }
+    }
+    .lis-ba {
+        p {
+            margin: 5px 0;
+        }
+    }
+
+    .evaluate-container {
+        display: flex;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+
+        &::-webkit-scrollbar {
+            height: 10px;
+        }
+        .evaluate-item {
+            padding: 0 8px 8px 0;
+            flex: 0 0 auto;
+            float: left;
+            // width: 15%;
+            margin-right:16px;
+
+            .pointer {
+                cursor: pointer;
+            }
+            .name {
+                font-weight: 700;
+            }
+            .create-date {
+                color: #888888;
+            }
+            .evaluate-score-block-list {
+                cursor: auto;
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+/**
+* COMMON CSS
+*/
+
+.p-l-xxs {
+    padding-left: 5px;
+}
+
+.p-b-xxs {
+    padding-bottom: 5px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-loading {
+    cursor: progress;
+}
+
+.ba-tag-overflow {
+    width: 100%;
+    height: 23px;
+    position: absolute;
+    z-index: 1001;
+}

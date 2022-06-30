@@ -1,0 +1,15 @@
+{
+  "result": true,
+  "code": "200",
+  "message": "Thao tác thành công",
+  "validatedMessage": null,
+  "data": [
+    {
+      "userId": 469,
+      "userName": "nguyennhatquang",
+      "name": "Nguyễn Nhật Quang",
+      "email": "quang.n.nguyen@propzy.com"
+    }
+  ],
+  "additional": null
+}

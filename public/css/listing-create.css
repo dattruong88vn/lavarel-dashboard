@@ -1,0 +1,10 @@
+.amenityc-child-content{
+	padding-left: 20px;
+}
+
+.select2-container--default .select2-results__option[aria-disabled=true] {
+	background-color: #ccc;
+	color: #666;
+	opacity: 0.6;
+  }
+  

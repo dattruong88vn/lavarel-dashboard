@@ -1,0 +1,23 @@
+.react-datepicker.custom-css {
+    font-size: 12px;
+}
+.bootstrap-timepicker {
+    display: flex;
+    
+    .input-group-addon {
+        align-items: center;
+        display: flex;
+        padding: 10px 17px 8px;
+        position: relative;
+
+        .glyphicon-time {
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .rdtPicker {
+        min-width: auto;
+    }
+}

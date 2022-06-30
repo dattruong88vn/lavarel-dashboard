@@ -1,0 +1,20 @@
+{
+  "grade": 2,
+  "questionId": 1,
+  "create_date": "07-12-2020",
+  "rListingId": 20918,
+  "ratingComments": [
+    {
+      "suggestionId": 1,
+      "content": "Suggestion comment 1"
+    },
+    {
+        "suggestionId": null,
+        "content": "Comment user 123"
+    },
+    {
+      "suggestionId": null,
+      "content": "Comment user 124"
+    }
+  ]
+}

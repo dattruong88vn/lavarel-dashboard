@@ -1,0 +1,39 @@
+{
+    "result": true,
+    "code": "200",
+    "message": "Thao tác thành công",
+    "validatedMessage": null,
+    "data": {
+        "dealFinId": 17,
+        "price": "2.400.000.000",
+        "revenue": "2.163.636.363,636",
+        "totalCommission": "973.636.363,636",
+        "userList": [
+            {
+                "userId": 285,
+                "userName": "Chi Nguyễn",
+                "positionName": "AS",
+                "commission": "0"
+            },
+            {
+                "userId": 856,
+                "userName": "Chi Nguyễn",
+                "positionName": "BC_TM",
+                "commission": "0"
+            },
+            {
+                "userId": 76,
+                "userName": "Trâm Anh        d",
+                "positionName": "BA",
+                "commission": "432.727.272,727"
+            },
+            {
+                "userId": 144,
+                "userName": "Phạm Huỳnh Thảo Nguyên",
+                "positionName": "BSA",
+                "commission": "540.909.090,909"
+            }
+        ]
+    },
+    "additional": null
+}

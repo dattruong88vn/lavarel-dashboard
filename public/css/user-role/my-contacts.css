@@ -1,0 +1,54 @@
+.title-contacts {
+    font-size: 25px !important;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.head-contacts{
+    margin-bottom: 10px;
+}
+.input-search-contacts {
+    margin-left: 7px;
+    border-radius: 4px;
+}
+.filter-roles {
+    border-radius: 4px;
+}
+.dropdown-role {
+    min-width: 145px;
+    margin-top: 12px;
+    padding-left: 10px;
+}
+.dropdown-role >li{
+    padding-top: 5px;
+}
+.user-image {
+    width: 40px;
+    margin-right: 5px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 1px !important;
+}
+.filter-contacts .row:first-child {
+    margin-bottom: 8px;
+}
+.filter-date {
+    height: 34px;
+    padding-top: 8px;
+}
+.filt-date {
+    border-radius: 0px !important;
+}
+.filter-contacts {
+    border: 1px solid #d2d6de;
+    padding: 10px;
+}
+.item-new td{
+    font-weight: normal !important;
+}
+.unactivated td{
+    font-weight: normal !important;
+}
+#keep-open .dropdown-role{
+    overflow-y: scroll;
+    height: 285px;
+}

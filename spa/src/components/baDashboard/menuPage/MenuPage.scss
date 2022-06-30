@@ -1,0 +1,23 @@
+#spa-main {
+    .menu-page {
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 0px;
+        .menu-page-item {
+            margin-bottom: 5px;
+            padding: 10px 15px;
+            color: #000;
+            font-weight: bold;
+            &.active {
+                background: #fff;
+                border: 1px solid #ddd;
+            }
+            &.display-none {
+                display: none;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

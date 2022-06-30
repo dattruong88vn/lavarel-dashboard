@@ -1,0 +1,160 @@
+label.checkbox input:disabled + span {
+	opacity: 1;
+}
+.help-block {
+	color: red;
+}
+.bootstrap-datetimepicker-widget table {
+	width: 100%;
+    margin: 0;
+}
+.glyphicon-time:before {
+    content: "\e023";
+}
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+    padding: 5px;
+}
+.glyphicon-calendar:before {
+	content: "\e023";
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.bootstrap-datetimepicker-widget  a {
+    color: #337ab7 !important;
+    background-color: transparent !important;
+    border:none !important;
+}
+.select-time-picker {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.datetime-input-icon {
+	width: 100%;
+}
+.collapse {
+    display: none;
+}
+.collapse.in {
+    display: block;
+}
+
+.datetime-input-icon > span {
+	position: relative;
+}
+
+.datetime-input-icon > span > span {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.datetime-input-icon .input {
+	width: 100%;
+	padding-left: 35px;
+}
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url(/fonts/glyphicons-halflings-regular.eot);
+	src: url(/fonts/glyphicons-halflings-regular.eot?#iefix)
+			format('embedded-opentype'),
+		url(/fonts/glyphicons-halflings-regular.woff2) format('woff2'),
+		url(/fonts/glyphicons-halflings-regular.woff) format('woff'),
+		url(/fonts/glyphicons-halflings-regular.ttf) format('truetype'),
+		url(/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular)
+			format('svg');
+}
+
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-chevron-up:before {
+	content: '\e113';
+}
+.glyphicon-chevron-down:before {
+	content: '\e114';
+}
+
+.p-project-detail .t-detail .map {
+	display: inline-block;
+	float: right;
+}
+.popup-map-detail .modal-dialog {
+    margin-top: 85px;
+}
+.popup-map-detail .close {
+    opacity: 1;
+    position: absolute;
+    right: -2px;
+    top: -35px;
+    width: 30px;
+    height: 30px;
+    background: url('/assets/images/iconweb.svg?v=03.06.2019') no-repeat -990px 0;
+}
+.project-detail-feature .zoom {
+	left: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+.bl-360-thumpnail {
+	cursor:pointer;
+}
+#modal-show-360 .iframe-show-360 {
+    height: 85vh;
+    width: 100%;
+}
+#modal-show-360 .custom-modal-360 {
+    width: 95%;
+    height: 90%;
+}
+#modal-show-360 .close {
+	right: 0px;
+    top: 5px;
+}
+.sec-tb {
+    padding: 48px 0 16px 0;
+}
+.p-project-detail {
+    padding-top: 30px;
+}
+
+.zalo-share-button {
+	overflow: auto !important;
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.zalo-share-button iframe {
+	display: none !important;
+}
+
+.p-project-detail .share.active .toggle:hover {
+	color: white !important;
+}
+
+.list-layout-1 .item .title {
+	height: 48px !important;
+}
+
+.list-layout-1 .item .price2 {
+	margin-right: 32px;
+}
+
+.list-layout-1-2 .btnlike {
+    right: 0px;
+}

@@ -1,0 +1,315 @@
+#bl-header-mobile{
+    display: none;
+}
+.my-account-page{
+	padding-top: 0;
+}
+.bl-my-account{
+	margin: 0
+}
+.bl-header h3{
+	font-size: 20px;
+	font-weight: 500;
+	color: #474747;
+	margin: 17px 0 18px;
+}
+.bl-customer-filter{
+	position: relative;
+	background-color: #f7f7f7;
+}
+.bl-customer-filter .nav-tabs{
+	border-bottom: 0;
+}
+.bl-customer-filter .nav-tabs>li{
+	width: 50%;
+	text-align: center;
+}
+.bl-customer-filter .nav-tabs>li.active>a,
+.bl-customer-filter .nav-tabs>li.active>a:focus,
+.bl-customer-filter .nav-tabs>li.active>a:hover{
+	font-size: 14px;
+	color: #676767;
+	font-weight: 500;
+	border: 0;
+	background-color: transparent;
+	border-bottom: 1px solid #f1792b;
+	border-radius: 0;
+}
+.bl-customer-filter .nav-tabs>li>a{
+	font-size: 14px;
+	color: #676767;
+	font-weight: 500;
+	border-radius: 6px 6px 0 0;
+	padding: 17px 20px 12px;
+}
+.bl-filter .form-control{
+	height: 45px;
+	border: 1px solid #c6c6c6;
+	background-color: transparent;
+	font-size: 17px;
+	color: #676767;
+	font-weight: 400;
+}
+.bl-filter .dropdown-menu{
+	border-color: #e3e3e3;
+}
+.bl-filter .dropdown-menu .form-control{
+	width: 100%;
+	height: 28px;
+}
+.bl-filter .bl-inline{
+	position: relative;
+}
+.bl-customer-info .tab-content>.tab-pane{
+	padding: 22px 10px;
+}
+.customer-info{
+	font-size: 15px;
+	color: #676767;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px;
+	box-shadow: 0 3px 5px rgba(227,227,227,.54);
+	padding: 13px 15px 5px;
+	margin: 9px 0;
+}
+.bl-deposit .p-info{
+	margin-bottom: 5px;
+}
+.bl-deposit .p-date{
+	font-style: italic;
+	font-size: 14px;
+	color: #b7b7b7;
+}
+.bl-table-chart{
+	padding-bottom: 20px;
+}
+.bl-table-chart .bl-border{
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(227,227,227,.54);
+    margin-bottom: 25px;
+}
+.bl-table-chart .bl-title-header{
+	display: table;
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 15px 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #676767;
+}
+.bl-table-chart .bl-info{
+	padding: 15px 10px 20px;
+	font-size: 14px;
+    color: #676767;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    display: table;
+    width: 100%;
+}
+.bl-table-chart .col-finance .bl-info{
+	padding: 18px 15px 20px;
+}
+.bl-table-chart .col-finance .bl-title-header{
+	padding-left: 15px;
+}
+.bl-pay-info{
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+.bl-pay-info:last-child{
+	border-bottom: 0;
+}
+.bl-pay-info p{
+	margin-bottom: 8px;
+}
+.bl-pay-info b{
+	font-weight: bold;
+	font-size: 24px;
+}
+.block-customer .bl-header{
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.block-customer .bl-header h3{
+	margin-bottom: 0;
+	display: inline-block;
+}
+.bl-filter .bl-filter-status .form-control{
+    background: transparent;
+    width: 90px;
+    padding-top: 8px;
+    padding-left: 20px;
+    border-radius: 6px;
+}
+.bl-filter .bl-filter-status .form-control:after{
+	content: '\f107';
+    display: inline-block;
+    font: normal normal normal 18px FontAwesome;
+    color: #9d9d9d;
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+.block-customer .bl-filter .dropdown-menu{
+	width: 100%;
+	top: 50px;
+	padding: 12px 0 15px;
+}
+.block-customer .bl-filter .dropdown-menu ul{
+	padding: 0;
+}
+.block-customer .bl-filter .dropdown-menu li{
+	list-style: none;
+	width: 50%;
+	float: left;
+}
+.block-customer .bl-filter .dropdown-menu li a{
+	display: block;
+	padding: 8px 12px;
+}
+.block-customer .bl-filter .dropdown-menu li a:hover{
+	background-color: #f5f5f5;
+}
+.block-customer .bl-filter .bl-status .p-info{
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.block-customer .bl-filter .bl-status .p-info:before{
+	width: 12px;
+	height: 12px;
+	border-radius: 2px;
+	top: 4px;
+}
+.bl-my-account .bl-status{
+	display: table;
+	width: 100%;
+}
+.bl-table-chart .bl-header h3{
+	font-weight: bold;
+	color: #676767;
+	padding: 0 15px 10px;
+}
+.bl-table-chart .bl-status{
+	padding: 18px 0 15px;
+}
+.bl-table-chart .bl-status .p-info{
+	width: 40%;
+    float: left;
+    display: inline-block;
+    margin: 6px 0 6px 8%;
+}
+.customer-info .bl-deposit p{
+	display: inline-block;
+	width: 33.33%;
+}
+.customer-info .bl-deposit p.p-date{
+/*	text-align: right;*/
+}
+.modal-customer{
+	text-align: center;
+	padding: 0!important;
+}
+.modal-customer:before {
+	content: '';
+	display: inline-block;
+	height: 25%;
+	width: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+.modal-customer .modal-dialog {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+}
+.modal-customer .bl-input-popup .control-label{
+	font-size: 14px;
+    color: #676767;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.modal-customer .bl-input-popup .form-control{
+	height: 34px;
+	border: 1px solid #c6c6c6;
+	background-color: transparent;
+	font-size: 13px;
+	color: #676767;
+	margin-right: 15px;
+	width: 100%;
+	font-weight: 400;
+}
+.modal-customer .bl-input-popup:after{
+	content: '';
+	display: inline-block;
+	border-left: 1px solid #e3e3e3;
+	width: 34px;
+	height: 22px;
+	position: absolute;
+	right: 17px;
+    top: 26px;
+}
+.modal-customer .bl-input-popup.bl-calendar:after{
+	background: url('/assets/images/version-4/icons/ic-calendar-3.png') no-repeat center transparent;
+}
+/*.modal-customer .bl-input-popup.bl-input-search:after{
+	background: url('/assets/images/version-4/icons/ic-search-2.png') no-repeat center transparent;
+}*/
+.modal-customer .modal-content{
+	border-radius: 5px;
+}
+.modal-customer .modal-body{
+	padding: 20px 10px;
+}
+#popup-customer-search .bl-input-search{
+	padding: 0;
+}
+#popup-customer-search.modal-customer:before{
+	height: 42%;
+}
+#popup-customer-calendar .col-button{
+	text-align: center;
+	border-top: 1px solid #e3e3e3;
+}
+#popup-customer-calendar .col-button .btn-apply{
+	background-color: transparent;
+	color: #f1792b;
+	font-family: 'Open Sans', sans-serif;
+	padding: 12px 20px;
+}
+#popup-customer-calendar .bl-calendar{
+	padding: 0 10px;
+}
+.div-choose-date{
+	padding: 15px 5px 25px;
+    display: table;
+}
+.div-choose-date .row{
+	margin: 0 -10px;
+}
+.div-choose-date .col-xs-12{
+	padding: 0;
+}
+#popup-customer-calendar.modal-customer .modal-body{
+	padding: 20px 0 0;
+}
+.piechart{
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+}
+.search-by-name-mobile{
+    position: relative;
+    z-index: 99;
+    top: -26px;
+    left: 308px;
+}
+.total-listing, .total-listing:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}

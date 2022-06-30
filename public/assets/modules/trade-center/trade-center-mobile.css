@@ -1,0 +1,214 @@
+.trade-center-page{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+.h2-title{
+    font-weight: bold;
+    font-size: 36px;
+    color: #333;
+}
+.h1-title{
+    font-weight: bold;
+    font-size: 36px;
+    color: #333;
+}
+.h-title{
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+    padding-left: 50px;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.bl-trade-center .h-title{
+    margin-top: 30px;
+}
+.bl-trade-center .h-title{
+    padding-left: 35px;
+}
+.h-title:before{
+    content: '';
+    display: inline-block;
+    width: 36px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: -5px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.bl-trade-center .col-title{
+    padding-bottom: 20px;
+}
+.bl-trade-center .h-title:before{
+    background-image: url('/assets/modules/trade-center/images/ic-hotline.png');
+    top: -3px;
+}
+.bl-trade-center .h-title:before{
+    background-image: url('/assets/modules/trade-center/images/ic-contact.png');
+}
+.bl-trade-center .h-title:before{
+    background-image: url('/assets/modules/trade-center/images/ic-address.png');
+}
+.bl-trade-center .blocks{
+    margin: 25px 0;
+}
+.bl-trade-center .blocks a{
+    color: #606060;
+}
+.bl-trade-center .blocks p{
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #606060;
+}
+.bl-trade-center .blocks p.p-head{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+.bl-trade-center a{
+    color: #f17423;
+    font-weight: bold;
+}
+.bl-trade-center .col-left{
+    padding: 20px 0;
+}
+.bl-trade-center .col-right{
+    border-top: 1px solid #c4c4c4;
+    padding-top: 10px;
+}
+.bl-trade-center .row-select .col-sm-5,.bl-trade-center .row-select .col-sm-7{
+    padding: 0 5px;
+}
+.bl-trade-center .block-deal h4 p{
+    color: #2062ad;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    display: inline-block;
+}
+.bl-trade-center .block-deal h4 p:hover{
+    color: #f17423;
+}
+.bl-trade-center .block-deal p{
+    margin-bottom: 5px;
+}
+.bl-trade-center .block-deal p.p-about{
+    margin-bottom: 15px;
+}
+.bl-trade-center .block-deal p.p-about a{
+    color: #f17423;
+}
+.bl-trade-center .block-deal.block-deal-3 p:last-child{
+    margin-bottom: 0;
+}
+.bl-trade-center .form-control{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('/assets/modules/trade-center/images/ic-arrow-select.png') no-repeat 95% center #fff;
+    height: 41px;
+    border-color: #c7c7c7;
+    box-shadow: none;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+.bl-work{
+    padding-bottom: 10px;
+}
+.bl-work .h2-title{
+    margin: 40px 0;
+    text-align: center;
+}
+.bl-work .bx-wrapper{
+    box-shadow: none;
+}
+.bl-work .bx-wrapper .bx-controls-direction a{
+    width: 41px;
+    height: 54px;
+    top: -70px;
+    margin-top: 0;
+}
+.bl-work .bx-wrapper .bx-prev{
+    background: url('/assets/modules/trade-center/images/ic-prev.png') no-repeat center rgba(0,0,0,.5);
+    left: 10px;
+}
+.bl-work .bx-wrapper .bx-next{
+    background: url('/assets/modules/trade-center/images/ic-next.png') no-repeat center rgba(0,0,0,.5);
+    right: 0;
+}
+.bl-work .bx-viewport {
+    height: auto !important;
+    min-height: 92px;
+}
+.bl-work .bx-wrapper .bx-pager{
+    display: none;
+}
+.modal-contact .modal-body{
+    padding: 0
+}
+.modal-contact .modal-body .close{
+    opacity: 1;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background: url('/assets/modules/trade-center/images/ic-close.png');
+    width: 16px;
+    height: 16px;
+    z-index: 10;
+}
+.modal-contact .modal-content{
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+}
+.modal-contact .modal-info{
+    padding: 20px 20px 30px;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 20px;
+}
+.modal-contact .carousel-inner img{
+    width: 100%;
+}
+.modal-contact .modal-info h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin: 5px 0 15px;
+}
+.modal-contact .modal-info p{
+    margin-bottom: 18px;
+}
+.modal-contact .carousel-control{
+    background-color: transparent;
+    opacity: 1;
+}
+.modal-contact .carousel-control .glyphicon{
+    width: 41px;
+    height: 54px;
+}
+.modal-contact .carousel-control .glyphicon:before{
+    display: none;
+}
+.modal-contact .carousel-control .glyphicon-chevron-left{
+    background: url('/assets/modules/trade-center/images/ic-prev.png') no-repeat center rgba(0,0,0,.5);
+    left: 0;
+    margin-left: 0;
+}
+.modal-contact .carousel-control .glyphicon-chevron-right{
+    background: url('/assets/modules/trade-center/images/ic-next.png') no-repeat center rgba(0,0,0,.5);
+    right: 0;
+    margin-right: 0;
+}
+.infowindow{
+    max-width: 245px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.text-none:hover{
+    color: #2062ad !important;
+}

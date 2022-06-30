@@ -1,0 +1,29 @@
+.modal.active {
+    display: block;
+}
+
+.custom-modal-styling-title {
+    opacity: 1;
+
+    &.fade {
+        .modal-dialog {
+            transform: none;
+        }
+    }
+
+    .modal-header {
+        .modal-title {
+            text-align: center;
+        }
+    }
+    .modal-dialog {
+        margin: 1.75rem auto;
+        pointer-events: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-modal-styling-title {
+        min-width: 768px;
+    }
+}

@@ -1,0 +1,17 @@
+.title-container {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px 5px 10px 0px;
+    background-color: white;
+    .title {
+        color: inherit;
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .dot-require {
+        color: red;
+        padding-left: 3px;
+        margin: 0;
+    }
+}

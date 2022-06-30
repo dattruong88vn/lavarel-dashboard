@@ -1,0 +1,37 @@
+.ba-evaluation-history-container {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 75vh;
+    overflow-y: auto;
+}
+
+.tab-card {
+    display: flex;
+    flex-direction: column;
+    .date-time-label {
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+    }
+}
+.nomal-title {
+    color: black;
+    margin: 0px;
+}
+.tab-list {
+    border-bottom: 0px solid white;
+    padding: 5px 5px 5px 5px;
+}
+.react-tabs__tab {
+    color: gray;
+    border-bottom: 3px solid white !important;
+    pointer-events: visible;
+    &.tab--selected {
+        color: #337ab7;
+        border-bottom: 3px solid #337ab7 !important;
+        pointer-events: none;
+    }
+}

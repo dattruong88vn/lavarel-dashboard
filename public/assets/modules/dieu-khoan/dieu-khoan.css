@@ -1,0 +1,118 @@
+.dieu-khoan h1{
+	font-size: 24px;
+	font-weight: normal;
+	margin: 30px 0 20px;
+}
+.dieu-khoan .text-1, .dieu-khoan .text-2{
+	margin-bottom: 20px;
+}
+.dieu-khoan .panel-default>.panel-heading {
+    background: none;
+    padding: 10px 0;
+}
+.dieu-khoan .panel-default {
+    border: 0;
+    border-bottom: 1px solid #dcdcdc;
+    padding-top: 14px;
+    padding-bottom: 18px;
+    margin-top: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+}
+.dieu-khoan .panel-title>a {
+    color: #333;
+    display: block;
+    position: relative;
+    font-size: 22px;
+}
+.dieu-khoan .panel-title>a[aria-expanded="false"]:after, .dieu-khoan .panel-title>a[aria-expanded="true"]:after {
+	content: '';
+    display: inline-block;
+    background-image: url('/assets/images/iconweb.svg?v=03.06.2019');
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+.dieu-khoan .panel-title>a[aria-expanded="false"]:after {
+    background-position-x: -185px;
+}
+.dieu-khoan .panel-title>a[aria-expanded="true"]:after {
+    background-position-x: -725px;
+}
+.dieu-khoan .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border: 0;
+    padding: 15px 0 5px;
+    color: #999;
+}
+
+#popup-confirm-information .modal-body{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#popup-confirm-information .modal-body h1{
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#popup-confirm-information .modal-body p{
+    font-size: 18px;
+}
+#popup-confirm-information .modal-body h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#popup-confirm-information .bl-btn-group .btn{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 30px 10px 65px;
+    margin-right: 10px;
+    position: relative;
+}
+#popup-confirm-information .bl-btn-group .btn:last-child{
+    margin-right: 0;
+}
+#popup-confirm-information .bl-btn-group .btn-gray{
+    background-color: #6b6b6b;
+}
+#popup-confirm-information .bl-btn-group .btn-blue{
+    background-color: #164b85;
+}
+#popup-confirm-information .bl-btn-group .btn-red{
+    background-color: #fb7533;
+}
+#popup-confirm-information .bl-btn-group .btn:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/iconweb.svg?v=03.06.2019');
+    background-position-y: -30px;
+}
+#popup-confirm-information .bl-btn-group .btn-gray:before{
+    background-position-x: -600px;
+}
+#popup-confirm-information .bl-btn-group .btn-blue:before{
+    background-position-x: -570px;
+}
+#popup-confirm-information .bl-btn-group .btn-red:before{
+    background-position-x: -540px;
+}
+.page-desktop .dieu-khoan {
+    margin-top: 30px;
+}
+@media (min-width: 768px){
+    #popup-confirm-information .modal-dialog {
+        width: 740px;
+    }
+}

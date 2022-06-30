@@ -1,0 +1,54 @@
+.modal.active {
+    display: block;
+}
+
+.custom-modal-styling-title {
+    margin: 0 auto;
+    opacity: 1;
+
+    &.show {
+        .modal-dialog {
+            transform: none;
+            width: 100%;
+        }
+    }
+
+    .modal-content {
+        height: auto;
+        overflow: auto;
+        width: inherit;
+        margin:0 auto;
+
+        .modal-header {
+            button.close {
+                margin-left: auto;
+            }
+        }
+        .modal-body {
+            height: calc(100% - 56px - 65px);
+            overflow: auto;
+        }
+        .modal-footer {
+            border-top: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-modal-styling-title {
+        z-index: 1049;
+        width: 100%;
+
+        .modal-dialog {
+            width: 90%;
+        }
+    }
+    .popup-bpo-improve {
+        .modal-title {
+            font-weight: 600;
+        }
+        .modal-dialog {
+            width: 955px;
+        }
+    }
+}

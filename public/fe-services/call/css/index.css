@@ -1,0 +1,33 @@
+.icon-call-service{
+    display: inline-block;
+    height: 53px;
+    width: 53px;
+  }
+
+.icon-call-customer-info{
+    background: url(/fe-services/call/icons/customer_info.svg) no-repeat center / contain;
+}
+
+.icon-call-accept{
+    background: url(/fe-services/call/icons/accept.svg) no-repeat center / contain;
+}
+
+.icon-call-reject{
+    background: url(/fe-services/call/icons/reject.svg) no-repeat center / contain;
+}
+
+.icon-call-mute{
+    background: url(/fe-services/call/icons/mute.svg) no-repeat center / contain;
+}
+
+.icon-call-pause{
+    background: url(/fe-services/call/icons/pause.svg) no-repeat center / contain;
+}
+
+.icon-call-play{
+    background: url(/fe-services/call/icons/play.svg) no-repeat center / contain;
+}
+
+.icon-call-unmute{
+    background: url(/fe-services/call/icons/unmute.svg) no-repeat center / contain;
+}

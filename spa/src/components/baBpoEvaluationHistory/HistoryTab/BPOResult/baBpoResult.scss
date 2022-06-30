@@ -1,0 +1,91 @@
+.ba-bpo-result-container {
+    background-color: #f5f5f5;
+    padding: 15px 0px 15px 0px;
+    background-color: white;
+}
+.incomplete-result {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    .title {
+        padding: 10px 10px 10px 25px;
+        color: black;
+        font-weight: 1000;
+    }
+}
+.conflict-result {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    .bold-title {
+        padding: 10px 10px 10px 25px;
+        color: black;
+        font-weight: 1000;
+        margin: 0px;
+    }
+    .nomal-title {
+        padding: 10px 10px 10px 25px;
+        color: black;
+        margin: 0px;
+    }
+}
+
+.final-result {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    flex-direction: column;
+
+    .final-result-top {
+        display: flex;
+        .text-left {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+
+            .bold-title {
+                padding: 5px 10px 5px 25px;
+                color: black;
+                font-weight: 1000;
+                margin: 0px;
+            }
+            .nomal-title {
+                padding: 10px 10px 5px 25px;
+                color: black;
+                margin: 0px;
+            }
+        }
+        .text-right {
+            color: gray;
+            padding: 10px 10px 5px 25px;
+            margin: 0px;
+            margin-left: 5%;
+        }
+    }
+}
+.final-result-system {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    display: flex;
+    .text-left {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        .bold-title {
+            padding: 5px 10px 5px 25px;
+            color: black;
+            font-weight: 1000;
+            margin: 0px;
+        }
+        .nomal-title {
+            padding: 10px 10px 5px 25px;
+            color: black;
+            margin: 0px;
+        }
+    }
+    .text-right {
+        color: gray;
+        padding: 10px 10px 5px 25px;
+        margin: 0px;
+        margin-left: 5%;
+    }
+}

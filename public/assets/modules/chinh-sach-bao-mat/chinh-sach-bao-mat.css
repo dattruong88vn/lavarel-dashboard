@@ -1,0 +1,81 @@
+.chinh-sach h1{
+	font-size: 24px;
+	font-weight: normal;
+	margin: 30px 0 20px;
+}
+.chinh-sach p{
+	margin-bottom: 20px;
+}
+.chinh-sach h3{
+    font-size: 18px;
+}
+.content-rule{
+    text-align: justify;
+}
+#popup-confirm-information .modal-body{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#popup-confirm-information .modal-body h1{
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#popup-confirm-information .modal-body p{
+    font-size: 18px;
+}
+#popup-confirm-information .modal-body h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#popup-confirm-information .bl-btn-group .btn{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 30px 10px 65px;
+    margin-right: 10px;
+    position: relative;
+}
+#popup-confirm-information .bl-btn-group .btn:last-child{
+    margin-right: 0;
+}
+#popup-confirm-information .bl-btn-group .btn-gray{
+    background-color: #6b6b6b;
+}
+#popup-confirm-information .bl-btn-group .btn-blue{
+    background-color: #164b85;
+}
+#popup-confirm-information .bl-btn-group .btn-red{
+    background-color: #fb7533;
+}
+#popup-confirm-information .bl-btn-group .btn:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/iconweb.svg?v=03.06.2019');
+    background-position-y: -30px;
+}
+#popup-confirm-information .bl-btn-group .btn-gray:before{
+    background-position-x: -600px;
+}
+#popup-confirm-information .bl-btn-group .btn-blue:before{
+    background-position-x: -570px;
+}
+#popup-confirm-information .bl-btn-group .btn-red:before{
+    background-position-x: -540px;
+}
+.chinh-sach {
+    padding-top: 50px;
+}
+@media (min-width: 768px){
+    #popup-confirm-information .modal-dialog {
+        width: 740px;
+    }
+}

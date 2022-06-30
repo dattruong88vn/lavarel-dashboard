@@ -1,0 +1,106 @@
+.sales-pipeline-table-container {
+    background-color: white;
+    overflow: auto;
+    max-height: 97vh;
+    &::-webkit-scrollbar {
+        height: 10px;
+    }
+}
+
+.custom-table {
+    width: auto;
+
+    thead th {
+        background-color: lightgray;
+        min-width: 220px;
+        max-width: 220px;
+    }
+    td {
+        border: 1px solid #ddd;
+        background-color: white;
+        padding: 4px 4px !important;
+        height: 90px !important;
+        min-width: 220px;
+        max-width: 220px;
+    }
+    .data-no-border {
+        border: 0px solid !important;
+    }
+
+    thead {
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+        border: 0px solid !important;
+        box-shadow: inset 1px 1px 0 #ddd, inset -1px -1px 0 #ddd;
+    }
+    :nth-child(1) th {
+        border: 0px solid !important;
+        box-shadow: inset 1px 1px 0 #ddd, inset -1px -1px 0 #ddd;
+    }
+
+    :nth-child(2) th {
+        border: 0px solid !important;
+        box-shadow: inset 1px 1px 0 #ddd, inset -1px -1px 0 #ddd;
+    }
+
+    .sticky-col {
+        position: sticky;
+        border: 0px solid !important;
+        box-shadow: inset 1px 0px 0 #ddd, inset -1px -1px 0 #ddd;
+        left: 0px;
+    }
+    .custom-zindex {
+        z-index: 11 !important;
+    }
+}
+
+.date-time-label {
+    font-size: 14px;
+    font-weight: 500;
+}
+.normal-text {
+    font-weight: 500;
+    color: black;
+    padding: 5px 8px 5px 8px;
+    display: flex;
+    justify-content: center;
+}
+.bold-text {
+    font-weight: bold;
+    color: black;
+    padding: 5px 8px 5px 8px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.bold-text-left {
+    font-weight: bold;
+    color: black;
+    padding: 5px 8px 5px 8px;
+    display: flex;
+    justify-content: start;
+    height: 100%;
+    align-items: center;
+}
+.flex-view {
+    display: flex;
+    flex-direction: column;
+}
+.date-card {
+    display: flex;
+    flex-direction: column;
+    .date-time-label {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+    }
+}
+
+.bold-text-group {
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,1 @@
+rm -rf build/ && rm -rf ../public/app/spa/ && react-scripts build && mv build/ ../public/app/spa/

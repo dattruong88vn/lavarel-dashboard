@@ -1,0 +1,41 @@
+.pricetag {
+  &__header {
+    width: 100%;
+    border-bottom: 1px solid #d1d1d1;
+    margin: 15px 0 0;
+    .red {
+      color: red;
+    }
+  }
+
+  .input-tags-comment {
+    width: 100%;
+    .react-tags {
+      display: block;
+    }
+    .react-tags__search {
+      width: 100%;
+      display: inline-block;
+    }
+  }
+
+  &__tags {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  &__btn {
+    border: none;
+    background: #ededed;
+    color: #323232;
+    border-radius: 15px;
+    margin: 8px 7px 8px 6px;
+    padding: 9px 13px 8px 10px;
+    border-radius: 15px;
+    &.active {
+      background: #027aff;
+      color: #fff;
+    }
+  }
+}

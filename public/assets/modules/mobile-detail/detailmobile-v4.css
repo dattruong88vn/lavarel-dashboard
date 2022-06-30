@@ -1,0 +1,281 @@
+label.checkbox {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-weight: normal;
+    margin: 0 0 5px
+}
+
+@media only screen and (max-width:767px) {
+    #bl-same-price {
+        display:none;
+    }
+    #bl-same-project {
+        display:none;
+    }
+    .p-project-detail .t-detail .map {
+        bottom: 23px;
+        right: 110px;
+    }
+    .acordion-detail>.tab>.tab-content p {
+        margin-bottom: 8px;
+        font-size:14px;
+    }
+    #bl-same-price .btn:hover {
+        color: #fff !important;
+        text-decoration:none;
+    }
+    #bl-same-project .btn:hover {
+        color: #fff !important;
+        text-decoration:none;
+    }
+    .sec-dieuhuong a:hover {
+        text-decoration: none;
+        color:#fff !important;
+    }
+    .sec-dieuhuong a {
+        color:inherit;
+    }
+    .project-detail-feature .zoom {
+        left:5px !important;
+        top:5px !important;
+    }
+    .input-group>#money:first-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    #form-my-loans .btn:hover {
+        color:#fff !important;
+    }
+    .p-project-detail .share .content a {
+        color:inherit;
+    }
+    .p-project-detail .t-detail .price {
+        font-size: 16px;
+    }
+    .p-project-detail .share .content a:focus {
+        color:rgb(85, 85, 85);
+    }
+    .p-project-detail .share .content a:hover {
+        color:rgb(85, 85, 85);
+        text-decoration: none;
+    }
+    .p-project-detail .share .content .zalo-share-button {
+        width: 100% !important;
+        height: 100% !important;
+        overflow: inherit !important;
+    }
+    .p-project-detail .share .content .zalo-share-button iframe {
+        display:none;
+    }
+    .breadcrumbs>.item {
+        color:inherit;
+    }
+    .breadcrumbs>.item:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+    #header .btn-search {
+        padding: 0 !important;
+    }
+    .p-project-detail .phone:hover, .p-project-detail .phone:focus {
+        color:#fff;
+        text-decoration: none;
+    }
+    .p-project-detail .calenda:hover, .p-project-detail .calenda:focus {
+        color:#fff;
+        text-decoration: none;
+    }
+
+    /* style for modal popup schedule  */
+    #popup-schedule.modal-popup:before {
+        height: 12%;
+    }
+    #popup-schedule .modal-body {
+        padding: 10px 0 15px;
+    }
+    .bl-info-customer {
+        position: relative;
+        background-color: #fff;
+    }
+    .bl-info-customer .bl-title {
+        color: #3e3e3e;
+        text-align: center;
+        padding: 0 10px 10px;
+        font-weight: 700;
+    }
+    .bl-info-customer .bv-form {
+        padding: 0 12px 10px;
+    }
+    #popup-schedule .form-group {
+        margin-bottom: 25px;
+    }
+    .bl-input-new {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .bl-input-new.div-fullname:before {
+        background-image: url(/assets/images/version-4/icons/ic-fullname.png);
+        height: 25px;
+        top: 4px;
+    }
+    .bl-input-new.div-phone:before {
+        background-image: url(/assets/images/version-4/icons/ic-phone.png);
+        height: 25px;
+        top: 6px;
+    }
+    .bl-input-new.div-email:before {
+        background-image: url(/assets/images/version-4/icons/ic-email.png);
+        height: 15px;
+        top: 12px;
+    }
+    .bl-info-customer .panel-group .panel {
+        margin-bottom: 15px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        border: 1px solid #ddd;
+    }
+    .collapse.in {
+        display: block;
+    }
+    .bl-calendar {
+        position: relative;
+        padding: 15px;
+    }
+    #popup-schedule .form-group {
+        margin-bottom: 25px;
+    }
+    .page-mobile .bl-info-customer .form-control {
+        height: 42px;
+        box-shadow: none;
+        border-color: #dcdcdc;
+        font-size: 14px;
+    }
+    .bl-input-new:before {
+        content: '';
+        display: inline-block;
+        width: 25px;
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        left: 0;
+    }
+    .form-control {
+        width: 100%;
+        padding: 6px 12px;
+        border-radius: 4px;
+        border: 1px solid #e1e1e1;
+    }
+    .bl-info-customer .btn-send-info {
+        width: 100%;
+        background-color: #f17423;
+        color: #fff;
+        padding: 11px;
+        margin: 10px 0;
+        font-size: 15px;
+        border-radius: 40px;
+        font-weight: 700;
+        border: 1px solid #f17423;
+    }
+    .bl-info-customer .p-hotline {
+        background: 0 0;
+        text-align: center;
+        color: #ababab;
+        font-size: 16px;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+    }
+    .bl-info-customer .p-hotline span a {
+        color: #f17423;
+    }
+    .bl-input-new .form-control-new {
+        padding-left: 33px;
+    }
+    .form-control-new {
+        border: 0;
+        border-bottom: 1px solid #d1d1d1;
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 13px;
+        height: 38px;
+        width: 100%;
+        background: 0 0;
+    }
+    #accordion h4 {
+        margin-bottom:0;
+    }
+    
+}
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url(/fonts/glyphicons-halflings-regular.eot);
+	src: url(/fonts/glyphicons-halflings-regular.eot?#iefix)
+			format('embedded-opentype'),
+		url(/fonts/glyphicons-halflings-regular.woff2) format('woff2'),
+		url(/fonts/glyphicons-halflings-regular.woff) format('woff'),
+		url(/fonts/glyphicons-halflings-regular.ttf) format('truetype'),
+		url(/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular)
+			format('svg');
+}
+
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-chevron-up:before {
+	content: '\e113';
+}
+.glyphicon-chevron-down:before {
+	content: '\e114';
+}
+
+.bootstrap-datetimepicker-widget table td span {
+	line-height: 1;
+}
+#popup-map-detail .modal-dialog {
+    margin-top: -100px;
+}
+#popup-map-detail .close{
+	opacity: 1;
+    position: absolute;
+	right: -2px;
+	top: -35px;
+	width: 30px;
+	height: 30px;
+	background: url(/assets/images/iconweb.svg?v=03.06.2019) no-repeat -990px 0;
+}
+#popup-map-detail .close:before{
+    display: none;
+}
+
+.zalo-share-button {
+	overflow: auto !important;
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.zalo-share-button iframe {
+	display: none !important;
+}
+
+.wprice .price {
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.wprice .price2 {
+	display: contents;
+}

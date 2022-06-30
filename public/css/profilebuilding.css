@@ -1,0 +1,39 @@
+
+.box {
+	box-shadow: none;
+}
+.box-line {
+	border-top: 1px solid #ddd;
+	margin: 20px 0;
+}
+.add-row {
+	cursor: pointer;
+}
+.profile-building .bike {
+	padding: 30px 0;
+}
+
+.profile-building .checkbox{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.profile-building .nav-tabs-custom{
+	background-color: transparent;
+	box-shadow: 0 0 0;
+}
+.profile-building .btn-add{
+	margin-top: 10px;
+}
+.profile-building .nav-tabs-custom .close{
+	margin-left: 3px;
+}
+
+.utilities-building .amenityc-child-content{
+	padding-left: 15px;
+}
+.add-charges{
+	padding: 4px 0;
+}
+.suggession .col-md-1{
+	padding: 0
+}

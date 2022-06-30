@@ -1,0 +1,229 @@
+.collected-money-search-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.collected-money-search {
+    min-width: 320px;
+    max-width: 480px;
+    margin-right: 12px;
+}
+
+.collected-money-search-text {
+    width: 100%;
+    padding: 4px 8px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.commssion-deal-dropdown {
+    background: #fff;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+    padding: 12px 16px;
+    min-width: 240px !important;
+    left: -120px !important;
+}
+
+.commssion-deal-dropdown p {
+    display: block;
+    padding: 6px;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.commssion-deal-dropdown p:hover {
+    color: #3c8dbc;
+}
+
+.commission-action-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.commission-actions {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/**
+    Style for collected money deal modal
+***/
+.commission-deal-modal-header {
+    display: flex;
+    justify-content: center;
+}
+
+.commission-deal-row,
+.commission-deal-button {
+    margin-bottom: 12px;
+}
+
+.commission-deal-button {
+    display: flex;
+    justify-content: center;
+}
+
+/**Commission timeline style**/
+.commission-timeline {
+    position: relative;
+}
+
+.commission-timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: #474e5d;
+    top: 0;
+    bottom: 0;
+    left: 16px;
+}
+
+.commission-timeline-container {
+    position: relative;
+    margin-left: 32px;
+    padding: 16px;
+}
+
+.commission-timeline-content::before {
+    content: "";
+    position: absolute;
+    left: -29px;
+    width: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 6px solid #ff9f55;
+    z-index: 10;
+}
+
+.commission-timeline-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    margin-left: 12px;
+}
+
+.commission-timeline-content .commission-timeline-content-item {
+    padding-right: 8px;
+}
+
+.commission-timeline-content .commission-timeline-content-item:first-child {
+    font-weight: 600;
+}
+
+.record-update-form-label {
+    padding-left: 8px;
+}
+
+.records-not-fulfill {
+    margin-right: 12px;
+}
+
+.money-collected-plan-input-label {
+    padding-right: 8px;
+}
+
+.currency-sign {
+    display: inline-block;
+    padding-left: 4px;
+}
+
+
+/** Style for spinner **/
+.spinner-container {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.spinner-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: spinner 2s linear infinite ;
+}
+
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.filter-box {
+    margin: 5vh 0;
+}
+.dflex {
+    display: flex;
+}
+.float-r {
+    float: right;
+}
+.float-l {
+    float: left;
+}
+.commission-form .s-operator {
+    width: 70px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+}
+.commission-form .s-currency {
+    width: 60px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+}
+.commission-form .s-type {
+    width: 120px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+}
+.commission-form .s-operator-type {
+    width: 85px;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #0000ff;
+}
+.commission-form .i-number {
+    border: none;
+    border-bottom: 2px solid #cccccc;
+}
+.commission-form label.text {
+    width: 135px;
+    padding-top: 0.5vh;
+}
+.commission-form .remove {
+    width: 40px;
+    padding-top: 1.5vh;
+    margin-left: 15px;
+    font-size: 12pt;
+}
+.clear {
+    clear: both;
+}

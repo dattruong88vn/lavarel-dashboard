@@ -1,0 +1,34 @@
+/**
+* style css for crawler.
+* version 1.0
+* date 10/10/2017
+*/
+.blc-phone-multi {
+    margin-top: 15px;
+}
+#listing-need-review .listing-table {
+        border-collapse: separate;
+    border-spacing: 5px;
+    padding: 0 10px;
+}
+#listing-need-review .listing-cell {
+    width: 50px;
+    height: 50px;
+    background-color: #f2dede;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    vertical-align: middle;
+    color: #31708f;
+    float: left;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    vertical-align: middle;
+    display: table;
+}
+#listing-need-review .listing-cell:hover {
+    background-color: #31708f;
+    color: #fff;
+}

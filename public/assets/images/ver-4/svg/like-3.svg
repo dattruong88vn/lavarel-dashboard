@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="31px" viewBox="0 0 33 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ion-heart - Ionicons</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.5%" y="-22.1%" width="105.1%" height="155.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.34375   0 0 0 0 0.165592275   0 0 0 0 0.0646362305  0 0 0 0.241989357 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#-Menu-bottom" transform="translate(-172.000000, -2.000000)" fill="#000" fill-rule="nonzero">
+            <g filter="url(#filter-1)" id="menu-bottom">
+                <g>
+                    <g id="wishlist" transform="translate(150.000000, 0.418141)">
+                        <g id="Group-4" transform="translate(11.000000, 9.000000)">
+                            <g id="Group-3" transform="translate(15.000000, 0.000000)">
+                                <path d="M20.9269003,12.2370195 C21.9843478,11.1139135 22.51,9.75008897 22.51,8.11979167 C22.51,6.48949436 21.9843478,5.12566983 20.9269003,4.00256384 C20.0032981,2.98622715 18.9061113,2.49 17.5985577,2.49 C16.2910041,2.49 15.1938173,2.98622715 14.2653147,4.00769358 L12.4935464,5.83570852 L12.1420119,5.45958115 L10.7743697,3.99618955 C9.85695971,2.98655314 8.75153215,2.49 7.42668269,2.49 C6.10183323,2.49 4.99640567,2.98655314 4.07309969,4.00256384 C3.01565221,5.12566983 2.49,6.48949436 2.49,8.11979167 C2.49,9.75008897 3.01565221,11.1139135 4.07484683,12.2388848 L12.5000002,21.2812064 L20.9269003,12.2370195 Z M23.49,8.11979167 C23.49,9.99645634 22.8714329,11.6013521 21.6421545,12.9069485 L12.5,22.7187938 L12.1414993,22.3340318 L3.35959262,12.9088138 C2.12856712,11.6013521 1.51,9.99645634 1.51,8.11979167 C1.51,6.24312699 2.12856712,4.63823121 3.35369664,3.33714379 C4.4555275,2.12454686 5.8236329,1.51 7.42668269,1.51 C9.02973249,1.51 10.3978379,2.12454686 11.4950073,3.33208552 L12.506498,4.41433894 L13.550812,3.33714379 C14.6523467,2.12487285 16.011866,1.51 17.5985577,1.51 C19.1838472,1.51 20.5423656,2.12378656 21.6433824,3.3339312 C22.8724296,4.64081844 23.49,6.24463956 23.49,8.11979167 Z" id="ion-heart---Ionicons"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

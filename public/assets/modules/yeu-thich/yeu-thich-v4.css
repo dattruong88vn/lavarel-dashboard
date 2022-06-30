@@ -1,0 +1,170 @@
+/* css for datetime picker */
+.select-time-picker {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+/* end datetime picker*/
+
+body {
+    color: #555555;
+    font-family: "SF-UI-Display", sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    background-color: #FAFAFA;
+}
+a:hover,  a:focus {
+    color: inherit ;
+    text-decoration: none ;
+}
+a {
+    color: inherit ;
+    text-decoration: none ;
+}
+.btn {
+    position: relative;
+    vertical-align: middle ;
+    display: inline-block ;
+    text-align: center ;
+    cursor: pointer ;
+    -o-transition: all 0.2s ease-in-out ;
+    transition: all 0.2s ease-in-out ;
+    -webkit-transition: all 0.2s ease-in-out ;
+    overflow: hidden;
+    font-weight: 500 ;
+    font-size: 13px ;
+    color: #fff ;
+    border-radius: 5px;
+    line-height: 38px ;
+    height: 40px ;
+    padding: 0 15px ;
+    text-transform: uppercase ;
+}
+#btnSchedule:active, #btnSchedule:hover {
+    background-color: #0f6a9d ;
+    border: 1px solid #0f6a9d ;
+}
+.bl-content-love .col-no-listing .btn:active, .bl-content-love .col-no-listing .btn:hover {
+    background-color: #0f6a9d ;
+    border: 1px solid #0f6a9d ;
+}
+.bl-content-love .col-no-listing .btn {
+    color:#fff;
+}
+.text-center .btn, .text-center .btn {
+    color:#fff;
+}
+#header .btn {
+    color:#fff;
+}
+.bootstrap-datetimepicker-widget  a {
+    color: #337ab7 !important;
+    background-color: transparent !important;
+    border:none !important;
+}
+.col-no-listing {
+    text-align: center;
+}
+.col-no-listing p {
+    color: #484848;
+    font-size: 15px;
+    line-height: 38px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.col-no-listing .span-img {
+    background: url(/assets/images/unliked.png) no-repeat center;
+    display: inline-block;
+    width: 159px;
+    height: 155px;
+    margin: 40px 0 25px;
+}
+.bl-content-love {
+    border-radius: 4px;
+    margin: 30px 0 30px;
+    position: relative;
+    padding-bottom: 20px;
+}
+#form-love .rowlabel i {
+    top:26px;
+}
+.form-datlich .rowlabel .input {
+    font-weight: 400;
+}
+#shareModal .list-social a {
+    cursor: pointer;
+}
+#shareModal .wcopy .btncopy {
+    cursor: pointer;
+}
+.list-social .active {
+    border-color: #EF7733;
+    color: #EF7733;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1E1E1E;    
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top:0;
+}
+.list-layout-1 .group, .list-layout-1 .label {
+    display: block;
+    padding:0;
+    color: inherit;
+    text-align: unset;
+}
+.list-layout-1 .btnlike {
+    right: 1px;
+}
+.filter-house .padding-status{
+    padding-top: 5px !important;
+}
+
+.item .group {
+	margin: 8px 0px;
+}
+
+.list-layout-0 .item .divtext {
+	padding-bottom: 40px !important;
+	height: 260px;
+}
+
+.list-layout-1 .item {
+	height: 290px;
+}
+
+.list-layout-1.list-layout-1-2 .item {
+	height: auto;
+}
+
+.list-layout-1 .item .wcontent {
+    height: auto;
+}
+
+.item .wprice {
+	position: absolute;
+	bottom: 5px;
+	left: 10px !important;
+	right: 10px !important;
+}
+.yeu-thich .btn.btn-5{
+    border-color: #fff;
+    color: #fff;
+}
+.yeu-thich .btn.btn-5:hover {
+    background-color: #EF7733;
+    border-color: #EF7733;
+}
+#share-zalo {
+    position: absolute;
+    left: 198px;
+}
+.list-social .share-social{
+    width: 50px !important;
+    height: 50px !important;
+    bottom: 34px;
+    margin-right: 5px;
+}

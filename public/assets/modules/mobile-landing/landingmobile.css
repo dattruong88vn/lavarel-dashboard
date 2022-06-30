@@ -1,0 +1,78 @@
+.bl-land-rent, .bl-project-rent, .bl-land-hightlight{
+    padding: 0 10px;
+}
+.bl-title {
+    display: table;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.bl-title a .h3-title{
+    color: #363636;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: Roboto,sans-serif;
+}
+.bl-title a .a-readmore {
+    float: right;
+    display: inline-block;
+    color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    padding-top: 20px;
+}
+.bl-title .a-readmore:after {
+    content: '\f105';
+    display: inline-block;
+    font: normal normal normal 18px/1 FontAwesome;
+    margin-left: 10px;
+    color: #f17422;
+    font-weight: 400;
+}
+.bl-banner{
+    background: url('https://cdn.propzy.vn/cms_portal/2019/04/10/cms-portal_156d759f88f64c6375ac377a50e83bd29f6fa0403e38db1ca5586bbbdb2d0aef.jpg') no-repeat center;
+    background-size: cover;
+    height: 444px;
+    width: 100%;
+    color: #fdfdfe;
+    margin-bottom: 10px;
+}
+.bl-banner .bl-text{
+    padding: 80px 20px;
+}
+.bl-banner .bl-text h2{
+    font-size: 32px;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+}
+.bl-banner .bl-text p{
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    line-height: 1.56;
+    font-size: 18px;
+}
+.landing-mobile .bl-listing{
+    margin-bottom: 10px;
+}
+/*.landing-mobile .bl-listing .block-info{
+    font-size: 16px;
+    color: #363636;
+}*/
+/*.landing-mobile .bl-listing .bl-district{
+    color: #f17422;
+    padding-top: 5px;
+}*/
+.landing-mobile .bl-listing .bl-price .span-price:after{
+    display: none;
+}
+.landing-mobile .bl-listing .bl-price{
+    color: #363636;
+}
+/*.landing-mobile .bl-listing .block-info p{
+    margin-top: 8px;
+}*/
+/*.landing-mobile .bl-listing .bl-value{
+    padding-top: 5px
+}*/
+/*.landing-mobile .bl-listing .bl-info-listing .elements{
+    font-size: 16px;
+}*/

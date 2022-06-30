@@ -1,0 +1,436 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #494949;
+}
+.tap-system h1,.tap-system h2,.tap-system h3,.tap-system h4,.tap-system h5,.tap-system h6{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.h2-title{
+	font-size: 34px;
+	color: #303030;
+}
+.font-38{
+	font-size: 38px;
+}
+.font-24{
+	font-size: 24px;
+}
+.font-22{
+	font-size: 22px;
+}
+.tap-system .panel-group{
+	padding-top: 10px;
+}
+.tap-system .panel-default {
+    border: 0;
+    padding-bottom: 5px;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    background-color: transparent;
+}
+.tap-system .panel-default>.panel-heading {
+    background: 0 0;
+    padding: 7px 0;
+}
+.tap-system .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border: 0;
+    padding: 15px 0 5px;
+    color: #666;
+}
+.tap-system .panel-body ul{
+	padding-left: 20px;
+}
+.tap-system .panel-body li{
+	list-style: none;
+	padding: 8px 0;
+}
+.tap-system .panel-title>a {
+    color: #2378ea;
+    position: relative;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tap-system .panel-title>a[aria-expanded=true]{
+	color: #303030;
+}
+.tap-system .panel-title>a span {
+    padding-right: 30px;
+    display: inline-block;
+}
+.tap-system .panel-title>a[aria-expanded=false]:after, .tap-system .panel-title>a[aria-expanded=true]:after {
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: -5px;
+    top: 0;
+}
+.tap-system .panel-title>a[aria-expanded=false]:after {
+    background-image: url('assets/modules/landingpages-mkt/tap/images/ic-1.png');
+}
+.tap-system .panel-title>a[aria-expanded=true]:after {
+    background-image: url('assets/modules/landingpages-mkt/tap/images/ic-2.png');
+}
+.bl-banner{
+	padding-top: 52px;
+	height: 604px;
+	background: url('assets/modules/landingpages-mkt/tap/images/banner.jpg') no-repeat center transparent;
+	position: relative;
+}
+.bl-banner h1{
+	font-size: 42px;
+	padding-bottom: 20px;
+	padding-top: 150px;
+}
+.bl-banner img{
+	position: absolute;
+	right: 2%;
+	bottom: 0;
+}
+.bl-aboutus{
+	padding: 40px 0;
+}
+.bl-aboutus .h2-title{
+	margin-top: 0;
+	padding-bottom: 10px;
+}
+.bl-aboutus p{
+	margin-bottom: 20px;
+	text-align: justify;
+}
+.bl-aboutus .col-img img{
+	padding: 5px 0;
+}
+.bl-aboutus .bl-data{
+	color: #00032f;
+}
+.bl-aboutus .bl-data .p-text{
+	font-size: 20px;
+	margin: 0;
+	line-height: 8px;
+}
+.bl-aboutus .bl-data .span-1{
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.bl-aboutus .bl-data .span-2{
+	font-size: 30px;
+	margin: 0 10px;
+}
+.bl-aboutus .bl-data .span-3{
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+    position: relative;
+    top: -3px;
+}
+.bl-aboutus .col-sm-4:last-child .bl-data .span-3{
+	top: 28px;
+}
+.bl-aboutus .col-sm-12{
+	padding-top: 80px;
+}
+
+
+
+
+.bl-tap{
+	background-color: #f3f3f3;
+	position: relative;
+	padding: 30px 0 0;
+}
+.bl-tap .h2-title{
+	text-align: center;
+	padding-bottom: 35px;
+}
+.bl-tap .h2-title.font-22{
+	text-align: left;
+	padding-bottom: 12px;
+	padding-top: 15px;
+}
+.bl-tap .nav-tabs {
+    border-bottom: 0;
+    display: table;
+    margin: 0 auto;
+}
+.bl-tap .nav-tabs>li>a {
+    height: 70px;
+    background-color: #247bee;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin-right: 13px;
+    padding: 23px 30px 22px 70px;
+    position: relative;
+}
+.bl-tap .nav-tabs>li.active>a, .bl-tap .nav-tabs>li.active>a:focus {
+    background-color: #fff;
+    border: 0;
+    color: #247bee;
+    box-shadow: 7px 0 10px rgb(125,125,125,.11);
+}
+.bl-tap .nav-tabs>li.active>a:hover, .bl-tap .nav-tabs>li>a:hover{
+	border-color: transparent;
+}
+.bl-tap .nav-tabs>li>a:before{
+	content: '';
+	display: inline-block;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	left: 30px;
+	top: 18px;
+}
+.bl-tap .nav-tabs>li>a.a-tab-1:before{
+	background-image: url('assets/modules/landingpages-mkt/tap/images/bql_icon_2.png');
+}
+.bl-tap .nav-tabs>li>a.a-tab-1[aria-expanded=true]:before{
+	background-image: url('assets/modules/landingpages-mkt/tap/images/bql_icon.png');
+}
+.bl-tap .nav-tabs>li>a.a-tab-2:before{
+	background-image: url('assets/modules/landingpages-mkt/tap/images/nhan_vien_icon_2.png');
+	top: 20px;
+}
+.bl-tap .nav-tabs>li>a.a-tab-2[aria-expanded=true]:before{
+	background-image: url('assets/modules/landingpages-mkt/tap/images/nhan_vien_icon.png');
+}
+.bl-tap .nav-tabs>li>a.a-tab-3:before{
+	background-image: url('assets/modules/landingpages-mkt/tap/images/cu_dan_icon_2.png');
+}
+.bl-tap .nav-tabs>li>a.a-tab-3[aria-expanded=true]:before{
+	background-image: url('assets/modules/landingpages-mkt/tap/images/cu_dan_icon.png');
+}
+.tap-system .bl-tap .panel-group .panel-heading+.panel-collapse>.panel-body{
+	padding: 0;
+}
+.bl-tap .bl-50{
+	width: 50%;
+}
+.bl-tap .tab-content{
+	padding-top: 15px;
+}
+.bl-tap .tab-pane{
+	background-repeat: no-repeat;
+	background-position: right center;
+	height: 800px;
+    background-size: 52% auto;
+}
+.bl-tap #tab-tap-1{
+	background-image: url('assets/modules/landingpages-mkt/tap/images/Tap-BQL.png');
+}
+.bl-tap #tab-tap-2{
+	background-image: url('assets/modules/landingpages-mkt/tap/images/Tap-nhan-vien.png');
+}
+.bl-tap #tab-tap-3{
+	background-image: url('assets/modules/landingpages-mkt/tap/images/Tap-cu-dan.png');
+}
+.bl-tap .nav-tabs>li.active>a{
+	margin-top: -4px;
+}
+.bl-tap .nav-tabs>li.active>a:after{
+	content: '';
+	display: inline-block;
+	width: 26px;
+	height: 22px;
+	position: absolute;
+	left: 50%;
+	bottom: -21px;
+    margin-left: -13px;
+	background: url('assets/modules/landingpages-mkt/tap/images/arrow.png') no-repeat center transparent;
+}
+
+
+.bl-tap-customer{
+	padding: 60px 0 80px;
+}
+.bl-tap-customer .h2-title{
+	padding: 10px 0 5px;
+}
+.bl-tap-customer p{
+	font-size: 16px;
+}
+.bl-tap-system{
+	background-color: #f3f3f3;
+	position: relative;
+	padding: 35px 0 50px;
+}
+.bl-tap-system .h2-title{
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 40px;
+}
+.bl-tap-system img{
+	width: 100%;
+	height: 123px;
+	border-radius: 15px;
+}
+.bl-tap-system .bl-slider p{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+.bl-tap-system .bl-coming-soon .h2-title{
+	padding-bottom: 0;
+	font-size: 24px;
+	padding: 30px 0 20px;
+}
+.bl-tap-system .bl-coming-soon p{
+	position: relative;
+	padding-left: 22px;
+}
+.bl-tap-system .bl-coming-soon p:before{
+	content: '';
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: #f07323;
+	border-radius: 50%;
+	position: absolute;
+	top: 4px;
+	left: 0;
+}
+.bl-tap-partner{
+	padding: 35px 0;
+	position: relative;
+	text-align: center;
+}
+.bl-tap-partner .h2-title{
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 20px;
+}
+.bl-tap-partner img{
+	padding: 0 40px;
+}
+.bl-tap-partner img:first-child{
+	padding-left: 0;
+	padding-right: 40px;
+}
+.bl-tap-partner img:last-child{
+	padding-right: 0;
+	padding-left: 10px;
+}
+.bl-question{
+	position: relative;
+	background: url('assets/modules/landingpages-mkt/tap/images/bg-2.jpg') no-repeat center top transparent;
+	height: 251px;
+}
+.bl-question .h2-title{
+	text-align: center;
+	color: #fff;
+	padding: 20px 0px 35px;
+}
+.bl-question .bl-input-search{
+	display: table;
+	margin: 0 auto;
+}
+.bl-question .form-control{
+	height: 60px;
+	width: 570px;
+	box-shadow: none;
+	border: 0;
+	border-radius: 6px;
+	padding: 8px 20px;
+}
+.bl-input-search{
+	position: relative;
+}
+.bl-input-search .btn-search{
+	background: url('assets/modules/landingpages-mkt/tap/images/ic-3.png') no-repeat center transparent;
+	border: 0;
+	position: absolute;
+	top: 0;
+	right: -6px;
+    height: 60px;
+    width: 70px;
+}
+.bl-collapsed .panel-group{
+	width: 770px;
+	display: table;
+	margin: 60px auto 70px;
+	border: 1px solid #dbdbdb;
+	border-radius: 10px;
+	padding-top: 0;
+}
+.tap-system .bl-collapsed .panel-default{
+	border-bottom: 1px solid #dbdbdb;
+	margin-top: 0;
+	padding-bottom: 0;
+}
+.tap-system .bl-collapsed .panel-default:last-child{
+	border-bottom: 0;
+}
+.tap-system .bl-collapsed .panel-default>.panel-heading{
+	padding: 0;
+}
+.tap-system .bl-collapsed .panel-group .panel-heading+.panel-collapse>.panel-body{
+	padding: 0 25px 15px;
+	background-color: #f4f4f4;
+}
+.tap-system .bl-collapsed .panel-title>a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #303030;
+	display: block;
+	padding: 27px 25px;
+}
+.tap-system .bl-collapsed .panel-default:first-child .panel-title>a[aria-expanded=true]{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.tap-system .bl-collapsed .panel-default:last-child .panel-body{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.tap-system .bl-collapsed .panel-title>a[aria-expanded=true]{
+	background-color: #f4f4f4;
+	color: #247bee;
+}
+.tap-system .bl-collapsed .panel-title>a[aria-expanded=false]:after, .tap-system .bl-collapsed .panel-title>a[aria-expanded=true]:after{
+	top: 25px;
+    right: 15px;
+}
+.tap-system .bl-collapsed .panel-title>a[aria-expanded=false]:after{
+	background-image: url(assets/modules/landingpages-mkt/tap/images/down.png);
+}
+.tap-system .bl-collapsed .panel-title>a[aria-expanded=true]:after{
+	background-image: url(assets/modules/landingpages-mkt/tap/images/up.png);
+}
+.owl-carousel:hover .owl-next {
+    background: url(/assets/images/svg-icons.svg?v=03.06.2019) no-repeat -860px -10px transparent !important;
+    position: absolute;
+    right: -32px;
+    z-index: 30;
+    width: 58px;
+    height: 58px;
+    margin-top: -40px !important;
+}
+.owl-carousel:hover .owl-prev {
+    background: url(/assets/images/svg-icons.svg?v=03.06.2019) no-repeat -919px -10px transparent !important;
+    position: absolute;
+    z-index: 30;
+    width: 58px;
+    height: 58px;
+    margin-top: -40px !important;
+    left: -30px;
+}
+.bl-tap #tab-tap-3{
+    height: 600px;
+}
+.bl-tap #tab-tap-2{
+    height: 500px;
+}
+.p-lead{
+    font-size: 20px;
+}

@@ -1,0 +1,16 @@
+/*Popup*/
+#requireLogin .container {
+    max-width: 100%;
+    text-align: center;
+}
+#requireLogin .container .title-main {margin-bottom: 15px;}
+#requireLogin .container .title-main p {margin-bottom: 0px;line-height: 30px;font-size: 18px;color: #1e1e1e;}
+#requireLogin .container .button {margin-bottom: 30px;}
+#requireLogin .container .button a {padding: 0 30px;margin: 0 5px;font-size: 13px;}
+#requireLogin .container .button a.sign-in {background-color: #2866B0;border-color: #2866B0;}
+#requireLogin .container .benefits {text-align: left;}
+#requireLogin .container .benefits .title {font-size: 18px; color: #1e1e1e;margin-bottom: 5px;letter-spacing: 0.2px;}
+#requireLogin .container .benefits ul {list-style-type: none;}
+#requireLogin .container .benefits ul li {font-size: 13px; font-weight: 300; color: #1e1e1e; line-height: 25px;position: relative;padding-left: 25px;}
+#requireLogin .container .benefits ul li span {color: #EF7733;}
+#requireLogin .container .benefits ul li:before {content: '';position: absolute;top: 4px;left: 0px;background-image: url('/assets/images/ver-4/list.png');width: 16px;height: 16px;background-repeat: no-repeat;}

@@ -1,0 +1,28 @@
+export const PFS_SET_DATA_SEARCH = 'PFS_SET_DATA_SEARCH';
+export const PFS_SET_DATA_POST = 'PFS_SET_DATA_POST';
+export const PFS_SET_TABLE = 'PFS_SET_TABLE';
+export const PFS_RESET_DATA_SEARCH = 'PFS_RESET_DATA_SEARCH';
+export const PFS_RESET_DATA_POST = 'PFS_RESET_DATA_POST';
+export const PFS_SET_LIST_BUTTON_FILTER = 'PFS_SET_LIST_BUTTON_FILTER';
+export const PFS_UPDATE_STATUS = 'PFS_UPDATE_STATUS';
+export const PFS_SET_LIST_ASSIGN = 'PFS_SET_LIST_ASSIGN';
+export const PFS_SET_FILTER_DATA_SELECT = 'PFS_SET_FILTER_DATA_SELECT';
+export const PFS_RECEIVE_REQUEST = 'PFS_RECEIVE_REQUEST';
+/**************************************************************/
+export const PP_SET_DATA_POST = 'PP_SET_DATA_POST';
+export const PP_RESET_DATA_POST = 'PP_RESET_DATA_POST';
+export const PP_SET_TABLE = 'PP_SET_TABLE';
+export const PP_SET_LIST_DATA_BANK = 'PP_SET_LIST_DATA_BANK';
+export const PP_SHOW_HIDE_MODAL = 'PP_SHOW_HIDE_MODAL';
+export const PP_SET_DATA_FILTER_SELECT = 'PP_SET_DATA_FILTER_SELECT';
+export const PP_SET_DATA_BANK = 'PP_SET_DATA_BANK';
+export const PP_RESET_DATA_BANK = 'PP_RESET_DATA_BANK';
+export const PP_DELETE_DATA_BANK = 'PP_DELETE_DATA_BANK';
+export const PP_SEND_PROCESS_PROFILE = 'PP_SEND_PROCESS_PROFILE';
+export const PP_SET_SUGGEST_DATA_BANK = 'PP_SET_SUGGEST_DATA_BANK';
+/**************************************************************/
+export const DP_SET_DATA_POST = 'DP_SET_DATA_POST';
+export const DP_RESET_DATA_POST = 'DP_RESET_DATA_POST';
+export const DP_SET_LIST_PROGRESS = 'DP_SET_LIST_PROGRESS';
+export const DP_SET_DATA_SELECT = 'DP_SET_DATA_SELECT';
+export const DP_UPDATE_PROGRESS = 'DP_UPDATE_PROGRESS';

@@ -1,0 +1,25 @@
+{
+  "result": true,
+  "code": "200",
+  "message": "Thao tác thành công",
+  "validatedMessage": null,
+  "data": [
+    {
+      "departmentId": 26,
+      "departmentType": "ZONE",
+      "departmentName": "Zone 5",
+      "departmentShortName": "",
+      "parentId": 0,
+      "emailCCLegal": "pfs.legal.m2@propzy.com"
+    },
+    {
+      "departmentId": 27,
+      "departmentType": "ZONE",
+      "departmentName": "Zone 6",
+      "departmentShortName": "",
+      "parentId": 0,
+      "emailCCLegal": "pfs.legal.m3@propzy.com"
+    }
+  ],
+  "additional": null
+}

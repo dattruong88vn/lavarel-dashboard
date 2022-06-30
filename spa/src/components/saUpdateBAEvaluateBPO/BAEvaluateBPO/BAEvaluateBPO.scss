@@ -1,0 +1,53 @@
+.ba-evaluate-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+    .ba-name-status {
+        display: flex;
+        .ba-name {
+            padding-left: 5px;
+        }
+
+        .ba-status {
+            color: #e08e00;
+            margin-left: 10px;
+        }
+        .delete-icon {
+            width: 14px;
+            height: 14px;
+        }
+    }
+
+    .ba-evaluate-remove {
+        display: inline-flex;
+        width: 90%;
+        margin-left: 20px;
+        .ba-evaluate {
+            // width: max-content;
+            color: #b5b5b5;
+            width: 150px;
+            // padding-top: 7px;
+        }
+
+        .ba-remove {
+            width: 100%;
+            margin-left: 20px;
+            .ba-delete {
+                color: red;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .ba-cancel {
+                color: rgb(23, 108, 235);
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .ba-evaluate-remove__title {
+            color: #b5b5b5;
+        }
+        .ba-evaluate-remove__container__title{
+            padding: 3px 5px 10px 0;
+        }
+    }
+}

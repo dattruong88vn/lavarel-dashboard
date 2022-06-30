@@ -1,0 +1,70 @@
+#main .t-detail h1 {
+    margin-top:0;
+}
+.item-transparent .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.4;
+    display:none;
+    z-index:4;
+}
+.item-transparent .text {
+    z-index:5;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    color:#fff;
+    display:none;
+}
+.item-transparent a {
+    position: relative;
+}
+.project-detail-feature .zoom {
+    left:5px !important;
+    top: 5px !important;
+}
+.list-social .active {
+    color: #337ab7;
+}
+.custom-gallery .item:first-child {
+    padding-bottom:15px;
+}
+#main .scroll-bds-rent {
+    display:none;
+}
+#main .scroll-bds-buy {
+    display:none;
+}
+.sec-tb {
+    padding: 16px 0;
+}
+.zalo-share-button {
+	overflow: auto !important;
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.zalo-share-button iframe {
+	display: none !important;
+}
+.p-project-detail .share.active .toggle:hover {
+	color: white !important;
+}
+.icon-download1 {
+    z-index:5;
+}
+body {
+	font-family: 'SF-UI-Display', sans-serif !important;
+}
+.entry-head-3 .ht2 {
+    font-weight: 500;
+}
+.entry-head-3:after{
+    height: 17px;
+}

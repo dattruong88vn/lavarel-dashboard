@@ -1,0 +1,17 @@
+1) Tạo thư mục react (containers,component, ....) và 1 file js tên giống nhau trong trong folder src. THAM KHẢO CODE CÓ SẴN TRONG THƯ MỤC SRC/CHANGE_CARD_TYPE và change_card_type.js
+2) khai báo đường dẫn file js trong folder src vừa tạo (1) ở trên vào build_config/entries.js
+3) npm run build
+4) Sau khi build (3) sẽ thấy xuất hiện file với trên tương ứng đã config trong entries (2) trong folder public/app
+5) để dùng component vừa config ở trên thì gọi file js vừa build ra trong public/app (4) vào view
+----------------------------------------------
+EX: Ví dụ cụ thể các bước trên vào task dựng trang import config HML classify
+1) Tạo folder và file js với tên classify_deal_hml trong thư mục src
+2) Define entries classify_deal_hml trong build_config/entries.js
+3) npm run build
+4) Vào view theo url http://dashboard.propzy.local/classify/import-deal-hml 
+-- define div với id classify_deal_hml (id này đã được define trong classify_deal_hml.js ở bước 1)
+-- add file <script type="text/javascript" src="/app/classify_deal_hml.js"></script> vào page js 
+------------------------------------------------
+Lưu ý: 
+- Các cách call api, sử dụng reducer như thế nào nên tham khảo ở các component đã có trước đó
+- Mỗi khi có thay đổi js thì cần npm run build trước khi reload trang

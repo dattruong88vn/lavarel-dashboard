@@ -1,0 +1,191 @@
+.landingpage{
+    padding-top: 52px;
+}
+#search-in-detailt.fixed {
+    top: 52px !important;
+}
+.bl-title {
+    display: table;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.h3-title, .h3-title a{
+    color: #363636;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Roboto,sans-serif;
+}
+.bl-title .a-readmore {
+    float: right;
+    display: inline-block;
+    color: #f17422;
+    font-size: 16px;
+    padding-top: 23px;
+}
+.bl-banner{
+    background: url('https://cdn.propzy.vn/cms_portal/2019/04/10/cms-portal_156d759f88f64c6375ac377a50e83bd29f6fa0403e38db1ca5586bbbdb2d0aef.jpg') no-repeat center;
+    background-size: cover;
+    height: 340px;
+    width: 100%;
+    color: #fdfdfe;
+    margin-bottom: 10px;
+}
+.bl-banner .bl-text{
+    width: 66%;
+    padding-top: 85px;
+}
+.bl-banner .bl-text h2{
+    font-size: 35px;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+}
+.bl-banner .bl-text p{
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    line-height: 1.56;
+    font-size: 18px;
+}
+.landingpage .bl-listing{
+    margin-bottom: 10px;
+}
+.landingpage .bl-listing .block-info{
+    font-size: 16px;
+    color: #363636;
+}
+.landingpage .bl-listing .bl-district{
+    color: #f17422;
+    padding-top: 5px;
+}
+.landingpage .bl-listing .bl-price .span-price:after{
+    display: none;
+}
+.landingpage .bl-listing .bl-price{
+    color: #363636;
+}
+.landingpage .bl-listing .block-info p{
+    margin-top: 8px;
+}
+.landingpage .bl-listing .bl-value{
+    padding-top: 5px
+}
+.landingpage .bl-listing .bl-info-listing .elements{
+    font-size: 16px;
+}
+.landingpage .bl-listing .bl-info-listing .elements.bathroom {
+    padding-left: 40px;
+}
+.landingpage .bl-listing .bl-info-listing .elements.bathroom:before{
+    left: 12px;
+}
+.bl-land-hightlight img{
+	width: 100%;
+}
+.bl-land-hightlight a{
+	color: #fff;
+}
+.bl-land-hightlight .p-slogan{
+	font-size: 20px;
+	margin: 20px 0 40px;
+}
+.bl-land-hightlight .bl-title{
+    padding-bottom: 0;
+}
+.bl-land-hightlight .col-sm-12{
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-left: 8px;
+    padding-bottom: 0px;
+}
+.bl-land-hightlight .col-sm-6, .bl-land-hightlight .col-sm-3{
+	padding: 8px;
+}
+.listing-scrollable-block .bxslider.col {
+    padding-left: 0px;
+}
+#popup-confirm-information .modal-body{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#popup-confirm-information .modal-body h1{
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#popup-confirm-information .modal-body p{
+    font-size: 18px;
+}
+#popup-confirm-information .modal-body h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#popup-confirm-information .bl-btn-group .btn{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 30px 10px 65px;
+    margin-right: 10px;
+    position: relative;
+}
+#popup-confirm-information .bl-btn-group .btn:last-child{
+    margin-right: 0;
+}
+#popup-confirm-information .bl-btn-group .btn-gray{
+    background-color: #6b6b6b;
+}
+#popup-confirm-information .bl-btn-group .btn-blue{
+    background-color: #164b85;
+}
+#popup-confirm-information .bl-btn-group .btn-red{
+    background-color: #fb7533;
+}
+#popup-confirm-information .bl-btn-group .btn:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/iconweb.svg?v=03.06.2019');
+    background-position-y: -30px;
+}
+#popup-confirm-information .bl-btn-group .btn-gray:before{
+    background-position-x: -600px;
+}
+#popup-confirm-information .bl-btn-group .btn-blue:before{
+    background-position-x: -570px;
+}
+#popup-confirm-information .bl-btn-group .btn-red:before{
+    background-position-x: -540px;
+}
+.bl-land-hightlight .hot-districts a{
+	border-color: #fff!important;
+}
+.bl-land-hightlight .item-hot-block{
+	margin: 0px;
+}
+.owl-carousel:hover .owl-next {
+    background: url(/assets/images/svg-icons.svg?v=03.06.2019) no-repeat -860px -10px transparent !important;
+    position: absolute;
+    right: -32px;
+    z-index: 30;
+    width: 58px;
+    height: 58px;
+    margin-top: -40px !important;
+}
+.owl-carousel:hover .owl-prev {
+    background: url(/assets/images/svg-icons.svg?v=03.06.2019) no-repeat -919px -10px transparent !important;
+    position: absolute;
+    z-index: 30;
+    width: 58px;
+    height: 58px;
+    margin-top: -40px !important;
+    left: -30px;
+}
+@media (min-width: 768px){
+    #popup-confirm-information .modal-dialog {
+        width: 740px;
+    }
+}

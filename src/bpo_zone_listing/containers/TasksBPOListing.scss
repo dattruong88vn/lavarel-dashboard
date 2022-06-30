@@ -1,0 +1,51 @@
+.nav__listing {
+    margin-bottom: 10px;
+}
+
+.tasks-container {
+    min-height: calc(100vh - 330px); // calc 100vh - (height navbar (60px) + height filter = 111px + padding and margin)
+}
+
+.box-body {
+    position: relative;
+}
+
+.filter-records {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+
+    &__select {
+        width: 100px;
+    }
+}
+
+.filter-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.p-r-xxs {
+    padding-right: 5px;
+}
+
+.p-l-xxs {
+    padding-left: 5px;
+}
+.no-bold {
+    font-weight: normal !important;
+}
+.mb-2 {
+    margin-bottom: 10px;
+}
+div.suggestion__value-container div.suggestion__multi-value {
+    border-radius: 25px;
+}

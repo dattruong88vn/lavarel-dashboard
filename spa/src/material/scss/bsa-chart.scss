@@ -1,0 +1,121 @@
+.del-padding-right-col {
+    padding-right:0;
+}
+.custom-panel-bsa {
+    border-top: 3px solid #3c8dbc;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.title-bpo-bashboard {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+#bpo-chart {
+    label {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .control-label {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .block-chart {
+        display: flex;
+        align-items: center;
+        span {
+            font-size: 18px;
+            font-weight: 700;
+            margin-left:10px;
+        }
+    }
+}
+
+.shortcut-filter-container {
+    .container-listing-90 {
+        display: flex;
+        table {
+            margin-bottom: 0;
+        }
+    }
+    .container-listing-in-month {
+        display: flex;
+        margin-bottom:10px;
+        table {
+            margin-bottom: 0;
+        }
+    }
+    .custom-padding-col-md-4 {
+        padding-left:0;
+    }
+    .table-td-width {
+        width: 13%
+    }
+    .block-expand-matrix {
+        display: inline-flex;
+        align-items: center;
+        padding: 15px 0;
+        margin-left: 15px;
+        cursor: pointer;
+        .fa {
+            font-size: 30px;
+        }
+        a {
+            padding-left: 8px;
+            text-decoration: underline;
+        }
+    }
+    
+    a {
+        cursor: pointer;
+    }
+
+    .label-deal {
+        background: #f4f4f4;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 2px;
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+
+    .block-filter {
+        display: flex;
+        justify-content: stretch;
+        align-items: center;
+        .filter {
+            padding-right:0;
+
+            >.btn-default {
+                margin:0;
+            }
+            
+            .group-btn {
+                .btn {
+                    &:hover, &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+        
+        .label-deal {
+            margin-bottom:0;
+            flex:1;
+        }
+    }   
+
+    .in-month-title {
+        height: 100%;
+        background: #f4f4f4;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin-bottom: 7px;
+    }
+}

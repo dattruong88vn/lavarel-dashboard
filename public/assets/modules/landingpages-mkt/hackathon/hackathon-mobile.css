@@ -1,0 +1,622 @@
+.hackathon-mobile{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-size: 14px;
+    background-color: #fff;
+    color: #454545;
+}
+.hackathon-page a:focus{
+	outline: none;
+}
+.h-title {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    color: #454545;
+    margin: 0 0 30px;
+}
+.h-title:before {
+    content: '';
+    width: 160px;
+    height: 2px;
+    background-color: #ffd200;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -80px;
+}
+.bl-banner img{
+	width: 100%;
+}
+.bl-banner .glyphicon-chevron-left:before,.bl-banner .glyphicon-chevron-right:before{
+	display: none;
+}
+.bl-banner .carousel-control,.bl-banner .carousel-control:focus,.bl-banner .carousel-control:hover{
+	opacity: 1
+}
+.bl-banner .carousel-control .glyphicon-chevron-left,.bl-banner .carousel-control .glyphicon-chevron-right, 
+.bl-banner .carousel-control .icon-next,.bl-banner .carousel-control .icon-prev{
+	width: 25px;
+	height: 64px;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 45%;
+}
+.bl-banner .carousel-control .glyphicon-chevron-left{
+	background-image: url('/assets/images/landing-page/hackathon/mobile/icons/icon-prev.png');
+	left: 35%;
+}
+.bl-banner .carousel-control .glyphicon-chevron-right{
+	background-image: url('/assets/images/landing-page/hackathon/mobile/icons/icon-next.png');
+	right: 35%;
+}
+.bl-banner .navbar-toggle{
+	margin-right: 0;
+	padding: 2px 0;
+}
+.bl-banner .navbar-toggle .icon-bar{
+	background-color: #fff;
+	height: 5px;
+	border-radius: 10px;
+	width: 25px;
+}
+.bl-header{
+	position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0 15px;
+}
+.bl-header.menu-mobile{
+	background-color: rgba(0,56,128,.9);
+	z-index: 10;
+}
+.bl-header.menu-mobile .navbar-collapse{
+	border-top-color: #fff;
+	padding-bottom: 7px;
+	float: left;
+	width: 100%;
+}
+.bl-header .navbar-collapse{
+	float: right;
+}
+.bl-header .logo{
+	width: 82px;
+	height: 21px;
+	display: inline-block;
+	background: url('/assets/images/landing-page/hackathon/mobile/logo.png') no-repeat center transparent;
+	margin-top: 15px;
+	background-size: 82px auto;
+}
+.bl-header .navbar-nav>li{
+	padding: 0 15px;
+}
+.bl-header .navbar-nav>li>a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 9px 0 0;
+	display: inline-block;
+}
+.bl-header .nav>li.active>a{
+	border-bottom: 1px solid #fff;
+}
+.bl-header .nav>li>a:focus, .bl-header .nav>li>a:hover{
+	background-color: transparent;
+}
+.bl-banner .btn-register{
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #ffd200;
+	font-size: 19px;
+	border-radius: 8px;
+	padding: 17px 25px 12px;
+	position: absolute;
+	bottom: 50px;
+	right: 32%;
+}
+.bl-banner .btn-register:focus,.bl-banner .btn-register:active:focus{
+	outline: none;
+}
+.bl-banner .btn-register:active{
+	box-shadow: none;
+}
+.bl-introduce{
+	background-color: #b3e6fc;
+	padding: 30px 40px 50px;
+}
+.bl-introduce .bl-info{
+	padding-top: 25px;
+	font-size: 14px;
+}
+.bl-introduce .bl-info p{
+	margin-bottom: 20px;
+}
+.bl-theme{
+	background-color:#fff;
+	padding: 30px 20px 0;
+}
+.bl-theme .h-title:before{
+	width: 130px;
+	margin-left: -65px;
+}
+.bl-theme .p-slogan{
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+.bl-theme .p-slogan span{
+	font-weight: 500;
+}
+.bl-theme .panel-group .panel{
+	box-shadow: none;
+	border-radius: 0;
+	margin-top: 1px;
+	border: 0;
+}
+.bl-theme .panel-title{
+	position: relative;
+	font-size: 12px;
+}
+.bl-theme .panel-title:before{
+	content: '';
+	display: inline-block;
+	width: 33px;
+	height: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	background-size: 33px auto;
+	top: 6px;
+	left: 10px;
+}
+.bl-theme #heading-1 .panel-title:before{
+	background-image: url('/assets/images/landing-page/hackathon/mobile/icons/icon-1.png');
+}
+.bl-theme #heading-2 .panel-title:before{
+	background-image: url('/assets/images/landing-page/hackathon/mobile/icons/icon-2.png');
+}
+.bl-theme #heading-3 .panel-title:before{
+	background-image: url('/assets/images/landing-page/hackathon/mobile/icons/icon-3.png');
+}
+.bl-theme #heading-4 .panel-title:before{
+	background-image: url('/assets/images/landing-page/hackathon/mobile/icons/icon-4.png');
+}
+.bl-theme .panel-title a{
+	display: block;
+	background: #f0f0f0;
+    height: 45px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.bl-theme .panel-title a span{
+	display: inline-block;
+    padding-left: 50px;
+    padding-top: 6px;
+}
+.bl-theme .panel-default>.panel-heading{
+	height: 45px;
+	border-radius: 0;
+	background-color: transparent;
+	padding: 0;
+}
+.bl-theme a[aria-expanded="true"]{
+	background-color: #ffd200;
+}
+.bl-theme a[aria-expanded="false"]:after, .bl-theme a[aria-expanded="true"]:after {
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 10px;
+    background-size: 12px auto;
+}
+.bl-theme a[aria-expanded="false"]:after {
+    background-image: url('/assets/images/landing-page/hackathon/mobile/icons/ic-1.png');
+    top: 17px;
+}
+.bl-theme a[aria-expanded="true"]:after {
+    background-image: url('/assets/images/landing-page/hackathon/mobile/icons/ic-2.png');
+    height: 2px;
+    top: 22px;
+}
+.bl-theme .panel-body{
+	background-color: #f0f0f0;
+	border: 1px solid #e5e5e5;
+	margin-top: 6px;
+	position: relative;
+	font-size: 12px;
+}
+.bl-theme .panel-body:before{
+	content: '';
+	display: inline-block;
+	width: 19px;
+	height: 8px;
+	position: absolute;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('/assets/images/landing-page/hackathon/mobile/icons/ic-arrow.png');
+	top: -8px;
+	background-size: 19px auto;
+	left: 50px;
+}
+
+.bl-price{
+	position: relative;
+    display: none;
+}
+.bl-price .h-title{
+	position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -83px;
+}
+.bl-price .h-title:before{
+	width: 88px;
+	margin-left: -44px;
+	background-color: #fff;
+}
+.bl-rules{
+	background: url('/assets/images/landing-page/hackathon/mobile/bg-rules.jpg') no-repeat center transparent;
+	padding: 30px 20px 60px 0;
+	background-size: cover;
+	position: relative;
+	min-height: 1113px;
+}
+.bl-rules .h-title{
+	padding-left: 20px;
+}
+.bl-rules .h-title:before{
+	width: 112px;
+	margin-left: -42px;
+}
+.bl-rules .bl-container ul{
+	padding-left: 53px;
+}
+.bl-rules .p-title{
+	display: inline-block;
+	background-color: #fffbe6;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 9px 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.bl-rules .p-note{
+	padding-left: 20px;
+}
+/*.bl-register{
+	background: url('/assets/images/landing-page/hackathon/bg-register.jpg') no-repeat center transparent;
+	min-height: 569px;
+	padding: 30px 20px 10px;
+	background-size: cover;
+	position: relative;
+}*/
+.bl-register .h-title{
+	color: #fff;
+	margin-bottom: 45px;
+}
+.bl-register .h-title:before{
+	width: 256px;
+	margin-left: -128px;
+}
+.bl-register .bl-container{
+	padding: 0 25px;
+}
+.bl-register .bl-container [class*='col-sm-']{
+	padding: 0 8px;
+}
+.bl-register .form-group{
+	margin-bottom: 10px;
+}
+.bl-register .form-control{
+	height: 42px;
+	color: #696969;
+	box-shadow: none;
+	background-color: #f6f6f6;
+	border-color: #eee;
+	font-size: 14px;
+	border-radius: 3px;
+}
+.bl-register textarea.form-control{
+	height: 85px;
+	max-width: 100%;
+}
+.bl-register .btn-register{
+	text-transform: uppercase;
+	color: #000;
+	font-size: 20px;
+	background-color: #fff;
+	border: 0;
+	height: 46px;
+	border-radius: 0;
+	padding: 10px 30px;
+	margin-top: 20px;
+}
+#btn-register{
+	position: fixed;
+	text-transform: uppercase;
+	width: 100%;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	color: white;
+	padding: 15px;
+	border-radius: 0;
+	background: url('/assets/images/landing-page/hackathon/mobile/icons/ic-btn.png') no-repeat 90% center #ffd200;
+	background-size: 15px auto;
+}
+.bl-register select.form-control{
+	-webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+	background: url('/assets/images/landing-page/hackathon/icons/ic-arrow-select.png') no-repeat 98% center #f6f6f6;
+}
+.bl-footer{
+	background-color: #fff;
+	font-size: 18px;
+	padding: 15px 0 75px;
+}
+.bl-footer .logo{
+	width: 82px;
+	height: 22px;
+	display: inline-block;
+	background: url('/assets/images/landing-page/hackathon/mobile/logo-footer.png') no-repeat center transparent;
+	background-size: 82px auto;
+}
+.bl-footer p{
+	margin-bottom: 0;
+	font-size: 14px;
+}
+.bl-footer p.p-name{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.bl-footer .mailto{
+	color: #ffd200;
+	border-bottom: 1px solid #ffd200;
+	font-size: 14px;
+}
+#register-modal .bl-register{
+	background-color: #ffd200;
+	height: 100%;
+	position: relative;
+}
+#register-modal .close{
+	width: 40px;
+	height: 30px;
+	position: absolute;
+	top: 16px;
+    right: 25px;
+
+}
+#register-modal .p-title{
+	font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    background: url(/assets/images/landing-page/hackathon/mobile/icons/angle-down.png) no-repeat 90% center #ffd200;
+    background-size: 45px auto;
+    background-position: 95%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.modal-popup{
+	text-align: center;
+	padding: 0!important;
+}
+.modal-popup:before {
+	content: '';
+	display: inline-block;
+	height: 25%;
+	width: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+.modal-popup .close{
+	opacity: 1;
+	position: absolute;
+	right: -2px;
+	top: -35px;
+	width: 30px;
+	height: 30px;
+	background: url(/assets/images/iconweb.svg?v=03.06.2019) no-repeat -990px 0;
+}
+.modal-popup .modal-content{
+	padding: 12px;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+.modal-popup .title-popup{
+	font-size: 23px;
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
+.modal-popup .form-group{
+	margin-bottom: 17px;
+}
+#modal-done .modal-body p:before{
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    background: url('/assets/images/icon_mobielmenu.svg?v=03.06.2019') no-repeat -120px -42px;
+}
+#modal-done .modal-body p{
+    margin : 20px 0 -20px;
+}
+#modal-error .modal-body p:before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    background: url('/assets/images/icon_mobielmenu.svg?v=03.06.2019') no-repeat -175px -42px;
+}
+#modal-error .modal-body p{
+    margin : 30px 0 -20px;
+}
+
+.bl-job{
+	background: url('/assets/images/landing-page/hackathon/mobile/bg-job.jpg') no-repeat center transparent;
+	padding: 25px 20px 35px;
+	background-size: cover;
+	position: relative;
+}
+.bl-job .h-title:before {
+    width: 90px;
+    margin-left: -45px;
+}
+.bl-job .btn-job{
+	background: url('/assets/images/landing-page/hackathon/icons/ic-select.png') no-repeat 96% center #f6f6f6;
+	border-color: #eee;
+	box-shadow: none;
+	display: block;
+	width: 100%;
+	text-align: left;
+	color: #696969;
+	font-size: 16px;
+	border-radius: 2px;
+	padding: 8px 20px 6px;
+	margin: 5px 0;
+	background-size: 7px auto;
+}
+.bl-job .btn-job:focus{
+	outline: none;
+}
+@media(max-width: 375px){
+	.bl-register textarea.form-control{
+		height: 85px
+	}
+}
+@media(max-width: 320px){
+	.bl-register .form-control{
+		height: 38px;
+	}
+	.bl-register textarea.form-control{
+		height: 65px;
+	}
+	#register-modal .close{
+		right: 17px;
+	}
+}
+.modal-popup .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.info-email a, .nop-ho-so{
+    color: #fff;
+}
+
+.content-modal-tuyendung{
+    font-family: Roboto, sans-serif;
+    border-radius: 5px !important;
+    max-width: 740px;
+}
+.title-popup{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 0 0 2px;
+}
+.submit-nop{
+    margin: 30px 0 15px 4px;
+    min-height: 16px;
+    padding: 15px 9px 10px 0;
+    position: relative;
+    width: 130px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #fb7533;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+.text-style{
+    font-weight: 700;
+    line-height: 24px;
+}
+.popup-tuyendung-content .close{
+    right: -1px;
+    top: -28px;
+}
+.content-tuyendung{
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.modal-dialog{
+    top: -130px;
+}
+
+
+.bl-table-schedule{
+	padding: 0 10px 0 30px;
+}
+.table-schedule{
+	font-size: 14px;
+	background-color: #ffed99;
+	color: #454545;
+}
+.table-schedule>thead>tr>th{
+	color: #fff;
+	border-bottom: 0;
+	background-color: #6c6c6c;
+	padding-top: 13px;
+	padding-bottom: 11px;
+}
+.table-schedule>tbody>tr>td{
+	border-top: 0;
+	border-bottom: 1px solid #c8be8f;
+	padding-top: 7px;
+	padding-bottom: 5px;
+}
+.table-schedule .th-work{
+	padding-left: 30px;
+}
+.table-schedule .td-time{
+	background-color: rgba(239,239,239,.3);
+	text-align: center;
+}
+.table-schedule .td-work{
+	background-color: rgba(217,217,217,.3);
+	padding-left: 30px;
+}
+
+@media(max-width: 414px){
+	.table-schedule{
+		font-size: 11px;
+	}
+}
+@media(max-width: 375px){
+	.table-schedule{
+		font-size: 9px;
+	}
+}
+@media(max-width: 320px){
+	.table-schedule{
+		font-size: 7px;
+	}
+}
+.modal-done .modal-dialog {
+    margin-top: 100px;
+}

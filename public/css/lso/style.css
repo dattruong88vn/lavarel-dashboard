@@ -1,0 +1,152 @@
+#scrollTopBtn {
+    display: none;
+    /* Hidden by default */
+    
+    position: fixed;
+    /* Fixed/sticky position */
+    
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    
+    right: 30px;
+    /* Place the button 30px from the right */
+    
+    z-index: 99;
+    /* Make sure it does not overlap */
+    
+    border: none !important;
+    /* Remove borders */
+    
+    background-color: #1E90FF;
+    outline: none;
+    /* Remove outline */
+    
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    
+    padding: 15px;
+    /* Some padding */
+    
+    color: #F0FFFF;
+    border-radius: 10px;
+    /* Rounded corners */
+}
+#scrollTopBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+.badge-notify {
+    background: red;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    margin-right: -22px;
+}
+#lso-ps-done-datas,
+#lso-ps-done-datas td,
+#lso-ps-datas,
+#lso-ps-datas td {
+    width: auto;
+    border: none;
+}
+.is-crm {
+    color: #A9A9A9;
+}
+.is-done {
+    text-decoration: line-through;
+}
+.modal {
+    overflow-y: auto;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.check-addr-btn {
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    background-color: rgba(219, 87, 5, 1);
+    /*font-family: 'Yanone Kaffeesatz';*/
+    
+    font-weight: 700;
+    font-size: 1.2em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+    box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+    margin-top: -5px;
+    margin-bottom: 5px;
+    width: 160px;
+    text-align: center;
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+.check-addr-btn:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    -moz-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    position: relative;
+    top: 6px;
+}
+
+[v-cloak] {
+    display: none;
+}
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: solid 1px #000000;
+}
+
+.vuetable {
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    border-spacing: 0;
+    /*font: normal 13px Arial, sans-serif;*/
+    /*display: block;
+    overflow-x: auto;
+    white-space: nowrap;*/
+}
+
+.vuetable thead tr th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.vuetable tr td {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}

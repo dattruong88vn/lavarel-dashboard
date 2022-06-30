@@ -1,0 +1,28 @@
+{
+    "result": true,
+    "code": "200",
+    "message": "Thao tác thành công",
+    "validatedMessage": null,
+    "data": [
+    {
+        "value": "FOURDOTFIVE_TO_FIVE",
+        "label": ">= 4.5"
+    },
+    {
+        "value": "FOUR_TO_FOURDOTFIVE",
+        "label": "< 4.5"
+    },
+    {
+        "value": "THREE_TO_FOUR",
+        "label": "Đánh giá khác biệt"
+    },
+    {
+        "value": "TWO_TO_THREE",
+        "label": "Đã đánh gía, chưa chốt"
+    },
+    {
+        "value": "ZERO_TO_TWO",
+        "label": "Chưa BPO"
+    }
+    ]
+}

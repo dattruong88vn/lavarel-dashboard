@@ -1,0 +1,222 @@
+#bl-header-mobile{
+    display: none;
+}
+.bl-content-love{
+    padding: 20px 10px 30px;
+}
+.bl-content-love .bl-listing{
+    margin-bottom: 20px;
+}
+.col-info-customer{
+    padding: 0 15px;
+    background: #f9f9f9;
+}
+.col-info-customer .bl-info-customer{
+    padding: 0 15px;
+}
+.bl-info-customer .title-cart{
+    font-size: 22px;
+    color: #363636;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.col-info-customer .btn-schedule{
+    background: #f17523;
+    width: 100%;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: bold;
+    height: 45px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0 25px;
+}
+.button-group p{
+    font-size: 13px;
+    color: #474747;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+.yeu-thich .col-no-listing {
+    text-align: center;
+}
+.yeu-thich .col-no-listing .span-img{
+    background: url('/assets/images/unliked.png') no-repeat center;
+    display: inline-block;
+    width: 159px;
+    height: 155px;
+    margin: 40px 0 25px;
+}
+.yeu-thich .col-no-listing h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.yeu-thich .col-no-listing p {
+    color: #484848;
+    font-size: 15px;
+    line-height: 38px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.btn-continue-search {
+    font-weight: bold;
+    font-size: 16px;
+    color: #f17523;
+    border: 1px solid #f17523;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 40px;
+    height: 47px;
+    padding: 12px 24px;
+}
+.col-dropdown-listing .a-dropdown {
+    width: 40px;
+    height: 35px;
+    right: -1px;
+}
+/*mobile text dat-lich-xem*/
+.bl-content-love .bl-listing .p-set-calendar{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #676767;
+    border-top: 1px solid #e3e3e3;
+    margin: 15px 5px 0;
+    height: inherit;
+    padding: 15px 0 0;
+}
+.bl-content-love .bl-listing .block-info{
+    padding-bottom: 15px;
+}
+.bl-info-customer .panel-group .panel{
+    margin-bottom: 15px;
+}
+.bl-info-customer .panel-default>.panel-heading{
+    background-color: #f2f2f2;
+    border-color: #e8e8e8;
+    padding: 10px;
+}
+.bl-info-customer .panel-default>.panel-heading a {
+    display: block;
+    color: #676767;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+}
+.bl-info-customer .panel-default>.panel-heading .panel-title{
+    position: relative;
+    padding-left: 32px;
+}
+.bl-info-customer .panel-default>.panel-heading .panel-title:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+    background-image: url(/assets/images/svg-icons.svg?v=03.06.2019);
+}
+.bl-info-customer .panel-default> #headingOne.panel-heading .panel-title:before{
+    background-position: -1097px -814px;
+    top: -9px;
+}
+.bl-info-customer .panel-default> #headingTwo.panel-heading .panel-title:before{
+    background-position: -1148px -814px;
+    top: -7px;
+}
+.bl-info-customer .panel-title>a[aria-expanded="false"]:before, .bl-info-customer .panel-title>a[aria-expanded="true"]:before {
+    display: inline-block;
+    font: normal normal normal 18px/1 FontAwesome;
+    color: #676767e6;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.bl-info-customer .panel-title>a[aria-expanded="false"]:before {
+    content: '\f107';
+}
+.bl-info-customer .panel-title>a[aria-expanded="true"]:before {
+    content: '\f106';
+}
+.bl-info-customer .panel-default>.panel-heading+.panel-collapse>.panel-body{
+    border: 0;
+    background-color: #f2f2f2;
+}
+.bl-calendar .p-title{
+    font-size: 18px;
+    color: #676767;
+    text-align: center;
+}
+.bl-calendar .row{
+    margin: 0 -5px;
+}
+.bl-calendar .col-50{
+    width: 48.5%;
+}
+.bl-calendar .col-50:first-child{
+    margin-right: 3%;
+}
+.bl-calendar .p-sort{
+    font-size: 13px;
+    color: #a8a8a8;
+    text-align: center;
+    margin-bottom: 0;
+}
+.bl-calendar .bl-time {
+    color: #676767;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 5px;
+}
+.bl-calendar .bl-time p.p-date {
+    border-bottom: 1px solid #bfbfbf;
+}
+.bl-calendar .bl-time p {
+    text-align: center;
+    margin-bottom: 0;
+}
+.bl-calendar .block-date{
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    padding: 5px;
+}
+.bl-calendar .block-date.active{
+    box-shadow: 0 2px 4px rgba(195,195,195,.35);
+}
+.bl-calendar .block-date.active .bl-time{
+    color: #f17423
+}
+.bl-calendar {
+    position: relative;
+}
+.bl-calendar .form-control{
+    border: 2px solid #eee;
+    height: 38px;
+}
+.bl-calendar .a-arrow{
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 24px;
+    position: absolute;
+    bottom: 45px;
+}
+.bl-calendar .a-arrow.prev{
+    background-image: url('/assets/images/version-4/icons/arrow-cal-prev.png');
+    left: 3px;
+}
+.bl-calendar .a-arrow.next{
+    background-image: url('/assets/images/version-4/icons/arrow-cal-next.png');
+    right: 3px;
+}

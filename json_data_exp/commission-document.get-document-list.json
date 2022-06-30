@@ -1,0 +1,47 @@
+{
+    "result": true,
+    "code": "200",
+    "message": "Thao tác thành công",
+    "validatedMessage": null,
+    "data": [
+        {
+            "id": 1,
+            "name": "document 1",
+            "listingTypeId": "1,2",
+            "files": [
+                {
+                    "type": "word",
+                    "link": "link1.word"
+                },
+                {
+                    "type": "pdf",
+                    "link": "link2.pdf"
+                }
+            ],
+            "expectedDate": 1594573200000,
+            "statusId": 1,
+            "listingTypeName": "Mua, Thuê",
+            "statusName": "Active"
+        },
+        {
+            "id": 2,
+            "name": "document test",
+            "listingTypeId": "1",
+            "files": [
+                {
+                    "type": "word",
+                    "link": "link3.word"
+                },
+                {
+                    "type": "pdf",
+                    "link": "link4.pdf"
+                }
+            ],
+            "expectedDate": 1594573200000,
+            "statusId": 1,
+            "listingTypeName": "Mua",
+            "statusName": "Active"
+        }
+    ],
+    "additional": null
+}

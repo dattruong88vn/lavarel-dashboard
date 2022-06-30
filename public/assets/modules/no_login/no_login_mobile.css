@@ -1,0 +1,74 @@
+#bl-header-mobile, .bl-footer, .bl-footer-top{
+    display: none;
+}
+.bl-info-account{
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 30px 10px 0;
+}
+.bl-info-account a{
+    width: 95px;
+    height: 95px;
+    background:url('/assets/images/version-4/img-no-login.png') no-repeat center;
+    background-size: 95px auto;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    padding-top: 27px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5px;
+}
+.bl-info-account p{
+    margin-bottom: 2px;
+}
+.bl-info-account .p-name{
+    font-size: 17px;
+    color: #474747;
+    font-weight: 500;
+}
+.nav-info{
+    margin: 0 10px;
+}
+.nav-info>li>a{
+    font-weight: 400;
+    font-size: 15px;
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 15px 0 8px;
+    margin-bottom: 10px;
+}
+.nav-info>li.active>a{
+    color: #f17423;
+}
+.nav-info>li>a:hover, .nav-info>li>a:visited, .nav-info>li>a:focus{
+    background-color: transparent;
+}
+.nav-info>li>a:before, .nav-info>li>a:after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.nav-info>li>a:after{
+    content: '';
+    display: inline-block;
+    right: 0;
+    top: 21px;
+    height: 10px;
+    width: 6px;
+    background-image: url('/assets/images/version-4/icons/ic-arrow.png');
+}
+.nav-info>li>a:before{
+    left: 0;
+    width: 22px;
+    height: 26px;
+    top: 10px;
+}
+.nav-info>li.li-6>a{
+/*    border-bottom: 0;*/
+}

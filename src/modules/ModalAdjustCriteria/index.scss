@@ -1,0 +1,21 @@
+.custom-modal-styling-title {
+    .config-name {
+        background-color: #367fa9;
+        color: white;
+        font-weight: bold;
+        padding: 3px 0px;
+        text-align: center;
+    }
+    .item-type {
+        input.config-value {
+            background: transparent;
+            border: 0;
+            border-bottom: 1px solid #d2d6de;
+            outline: 0;
+        }
+    }
+    .sub-config {
+        display: inline-block;
+        margin-right: 40px;
+    }
+}

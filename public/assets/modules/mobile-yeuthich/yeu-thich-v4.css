@@ -1,0 +1,71 @@
+@media only screen and (max-width:767px) { 
+    
+    #btnSchedule:hover, #btnSchedule:focus {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .item .bl-check {
+        background: rgba(0,0,0,.4);
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        right: -5px;
+        top: -7px;
+        z-index: 3;
+        border-radius: 50%;
+        border: 1px solid #fff;
+    }
+
+    .item .bl-check.active {
+        background: url(/assets/images/version-4/icons/mobile/ic-checkbox.png) no-repeat center rgba(0,0,0,.4);
+        background-size: 18px auto;
+    }
+
+    .item .bl-check.ck_choose_listing  {
+        display:none !important;
+    }
+    
+    .item .imeta-1 {
+        position:relative;
+    }
+
+    .form-love .bl-hour {
+        margin-bottom:15px;
+    }
+
+    .form-datlich .rowlabel .title strong {
+        color:#EF7733;
+    }
+    .rowlabel .col-50.bl-date{
+        margin-right:3%;
+    }
+    .col-50 {
+        width: 48.5%;
+    }
+    .bl-inline {
+        display: inline-block;
+        float: left;
+    }
+    #wrapper .col-no-listing {
+        text-align:center;
+    }
+    
+}
+.form-datlich .form-control-feedback.bv-no-label.glyphicon {
+    top: 22px;
+}
+.list-social .active {
+    color: #337ab7;
+}
+#share-zalo {
+    position: absolute;
+    left: 187px;
+    bottom: 25px;
+}
+.list-social .share-social{
+    width: 50px !important;
+    height: 50px !important;
+    bottom: 34px;
+    margin-right: 5px;
+}

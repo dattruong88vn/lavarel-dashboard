@@ -1,0 +1,32 @@
+{
+    "result": true,
+    "code": "200",
+    "message": "Thao tác thành công",
+    "validatedMessage": null,
+    "data": {
+        "commissionId": 2,
+        "userId": 285,
+        "period": "7/2020",
+        "commissionAccumulate": null,
+        "type": "COMMISSION_ACCUMULATED",
+        "commissionUsers": [
+            {
+                "formula": ">= 50.000.000 và <= 100.000.000",
+                "commission": "15.0%",
+                "commissionValue": null
+            },
+            {
+                "formula": ">= 50.000.000 và <= 100.000.000",
+                "commission": "20.0%",
+                "commissionValue": null
+            },
+            {
+                "formula": "< 50.000.000",
+                "commission": "25.0%",
+                "commissionValue": "4.772.727,273"
+            }
+        ],
+        "commissionAccumulateId": 87
+    },
+    "additional": null
+}

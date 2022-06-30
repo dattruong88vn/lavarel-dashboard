@@ -1,0 +1,12 @@
+#list-deal-matrix_wrapper,
+#lead-list_wrapper {
+    > div.row {
+        &:nth-child(2) {
+            margin: 0;
+            overflow-x: auto;
+            >div {
+                padding: 0;
+            }
+        }
+    }
+}

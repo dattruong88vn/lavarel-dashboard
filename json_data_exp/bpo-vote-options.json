@@ -1,0 +1,72 @@
+{
+    "result": true,
+    "code": 200,
+    "message": null,
+    "technicalMessage": null,
+    "data": [
+        {
+            "id": 1,
+            "content": "Bán được trong tháng này",
+            "monthDaysLeft": null,
+            "answers": [
+                {
+                    "content": "Rất khó bán",
+                    "questionId": 1,
+                    "grade": 1
+                },
+                {
+                    "content": "91 ngày trở lên mới bán được",
+                    "questionId": 1,
+                    "grade": 2
+                },
+                {
+                    "content": "Listing có khả năng bán trong 90 ngày",
+                    "questionId": 1,
+                    "grade": 3
+                },
+                {
+                    "content": "Listing có khả năng bán trong 60 ngày",
+                    "questionId": 1,
+                    "grade": 4
+                },
+                {
+                    "content": "Listing có khả năng bán trong tháng",
+                    "questionId": 1,
+                    "grade": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "content": "Bán được trong tháng tới",
+            "monthDaysLeft": 15,
+            "answers": [
+                {
+                    "content": "Rất khó bán",
+                    "questionId": 2,
+                    "grade": 1
+                },
+                {
+                    "content": "91 ngày trở lên mới bán được",
+                    "questionId": 2,
+                    "grade": 2
+                },
+                {
+                    "content": "Listing có khả năng bán trong 90 ngày",
+                    "questionId": 2,
+                    "grade": 3
+                },
+                {
+                    "content": "Listing có khả năng bán trong 60 ngày",
+                    "questionId": 2,
+                    "grade": 4
+                },
+                {
+                    "content": "Listing có khả năng bán trong tháng tới",
+                    "questionId": 2,
+                    "grade": 5
+                }
+            ]
+         }
+    ]
+}

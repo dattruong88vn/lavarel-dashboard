@@ -1,0 +1,15 @@
+.update-ba-container {
+    padding: 0px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    .color-red {
+        color: red;
+    }
+    height: 75vh;
+    overflow-y: auto;
+
+    .font-weight-bold {
+        font-weight: bold;
+    }
+}

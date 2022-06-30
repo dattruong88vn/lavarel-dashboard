@@ -1,0 +1,30 @@
+.main {
+	position: relative;
+	width: 1240px;
+	margin: auto;
+	margin-top: 63px;
+}
+
+.main img {
+	max-width: 100%;
+}
+
+.product {
+	position: absolute;
+	display: block;
+	width: 27%;
+	height: 16%;
+}
+.p-path{
+	padding-top: 10px;
+}
+.p-path a{
+	color: #666;
+}
+.p-path .s-red{
+	color: #e65656;
+}
+.page-mobile .product {
+	width: 38%;
+	height: 12%;
+}

@@ -1,0 +1,64 @@
+.thankyouban-page{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    font-size: 16px;
+    background-color: #fff;
+    color: #1e1e1e;
+}
+.bl-banner{
+	background: url('/assets/images/landing-page/thanks/mobile/banner-thanks-2.jpg') no-repeat center transparent;
+	background-size: cover;
+	color: #fff;
+	font-weight: 300;
+	height: 413px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 170px;
+}
+.bl-banner p{
+	margin-bottom: 0;
+}
+.bl-info-thanks{
+	padding: 10px 0 60px;
+	text-align: center;
+}
+.bl-info-thanks .p-title{
+	font-weight: 300;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+.bl-info-thanks .col-sm-3 p{
+	font-size: 15px;
+	color: #000;
+	margin-bottom: 35px;
+	margin-top: -15px;
+}
+.bl-info-thanks img{
+	width: 50%;
+}
+.bl-info-thanks .btn-backhome{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+	background-color: #f17423;
+	padding: 15px 25px 0;
+	height: 48px;
+	display: inline-block;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+@media(max-width: 414px){
+	.bl-info-thanks .col-sm-3 p{
+		padding: 0 80px;
+	}
+}
+@media(max-width: 375px){
+	.bl-info-thanks .col-sm-3 p{
+		padding: 0 50px;
+	}
+}
+@media(max-width: 320px){
+	.bl-info-thanks .col-sm-3 p{
+		padding: 0 30px;
+	}
+}

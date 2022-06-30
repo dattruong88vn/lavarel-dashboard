@@ -1,0 +1,23 @@
+/*
+   - code css xử lý riêng cho page home mobile
+    Created on : Dec 26, 2019, 1:09:35 PM
+    Author     : Minh Nguyen
+*/
+
+#tuvanModal .select{
+    padding-right: 35px;
+}
+.find-prop {
+    border: none;
+    font-size: 12px;
+}
+.item .group {
+	margin-top: 4px;
+}
+.for-project-content .wcontent .label {
+    position:relative;
+}
+.for-project-content .wcontent .label .price2 {
+    bottom:0;
+    top: auto;
+}

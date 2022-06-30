@@ -1,0 +1,134 @@
+.h3-title{
+	font-size: 22px;
+	color: #155aa7;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+}
+.bl-table{
+	display: table;
+	width: 100%;
+}
+.bl-table-center{
+	display: table;
+	margin: 0 auto;
+}
+.bl-banner{
+	position: relative;
+}
+.bl-banner .img-responsive{
+	min-height: 200px;
+}
+.bl-banner .bl-text{
+	position: absolute;
+	top: 0;
+}
+.bl-banner .bl-text h1{
+	font-size: 28px;
+	font-weight: 900;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ef7323;
+	margin-bottom: 15px;
+}
+.bl-banner .bl-text a{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	text-align: center;
+	background-color: #ef7323;
+	width: 170px;
+	display: inline-block;
+	height: 38px;
+	float: left;
+    padding-top: 6px;
+    position: relative;
+}
+.bl-banner .bl-text a.a-hotline{
+	background-color: #155aa7;
+	text-align: right;
+    padding-right: 12px;
+}
+.bl-banner .bl-text a.a-hotline:before{
+	content: '';
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	background: url('/assets/images/landing-page/landingpage-v2/ic-phone.png') no-repeat center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: 52% auto;
+}
+.bl-slogan{
+	padding: 20px 0;
+}
+.bl-bds .h3-title{
+	padding: 20px 0;
+	color: #ef7323;
+}
+.bl-bds .nav-tabs{
+	border: 0;
+	margin-bottom: 10px;
+	border-left: 1px solid #bdbdbd;
+}
+.bl-bds .nav-tabs>li{
+	width: 50%;
+}
+.bl-bds .nav-tabs>li>a{
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #fff;
+	font-weight: 400;
+	background-color: #cecece;
+	margin-right: 0;
+	border-radius: 0;
+	border: 1px solid #bdbdbd;
+	border-left: 0;
+	padding: 5px 0 3px;
+	text-align: center;
+}
+.bl-bds .nav-tabs>li.active>a, .bl-bds .nav-tabs>li.active>a:focus, .bl-bds .nav-tabs>li.active>a:hover{
+	background-color: #ef7323;
+	color: #fff;
+	border: 1px solid #ef7323;
+}
+.bl-bds .bl-listing{
+	margin: 15px 0;
+}
+.bl-bds .bl-listing .bl-price .span-price{
+	color: #ef7323;
+}
+.bl-bds .bl-tab .row{
+	margin: 0 -8px;
+}
+.bl-bds .bl-tab .col-xs-6{
+	padding: 0 8px;
+}
+.bl-bds .bl-tab .bl-listing .block-info{
+	font-size: 14px;
+}
+.bl-bds .bl-tab .bl-listing .block-info p{
+	height: 40px;
+}
+.bl-bds .bl-listing .bl-info-listing .elements{
+	font-size: 14px;
+	width: 50%;
+}
+.bl-bds .bl-table-center{
+	width: 100%;
+}
+.bl-bds .bl-listing .bl-price{
+	font-size: 18px;
+}
+.bl-bds .bl-listing .bl-price .span-price:after{
+	top: 1px;
+}
+@media (max-width: 414px){
+	body.page-mobile .bl-listing .blocks img {
+	    height: 130px;
+	}
+}

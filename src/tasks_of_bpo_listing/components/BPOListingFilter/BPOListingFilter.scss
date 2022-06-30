@@ -1,0 +1,26 @@
+.filter-select {
+  margin-top: 23px;
+
+  &__select {
+    & > div {
+      border-radius: 0;
+
+      &:hover {
+        border-color: none;
+      }
+    }
+  }
+}
+
+.btn-search {
+  margin-top: 4px;
+}
+
+.icon-remove {
+  position: absolute;
+  top: 10px;
+  right: 48px;
+  z-index: 1000;
+  color: #e02b2b;
+  cursor: pointer;
+}

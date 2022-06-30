@@ -1,0 +1,70 @@
+#tableChecking {
+    .lbl-check {
+        &.is-disabled {
+            cursor: not-allowed;
+        }
+    }
+}
+
+.reopen-deal {
+    cursor: pointer;
+}
+.custom-modal {
+    .modal-header {
+        background-color: #f2741e;
+        border-bottom-color: transparent;
+        height: 56px;
+
+        .close {
+            font-size: 30px;
+            color: #fff;
+            opacity: 1;
+        }
+        .modal-title {
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+
+    .modal-body {
+        padding-bottom: 0;
+
+        p.alert-propzy-notify-warning {
+            border: 1px solid;
+        }
+    }
+
+    .modal-footer {
+        border-top-color: transparent;
+    }
+
+    .align-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        > .btn {
+            color: #fff;
+            min-width: 120px;
+            text-transform: uppercase;
+
+            &.btn-warning {
+                background-color: #f17423;
+                border-color: #f17423;
+            }
+            &.btn-success {
+                background-color: #4caf50;
+                border-color: #4caf50;
+            }
+
+            + .btn {
+                margin-left: 15px;
+            }
+        }
+    }
+
+    p.error {
+        margin-bottom: 0;
+    }
+}

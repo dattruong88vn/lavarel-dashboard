@@ -1,0 +1,53 @@
+
+.white-popup {
+	max-width: 600px;
+	background: none
+}
+.content-popup {
+	font-family: 'Roboto', sans-serif;
+	color: #777;
+	background-color: none;
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.content-popup .title {
+	text-align: center;
+	margin: 0 auto 20px;
+	font-size: 20px;
+}
+.content-popup h1 {
+	margin: 0;
+	font-size: 25px;
+	color: #174b85;
+}
+.inner-popup {
+
+}
+
+.mfp-close-btn-in .mfp-close {
+	display: none;
+}
+a.mpf-close-cus {
+	background: #000;
+	position: absolute;
+	top: -20px;
+	right: 20px;
+	line-height: 0;
+	text-decoration: none;
+	padding: 15px 15px;
+	color: #FFF;
+	display: inline-block;
+	font-size: 15px;
+	font-family: Arial, Baskerville, monospace;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.box-footer button {
+	margin-left: 10px
+}

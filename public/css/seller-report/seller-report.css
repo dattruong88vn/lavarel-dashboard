@@ -1,0 +1,43 @@
+body{padding:0; margin: 0; font-size: 14px; color:#000; font-family: 'Roboto', sans-serif;}
+.content{width: 100%;font-size:14px;}
+.col-30{width: 30%;}
+.col-40{width: 40%;}
+.col-50{width: 50%;}
+.col-60{width: 60%;}
+.col-70{width: 70%;}
+.background-gradient{width: 100%; background: rgb(237,116,35);background: linear-gradient(180deg, rgba(237,116,35,1) 0%, rgba(20,133,226,1) 60%, rgba(131,131,131,1) 100%);}
+.border-chart:before{content: '';display: inline-block;height: 23px;width: 100%;border: 1px solid #f30909;position: absolute;bottom: -1px;left: -10px;}
+.bg-chart:before{content:'';display:inline-block;background-color: #c4c4c4;height: 25px;width: 80%;border-radius: 30px;position: absolute;top: -5px;left: 5%;}
+
+@media only screen and (max-device-width: 414px){
+    .tb-maps .col-60, .tb-maps .col-40{display: block;width: 100%;}
+    .tb-maps .col-60{padding-right: 0!important}
+    .tb-maps .col-40>table{padding: 0 30px !important}
+    .tb-phantich br{display: none;}
+    .tb-phantich .col-40, .tb-phantich .col-60,.tb-phantich .col-30, .tb-phantich .col-70{display: block;width: 100%;}
+    .tb-phantich .p-yeuto{color: #f17423;font-weight: 500;font-style: italic;text-align: left;}
+    .tb-phantich .col-60>table{padding-left: 0 !important}
+    .tb-phantich .td-border{padding: 35px!important}
+    .tb-phantich .td-border>table{padding: 15px 8px 15px 25px !important;}
+    .tb-phantich .col-70{padding-right: 0 !important}
+    .tb-phantich .td-chart>table{padding: 0 2% !important}
+    .tb-phantich .table-border{margin-bottom: 8px !important}
+    .tb-phantich .table-border td{padding: 5px 10px !important}
+    .td-hinhanh{display: table !important;margin: 0 auto;text-align: center;}
+    .td-hinhanh span{display: block;width: 100%;}
+    .td-hinhanh span:first-child{padding-bottom: 5px;}
+}
+.page-desktop #maps{
+    height: 573px !important;
+}
+.aver-price, .price {
+    margin: 0 1%;
+}
+.text-price-chart {
+    margin-top: -5%;
+    margin-left: -17%;
+    font-size: 90%;
+}
+.page-desktop .aver-price, .page-desktop  .price {
+    margin: 0 10px;
+}

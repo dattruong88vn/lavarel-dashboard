@@ -1,0 +1,1055 @@
+{
+    "result": true,
+    "code": "200",
+    "message": "Thao tác thành công",
+    "validatedMessage": null,
+    "data": {
+      "dealId": 70737,
+      "leadId": 140208,
+      "createdBy": 76,
+      "updatedBy": 76,
+      "assignedTo": 76,
+      "assignedName": null,
+      "typeId": 1,
+      "typeName": "Not Available",
+      "statusId": 24,
+      "statusName": "Tư vấn",
+      "statusDate": null,
+      "lastActivityName": "Deal mới",
+      "numberOfListingView": 0,
+      "saleId": null,
+      "saleName": null,
+      "accountManagerId": null,
+      "accountManagerName": null,
+      "agentId": null,
+      "recentlyStatusId": 1,
+      "listingType": {
+        "listingTypeID": 1,
+        "createdDate": 1495901635000,
+        "isDeleted": false,
+        "parentID": null,
+        "typeName": "Mua",
+        "typeNameEn": "Sale",
+        "updatedDate": 1495901635000
+      },
+      "propertyType": {
+        "propertyTypeID": 9,
+        "createdDate": null,
+        "isDeleted": false,
+        "isUnitPrice": false,
+        "hasGroup": false,
+        "isEnabled": false,
+        "typeName": "Biệt thự",
+        "typeNameEn": "Villa",
+        "updatedDate": null,
+        "listingType": {
+          "listingTypeID": 1,
+          "createdDate": 1495901635000,
+          "isDeleted": false,
+          "parentID": null,
+          "typeName": "Mua",
+          "typeNameEn": "Sale",
+          "updatedDate": 1495901635000
+        },
+        "purpose": {
+          "purPoseID": 3,
+          "createdDate": null,
+          "isDeleted": false,
+          "purPoseName": "Bán",
+          "purPoseNameEn": "Commercial",
+          "updatedDate": null
+        },
+        "photoGuideLine": null
+      },
+      "responsiveness": null,
+      "agentName": null,
+      "agentPhone": null,
+      "contractFile": null,
+      "behaviour": 0,
+      "createdDate": 1601019609000,
+      "updatedDate": 1601019609000,
+      "assignedDate": null,
+      "lastActivityDate": null,
+      "requestFeedbackDate": null,
+      "isRequestFeedback": false,
+      "campaignId": null,
+      "dealPlanInfo": null,
+      "customerPurpose": {
+        "id": 1351,
+        "title": "Thông tin chung",
+        "type": null,
+        "control": null,
+        "dataType": null,
+        "data": null,
+        "checked": false,
+        "hasValue": false,
+        "childs": [
+          {
+            "id": 1352,
+            "title": "Mục đích",
+            "type": null,
+            "control": null,
+            "dataType": null,
+            "data": null,
+            "checked": false,
+            "hasValue": false,
+            "childs": [
+              {
+                "id": 1353,
+                "title": "Để ở",
+                "type": null,
+                "control": "radio",
+                "dataType": null,
+                "data": null,
+                "checked": false,
+                "hasValue": false,
+                "childs": [
+                  {
+                    "id": 1354,
+                    "title": "Ở liền",
+                    "type": null,
+                    "control": "checkbox",
+                    "dataType": null,
+                    "data": null,
+                    "checked": false,
+                    "hasValue": false,
+                    "childs": []
+                  },
+                  {
+                    "id": 1355,
+                    "title": "Sửa chữa",
+                    "type": null,
+                    "control": "checkbox",
+                    "dataType": null,
+                    "data": null,
+                    "checked": false,
+                    "hasValue": false,
+                    "childs": []
+                  },
+                  {
+                    "id": 1356,
+                    "title": "Gia đình",
+                    "type": null,
+                    "control": "checkbox",
+                    "dataType": null,
+                    "data": null,
+                    "checked": false,
+                    "hasValue": false,
+                    "childs": [
+                      {
+                        "id": 1357,
+                        "title": "Mới cưới ở riêng",
+                        "type": null,
+                        "control": null,
+                        "dataType": null,
+                        "data": null,
+                        "checked": false,
+                        "hasValue": false,
+                        "childs": [
+                          {
+                            "id": 1358,
+                            "title": "Mua ở tạm",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1359,
+                            "title": "Lâu dài",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1360,
+                            "title": "Số lượng thành viên",
+                            "type": null,
+                            "control": "select",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": [
+                              {
+                                "id": 1361,
+                                "title": "1 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1362,
+                                "title": "2 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1363,
+                                "title": "3 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1364,
+                                "title": "4 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1365,
+                                "title": "5 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1366,
+                                "title": ">5 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 1367,
+                        "title": "Gia đình cho mua nhà",
+                        "type": null,
+                        "control": null,
+                        "dataType": null,
+                        "data": null,
+                        "checked": false,
+                        "hasValue": false,
+                        "childs": [
+                          {
+                            "id": 1368,
+                            "title": "Để ở",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1369,
+                            "title": "Cho thuê lại",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1370,
+                            "title": "Đầu tư",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": 1371,
+                        "title": "Mở rộng, mua nhà lớn hơn",
+                        "type": null,
+                        "control": null,
+                        "dataType": null,
+                        "data": null,
+                        "checked": false,
+                        "hasValue": false,
+                        "childs": [
+                          {
+                            "id": 1372,
+                            "title": "Cho thuê nhà cũ",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1373,
+                            "title": "Bán nhà cũ",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1374,
+                            "title": "Số lượng thành viên",
+                            "type": null,
+                            "control": "select",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": [
+                              {
+                                "id": 1375,
+                                "title": "1 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1376,
+                                "title": "2 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1377,
+                                "title": "3 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1378,
+                                "title": "4 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1379,
+                                "title": "5 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1380,
+                                "title": ">5 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 1381,
+                        "title": "Đang thuê -> mua",
+                        "type": null,
+                        "control": "lable",
+                        "dataType": null,
+                        "data": null,
+                        "checked": false,
+                        "hasValue": false,
+                        "childs": [
+                          {
+                            "id": 1382,
+                            "title": "Mua thêm -> thuê",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1383,
+                            "title": "Mua thêm -> bán",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1624,
+                            "title": "Đang thuê -> mua",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 1400,
+                "title": "Đầu tư",
+                "type": null,
+                "control": "radio",
+                "dataType": null,
+                "data": null,
+                "checked": false,
+                "hasValue": false,
+                "childs": [
+                  {
+                    "id": 1401,
+                    "title": "Lướt sóng",
+                    "type": null,
+                    "control": "checkbox",
+                    "dataType": null,
+                    "data": null,
+                    "checked": false,
+                    "hasValue": false,
+                    "childs": []
+                  },
+                  {
+                    "id": 1402,
+                    "title": "Lâu dài",
+                    "type": null,
+                    "control": "checkbox",
+                    "dataType": null,
+                    "data": null,
+                    "checked": false,
+                    "hasValue": false,
+                    "childs": []
+                  },
+                  {
+                    "id": 1403,
+                    "title": "Cho thuê",
+                    "type": null,
+                    "control": "checkbox",
+                    "dataType": null,
+                    "data": null,
+                    "checked": false,
+                    "hasValue": false,
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "id": 1450,
+                "title": "Để ở và kinh doanh",
+                "type": null,
+                "control": "radio",
+                "dataType": null,
+                "data": null,
+                "checked": false,
+                "hasValue": false,
+                "childs": [
+                  {
+                    "id": 1451,
+                    "title": "Ở liền",
+                    "type": null,
+                    "control": "checkbox",
+                    "dataType": null,
+                    "data": null,
+                    "checked": false,
+                    "hasValue": false,
+                    "childs": []
+                  },
+                  {
+                    "id": 1452,
+                    "title": "Sửa chữa",
+                    "type": null,
+                    "control": "checkbox",
+                    "dataType": null,
+                    "data": null,
+                    "checked": false,
+                    "hasValue": false,
+                    "childs": []
+                  },
+                  {
+                    "id": 1453,
+                    "title": "Gia đình",
+                    "type": null,
+                    "control": "checkbox",
+                    "dataType": null,
+                    "data": null,
+                    "checked": false,
+                    "hasValue": false,
+                    "childs": [
+                      {
+                        "id": 1454,
+                        "title": "Mới cưới ở riêng",
+                        "type": null,
+                        "control": null,
+                        "dataType": null,
+                        "data": null,
+                        "checked": false,
+                        "hasValue": false,
+                        "childs": [
+                          {
+                            "id": 1455,
+                            "title": "Mua ở tạm",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1456,
+                            "title": "Lâu dài",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1457,
+                            "title": "Số lượng thành viên",
+                            "type": null,
+                            "control": "select",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": [
+                              {
+                                "id": 1458,
+                                "title": "1 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1459,
+                                "title": "2 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1460,
+                                "title": "3 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1461,
+                                "title": "4 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1462,
+                                "title": "5 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1463,
+                                "title": ">5 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 1464,
+                        "title": "Gia đình cho mua nhà",
+                        "type": null,
+                        "control": null,
+                        "dataType": null,
+                        "data": null,
+                        "checked": false,
+                        "hasValue": false,
+                        "childs": [
+                          {
+                            "id": 1465,
+                            "title": "Để ở",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1466,
+                            "title": "Cho thuê lại",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1467,
+                            "title": "Đầu tư",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": 1468,
+                        "title": "Mở rộng, mua nhà lớn hơn",
+                        "type": null,
+                        "control": null,
+                        "dataType": null,
+                        "data": null,
+                        "checked": false,
+                        "hasValue": false,
+                        "childs": [
+                          {
+                            "id": 1469,
+                            "title": "Cho thuê nhà cũ",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1470,
+                            "title": "Bán nhà cũ",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1471,
+                            "title": "Số lượng thành viên",
+                            "type": null,
+                            "control": "select",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": [
+                              {
+                                "id": 1472,
+                                "title": "1 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1473,
+                                "title": "2 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1474,
+                                "title": "3 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1475,
+                                "title": "4 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1476,
+                                "title": "5 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              },
+                              {
+                                "id": 1477,
+                                "title": ">5 người",
+                                "type": null,
+                                "control": "option",
+                                "dataType": null,
+                                "data": null,
+                                "checked": false,
+                                "hasValue": false,
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 1478,
+                        "title": "Đang thuê -> mua",
+                        "type": null,
+                        "control": "checkbox",
+                        "dataType": null,
+                        "data": null,
+                        "checked": false,
+                        "hasValue": false,
+                        "childs": [
+                          {
+                            "id": 1479,
+                            "title": "Mua thêm -> thuê",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1480,
+                            "title": "Mua thêm -> bán",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          },
+                          {
+                            "id": 1625,
+                            "title": "Đang thuê -> mua",
+                            "type": null,
+                            "control": "checkbox",
+                            "dataType": null,
+                            "data": null,
+                            "checked": false,
+                            "hasValue": false,
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "customerPurposeFamilyRent": null,
+      "timeCounter": "1 lần mở, 2 phút 6 giây",
+      "leasingSignedDate": null,
+      "leasingExpiredDate": null,
+      "scorecardType": "L0",
+      "customerId": "KM58768",
+      "finalBudget": null,
+      "filterParams": null,
+      "initialBudgetFixed": null,
+      "formatInitialBudgetFixed": null,
+      "formatInitialBudget": null,
+      "formatFinalBudget": null,
+      "relatedListingList": null,
+      "bankLoanAdvice": null,
+      "customerReview": null,
+      "isSendCRM": true,
+      "basketId": null,
+      "customers": {
+        "customerId": "KM58768",
+        "createdBy": 76,
+        "updatedBy": 76,
+        "name": "test from vietvo",
+        "email": null,
+        "phone": "0987654345",
+        "age": null,
+        "gender": null,
+        "job": null,
+        "workingPlace": null,
+        "income": null,
+        "numberOfFamilyMembers": null,
+        "accommodationType": null,
+        "purpose": null,
+        "address": null,
+        "isOld": false,
+        "isDeleted": false,
+        "isNew": null,
+        "socialUid": null,
+        "createdDate": 1601019609000,
+        "updatedDate": 1601019609000,
+        "phoneList": [
+          {
+            "id": 169548,
+            "createdBy": 76,
+            "createdDate": 1601019609000,
+            "customerId": "KM58768",
+            "isDeleted": false,
+            "isPrimary": true,
+            "phone": "0987654345"
+          }
+        ],
+        "emailList": [],
+        "cmnd": null,
+        "startDate": null,
+        "statusId": 1,
+        "statusName": null,
+        "agentId": null,
+        "hobby": null,
+        "ortherHobby": null,
+        "districtId": null,
+        "wardId": null,
+        "streetId": null,
+        "houseNumber": null
+      },
+      "progressList": [
+        {
+          "progressId": 1,
+          "progressName": "Tư vấn",
+          "lable": null,
+          "progressQuoList": [],
+          "meetingCancelTemps": null
+        },
+        {
+          "progressId": 3,
+          "progressName": "Touring",
+          "lable": null,
+          "progressQuoList": [],
+          "meetingCancelTemps": null
+        },
+        {
+          "progressId": 4,
+          "progressName": "Xem xét",
+          "lable": null,
+          "progressQuoList": [],
+          "meetingCancelTemps": null
+        },
+        {
+          "progressId": 7,
+          "progressName": "Thương lượng",
+          "lable": null,
+          "progressQuoList": [],
+          "meetingCancelTemps": null
+        },
+        {
+          "progressId": 9,
+          "progressName": "Đặt cọc",
+          "lable": null,
+          "progressQuoList": [],
+          "meetingCancelTemps": null
+        },
+        {
+          "progressId": 8,
+          "progressName": "Đã ký hợp đồng",
+          "lable": null,
+          "progressQuoList": [],
+          "meetingCancelTemps": null
+        }
+      ],
+      "isFormProfile": false,
+      "depositId": null,
+      "depositStatusId": null,
+      "sourceId": 17,
+      "sourceName": "TC",
+      "subjectId": 1,
+      "subjectName": "Khách mua",
+      "listingTypeId": 1,
+      "propertyTypeId": 9,
+      "initialBudget": null,
+      "minSize": null,
+      "maxSize": null,
+      "bedRooms": null,
+      "bathRooms": null,
+      "moveInDate": null,
+      "yearBuilt": null,
+      "progressId": 1,
+      "progressName": null,
+      "progressQuoId": null,
+      "progressQuoName": null,
+      "meeting": null,
+      "wardList": [],
+      "districtList": [],
+      "directionList": [],
+      "rlistingsList": [],
+      "newPrice": null,
+      "rlistingViewsList": [],
+      "note": null,
+      "isSentContract": false,
+      "history": [],
+      "orderId": null,
+      "notes": null,
+      "amenitiesList": [],
+      "districtsList": [],
+      "wardsList": [],
+      "streetsList": [],
+      "directionsList": [],
+      "cityList": [],
+      "positionList": [],
+      "advantageList": [],
+      "disAdvantageList": [],
+      "utilityAroundList": [],
+      "lastUpdatedDate": 1601019609000,
+      "channelType": null,
+      "channelTypeName": null,
+      "channelSubType": null,
+      "channelSubTypeName": null,
+      "tCId": null,
+      "tCName": null,
+      "trackingScheduleTime": [],
+      "sourceTCId": null,
+      "sourceTCName": null,
+      "statusAgentCommission": null,
+      "agentCommisstionPrice": null,
+      "mSNV": null,
+      "closedBy": null,
+      "closedByType": null,
+      "projectBuildingName": "Biệt thự",
+      "leadProfileValue": null,
+      "dealProfileValue": null,
+      "tourProfileValue": null,
+      "tourListingId": null,
+      "agentInfo": {
+        "agentId": null,
+        "isBuyForCustomer": true,
+        "isProvideCustomerInfo": true
+      },
+      "isUpdateCustomerInfo": false,
+      "address": null,
+      "longitude": null,
+      "latitude": null,
+      "mapRadius": null,
+      "numberFloor": null,
+      "timeInactive": 15,
+      "isReopen": false,
+      "disabledFeature": null,
+      "isDepositDone": false,
+      "new": true,
+      "deleted": false,
+      "activated": false
+    },
+    "additional": null
+  }

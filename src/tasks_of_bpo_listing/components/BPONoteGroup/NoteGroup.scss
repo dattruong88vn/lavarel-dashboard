@@ -1,0 +1,33 @@
+.note-groups {
+  border: 1px solid #d2d6de;
+  min-height: 100px;
+  position: relative;
+
+  &.md {
+    height: 150px;
+  }
+
+  &.lg {
+    height: 200px;
+  }
+
+  &.xl {
+    height: 300px;
+  }
+
+  &__select {
+    & > div {
+      border: none;
+      box-shadow: none;
+
+      & > div:nth-child(2) {
+        display: none
+      }
+    }
+
+    .css-26l3qy-menu {
+      position: absolute;
+      z-index: 1000;
+    }
+  }
+} 

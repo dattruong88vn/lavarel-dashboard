@@ -1,0 +1,282 @@
+.detail-infos-user-page {
+    border-top: 1px solid #fff;
+    margin-top: -15px;
+}
+.user-details {
+    position: relative;
+    padding: 0;
+    background-color:#3C8DBC;
+}
+.user-details .user-image {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+.user-image img {
+    clear: both;
+    margin: auto;
+    position: relative;
+    width: 110px;
+    height: 110px;
+    z-index: 2;
+    top: 15px;
+    margin-top: 5px;
+}
+.update-img{
+    z-index: 3;
+    position: relative;
+    left: 89px;
+    top: 58px;
+    color: #07e1f6;
+}
+.status-active, .status-pending, .status-blocked{
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+    color: #FF9900;
+    top: 93px;
+    left: -98px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.status-active .fa-circle {
+    color: #99FF33;
+}
+.status-blocked .fa-circle {
+    color: #ff0000;
+}
+.user-name {
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    color: #fff;
+    top: 36px;
+    left: -40px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.infos-contents {
+    margin-top: 10px;
+}
+.area-manage {
+    margin-top: 10px;
+    color: #949090;
+    font-size: 16px;
+    margin-left: 128px;
+    padding-right: 75px;
+}
+.head-detail{
+    margin-bottom: 10px;
+}
+.title-col {
+    color: #9999B2;
+    margin-top: 10px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 1px !important;
+}
+.info-head {
+    margin-bottom: 15px;
+}
+.update-infos-contacts-user{
+    _width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.btn-action{
+    margin-top: 20px;
+    position: fixed;
+}
+.mainPhone {
+    padding-left: 0px;
+}
+.subPhone {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.phone-prefer {
+    top: -35px;
+    left: 92px;
+}
+.status-user {
+    width: auto;
+    border-radius: 3px;
+}
+.img-photo {
+    max-width: 100%;
+}
+.rowMorePhone {
+    margin-top: 10px;
+}
+.have-phones {
+    margin-top: 10px;
+}
+.dropdown-role {
+    min-width: 138px;
+    margin-top: 12px;
+    padding-left: 32px;
+}
+#check-roles .ace-icon.fa.fa-angle-down.bigger-110 {
+    margin-left: 5px;
+}
+.item-new td{
+    font-weight: normal !important;
+}
+.unactivated td{
+    font-weight: normal !important;
+}
+.update-pass-contacts-user {
+    display: block;
+    margin: 0 auto;
+    width: 430px;
+}
+.update-pass-contacts-user .p-text {
+    text-align: center;
+    font-size: 14px;
+    color: #474747;
+    padding: 12px 0 14px;
+}
+.update-pass-contacts-user .form-control {
+    border: 0;
+    border-bottom: 1px solid #d1d1d1;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 13px;
+    height: 38px;
+    padding-left: 33px;
+}
+.form-control:focus {
+	border-color: #3c8dbc !important;
+	box-shadow: none;
+}
+.update-pass-contacts-user .modal-body {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.update-pass-contacts-user .bl-div:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+    background-image: url(/images/svg-icons.svg?v=03.06.2019);
+}
+.update-pass-contacts-user .div-password:before {
+    background-position: -838px -85px;
+    height: 26px;
+    top: 5px;
+    left: 9px;
+}
+.update-pass-contacts-user .div-password .span-eyes {
+    background: url(/images/svg-icons.svg?v=03.06.2019) no-repeat -873px -84px;
+    height: 20px;
+    width: 25px;
+    right: 15px;
+    position: absolute;
+    top: 12px;
+    cursor: pointer;
+}
+.update-pass-contacts-user .contacts-pass {
+    margin: 0 auto;
+    display: block;
+}
+#keep-open .dropdown-role{
+    overflow-y: scroll;
+    height: 320px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.avatar img {
+	width: 128px;
+	height: 128px;
+}
+
+.update-contact label {
+	font-weight: normal;
+}
+
+.update-contact .form-control {
+	background: #ffffff;
+	border: 1px solid #d2d6de;
+	margin: 0px;
+	padding: 16px;
+	padding: 4px 12px;
+	height: 32px;
+	font-size: 12px;
+}
+
+textarea.form-control {
+	width: 100%;
+	height: auto;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.vertical-margin {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+table.dataTable thead th {
+	white-space: nowrap;
+}
+
+.btn-orange {
+	background-color: #f17423;
+	color: white;
+}
+
+/* modal confirm public contact */
+.confirm-public-header {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.confirm-public-header button {
+    font-size: 30px;
+    opacity: 1;
+}
+
+.confirm-public-content {
+    padding: 30px;
+}
+.confirm-public-footer {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.confirm-public-footer button {
+    min-width: 130px;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: unset;
+    border-radius: unset;
+    font-weight: bold;
+}
+
+.confirm-public-footer button.btn-cancel {
+    border: 1px solid #000;
+    color: #000;
+    margin-right: 20px;
+    background-color: #fff;
+}
+
+.confirm-public-line {
+    background: #ddd; 
+    height: 1px; 
+    width: 100%;
+}

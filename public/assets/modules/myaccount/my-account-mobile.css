@@ -1,0 +1,241 @@
+.my-account-page{
+	background-color: #fff;
+}
+.bl-info-account{
+	text-align: center;
+	padding: 10px 0 15px;
+    margin-left: 0;
+}
+.manage-account-mobile .nav-info {
+    margin-left: 0;
+}
+.bl-info-account .bl-img{
+    width: 98px;
+    height: 98px;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    padding-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 6px;
+    background-size: cover!important;
+}
+.bl-account .title-info{
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	background: url('/assets/images/version-4/icons/ic-setting') no-repeat right center;
+	padding: 0 15px;
+    display: inline-block;
+    padding-right: 33px;
+    line-height: 22px;
+    margin-top: 0;
+}
+.bl-account .control-label{
+	text-align: left;
+	font-size: 15px;
+	color: #363636;
+    font-weight: 500;
+}
+.bl-account .div-avatar a{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	/*background: url('/assets/images/version-4/img-avatar.png') no-repeat center;*/
+	margin: 25px 0 13px 15px;
+}
+.bl-account .btn-save{
+	background-color: #f17423;
+	border-radius: 40px;
+	width: 95%;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	height: 42px;
+	margin: 30px 0 45px;
+}
+.bl-account .col-agent .bl-input-new.not-icon{
+	margin-left: 18px;
+}
+.bl-my-account .bl-radio{
+	padding-top: 20px;
+}
+.bl-my-account .bl-radio input[type="radio"] {
+    opacity: 0;
+}
+.bl-my-account .bl-radio label {
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 15px;
+    color: #888;
+}
+.bl-my-account .bl-radio label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    margin-left: -20px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out;
+    top: -2px;
+}
+.bl-my-account .bl-radio label::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: -2px;
+    margin-left: -20px;
+    border-radius: 50%;
+    background: url('/assets/images/version-4/icons/ic-radio.png') no-repeat center #4282c3;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+.bl-my-account .bl-radio input[type="radio"]:checked + label::after {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+.bl-account .bl-input-new.not-icon .form-control-new{
+	padding-left: 0;
+}
+.bl-account .col-customer .control-label{
+	font-weight: normal;
+}
+.bl-account .col-customer .control-label span{
+	font-weight: bold;
+}
+.bl-account .col-customer select.form-control{
+	height: 38px;
+	border-color: #d1d1d1;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('/assets/images/version-4/icons/ic-select-4.png') no-repeat right center transparent;
+    color: #848484;
+    box-shadow: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    text-align-last: right;
+    padding-right: 15px;
+}
+.bl-account .col-district .control-label{
+    padding-top: 5px;
+}
+.bl-my-account .col-title .control-label {
+    color: #676767;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 14px;
+    font-weight: 500;
+}
+.bl-my-account .control-label{
+    padding-left: 10px;
+}
+.bl-my-account .col-title .form-group {
+    padding-top: 5px;
+}
+.bl-my-account .col-title {
+    background-color: #f1f1f1;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.bl-my-account .bl-input-new{
+    margin: 0 15px;
+}
+.bl-my-account .bl-input-new .form-control-new{
+    font-size: 14px;
+}
+.bl-my-account .agent{
+    padding: 5px 10px;
+}
+.bl-my-account .agent .control-label{
+    padding-left: 0;
+}
+.bl-my-account .agent .form-group{
+    border-bottom: 1px solid #d1d1d1;
+}
+.bl-my-account .agent .bl-radio {
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+.bl-my-account .agent .control-label{
+    padding-top: 11px;
+}
+.bl-my-account .agent.col-customer .control-label{
+    padding-left: 0;
+}
+.bl-my-account .agent .form-control{
+    box-shadow: none;
+    border: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: right;
+    border-bottom: 0;
+    padding-right: 0;
+    margin-top: 0;
+}
+.last-item{
+    margin-bottom: 10px;
+}
+.last-item .form-group{
+    border-bottom: none !important;
+}
+.header-main{
+    margin-top: 0;
+}
+.btn-orange {
+    border: 0;
+    background: #f17523;
+    color: #fff;
+}
+.manage-account-mobile{
+    margin-top: 20px;
+}
+.bl-input-new.div-address:before {
+    background-image: url(/assets/images/svg-icons.svg?v=03.06.2019);
+    background-position: -403px -354px;
+    height: 25px;
+    top: 4px;
+}
+.bl-input-new.div-idNo:before {
+    background-image: url(/assets/images/svg-icons.svg?v=03.06.2019);
+    background-position: -451px -351px;
+    height: 25px;
+    top: 4px;
+}
+.bl-input-new.div-issuedDate:before {
+    background-image: url(/assets/images/svg-icons.svg?v=03.06.2019);
+    background-position: -315px -352px;
+    height: 25px;
+    top: 4px;
+}
+.bl-input-new.div-issuedPlace:before {
+    background-image: url(/assets/images/svg-icons.svg?v=03.06.2019);
+    background-position: -494px -356px;
+    height: 25px;
+    top: 4px;
+}

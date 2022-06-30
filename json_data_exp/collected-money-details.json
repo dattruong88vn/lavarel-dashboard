@@ -1,0 +1,35 @@
+{
+    "result":true,
+    "code":"200",
+    "message":"Thao tác thành công",
+    "validatedMessage":null,
+    "data":{
+    "data":{
+    "depositId":null,
+    "totalCommissionValue":15000000,
+    "totalCommissionRemain":15000000,
+    "note":"Just for testing",
+    "details":[
+    {
+        "collectId":10,
+        "collectPrice":1000000,
+        "expectedDate":1595908881000,
+        "status":true
+    },
+    {
+        "collectId":11,
+        "collectPrice":2000000,
+        "expectedDate":1595995281000,
+        "status":false
+    },
+    {
+        "collectId":67,
+        "collectPrice":10,
+        "expectedDate":null,
+        "status":false
+    }
+    ]
+    }
+    },
+    "additional":null
+    }

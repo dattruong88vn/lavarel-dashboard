@@ -1,0 +1,81 @@
+.filter {
+    position: relative;
+    >.btn {
+        margin: 15px 0;
+        float: right;
+        &:active:focus {
+            outline: none;
+        }
+        .fa-sort-desc {
+            padding-left: 5px;
+        }
+        .fa-filter {
+            font-size: 18px;
+            padding-right: 5px;
+        }
+    }
+    .filter-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 15px;
+        width: 500px;
+        background: white;
+        border: 1px solid #d4d4d4;
+        padding: 15px;
+        padding-bottom: 0;
+        z-index: 99;
+        &.show {
+            display: block;
+        }
+        .btn-default {
+            margin-right: 15px;
+        }
+        .group-btn {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            .btn {
+                flex: 1;
+                &:hover,
+                &:active {
+                    outline: none;
+                }
+            }
+        }
+        &.filter-content-pipeline {
+            width: 592px;
+        }
+    }
+}
+
+.pagination-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .limit-records {
+        display: inline-block;
+        margin-right: 30px;
+        select {
+            outline: none;
+        }
+    }
+    .pagination-box {
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+}
+
+.title-red {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 10px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}

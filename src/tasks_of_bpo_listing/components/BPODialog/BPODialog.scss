@@ -1,0 +1,35 @@
+.rating-container {
+  padding: 10px 30px;
+}
+
+.bpo-dialog {
+  max-width: none !important;
+
+  &.lg {
+    width: 900px;
+  }
+
+  &.md {
+    width: 600px;
+  }
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.m-t-xs {
+  margin-top: 5px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.error-content {
+  margin-top: 10px;
+}
+
+.pointer-load {
+  cursor: progress;
+}

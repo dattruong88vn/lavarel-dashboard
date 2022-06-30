@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  width="32px" height="32px"  viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>message - material</title>
+    <desc>Created with Sketch.</desc>
+    <g id="03.-Detail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MB---03.2a---Detail-MuaBan-/-có-thuộc-DA" transform="translate(-287.000000, -495.000000)" fill="#000">
+            <g id="Group-38" transform="translate(0.000000, 481.000000)">
+                <g id="Group-35">
+                    <g id="Group-33" transform="translate(287.000000, 13.000000)">
+                        <g id="Group-34">
+                            <path d="M10.40625,4.90625 L10.40625,3.59375 L2.59375,3.59375 L2.59375,4.90625 L10.40625,4.90625 Z M10.40625,6.859375 L10.40625,5.546875 L2.59375,5.546875 L2.59375,6.859375 L10.40625,6.859375 Z M10.40625,8.8125 L10.40625,7.5 L2.59375,7.5 L2.59375,8.8125 L10.40625,8.8125 Z M11.71875,1 C12.0729184,1 12.3749987,1.12499875 12.625,1.375 C12.8750013,1.62500125 13,1.92708156 13,2.28125 L13,10.09375 C13,10.4479184 12.8750013,10.755207 12.625,11.015625 C12.3749987,11.276043 12.0729184,11.40625 11.71875,11.40625 L2.59375,11.40625 L0,14 L0,2.28125 C0,1.92708156 0.12499875,1.62500125 0.375,1.375 C0.62500125,1.12499875 0.927081563,1 1.28125,1 L11.71875,1 Z" id="message---material"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

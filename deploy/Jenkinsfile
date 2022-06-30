@@ -1,0 +1,59 @@
+node{
+    properties([disableConcurrentBuilds()])
+    stage('Checkout Code') {
+        checkout([$class: 'GitSCM', branches: [[name: 'origin/$GIT_BRANCH']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: '']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'dbe9e94b-6a25-40c8-87d7-9944bffd3932', url: 'git@sc.propzy.vn:root/dashboard.git']]])
+    } 
+    stage('Deploy'){
+        dir("deploy"){
+            script {
+                    sshPublisher(
+                        publishers: [
+                        sshPublisherDesc(
+                            configName: "$SERVER_NODE", 
+                            transfers: [                            
+                            sshTransfer(
+                                excludes: '',                   
+                                execTimeout: 120000, 
+                                flatten: false, 
+                                makeEmptyDirs: false, 
+                                noDefaultExcludes: false, 
+                                patternSeparator: '[, ]+',                   
+                                remoteDirectorySDF: false,                   
+                                sourceFiles: '**',
+                                removePrefix: '',
+                                remoteDirectory: "/services/$GIT_BRANCH",
+                                execCommand: 'cd ${PWD}/services/$GIT_BRANCH && git checkout . && git checkout $GIT_BRANCH && git pull')
+                            ], 
+                            usePromotionTimestamp: false, 
+                            useWorkspaceInPromotion: false, 
+                            verbose: true)
+                        ]
+                        )
+                    sshPublisher(
+                        publishers: [
+                        sshPublisherDesc(
+                            configName: "$SERVER_NODE", 
+                            transfers: [                            
+                            sshTransfer(
+                                excludes: '',                   
+                                execTimeout: 120000, 
+                                flatten: false, 
+                                makeEmptyDirs: false, 
+                                noDefaultExcludes: false, 
+                                patternSeparator: '[, ]+',                   
+                                remoteDirectorySDF: false,                   
+                                sourceFiles: '**',
+                                removePrefix: '',
+                                remoteDirectory: "/services/$GIT_BRANCH",
+                                execCommand: 'sh ${PWD}/services/$GIT_BRANCH/Deploy.sh $TAG $PORT $GIT_BRANCH $PHP_PORT $SUB_NET')
+                            ], 
+                            usePromotionTimestamp: false, 
+                            useWorkspaceInPromotion: false, 
+                            verbose: true)
+                        ]
+                        )
+                }
+        }
+    }
+}
+

@@ -1,0 +1,43 @@
+.bpo-comment-container {
+    padding: 5px 5px 5px 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    .label-category {
+        padding: 5px 10px 5px 0px;
+        color: black;
+        margin: 0px;
+        font-weight: 1000;
+    }
+    .gray-line {
+        background-color: lightgray;
+        margin: 5px 5px 5px 0px;
+        height: 1px;
+        width: 100%;
+    }
+    .block-image {
+        display: flex;
+        overflow: auto;
+        padding: 5px 10px 5px 25px;
+        flex-wrap: nowrap;
+        &::-webkit-scrollbar {
+            height: 10px;
+        }
+        .image {
+            position: relative;
+            background: #fff;
+            margin: 0 8px 5px 0;
+            img {
+                width: 150px;
+                max-width: 150px;
+                cursor: pointer;
+            }
+        }
+    }
+    .label-comment {
+        padding: 5px 10px 5px 25px;
+        color: black;
+        margin: 0px;
+        white-space: pre-wrap;
+    }
+}

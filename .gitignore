@@ -1,0 +1,17 @@
+/modules.xml
+/public/logs/
+/nbproject/
+/bower_components/
+/nbproject/private/
+/.idea/
+/.vscode/
+/error.log
+/access.log
+/public/tmp_img.png
+/node_modules/
+/storage/
+/dashboard.sublime-project
+/dashboard.sublime-workspace
+/.env
+/.env.local
+/vendor/

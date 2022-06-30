@@ -1,0 +1,229 @@
+table tr td {
+  position: relative;
+}
+
+table tr.is-private {
+  background-color: rgba(207, 58, 59, 0.7) !important;
+}
+
+table tr.is-feed-back-customer {
+  background-color: #378cbf !important;
+}
+
+table tr.is-request-diy {
+  background-color: #f5e48a !important;
+}
+
+table tr.is-feed-back-customer a,
+table tr.is-private a {
+  color: #ffffff;
+}
+
+table span.sa-tooltip {
+  background: #333;
+  border-radius: 5px;
+  color: #fff;
+  content: attr(title);
+  left: 0;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 98;
+  display: none;
+  width: auto;
+  min-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+table span.sa-tooltip > p {
+  margin: 0px;
+  text-align: left;
+}
+
+table tr.is-request-diy span.sa-tooltip {
+  width: 180px;
+}
+
+table tr.is-feed-back-customer span.sa-tooltip {
+  width: 210px;
+}
+
+.form-horizontal .form-group {
+  width: auto;
+}
+
+.table > caption + thead > tr:first-child > td,
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > td,
+.table > thead:first-child > tr:first-child > th {
+  white-space: nowrap;
+}
+
+table.table-bordered.dataTable tbody th,
+table.table-bordered.dataTable tbody td {
+  vertical-align: middle;
+}
+
+span.label-collection,
+span.label-tour {
+  font-size: 14px;
+}
+
+span.label-collection {
+  color: #3c8dbc !important;
+}
+
+span.label-tour {
+  color: #dd4b39 !important;
+}
+
+.overview-group ul {
+  padding-left: 0;
+}
+
+.overview-group li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.overview-group li + li {
+  padding-left: 20px;
+}
+
+.table.dataTable > caption + thead > tr:first-child > td,
+.table.dataTable > caption + thead > tr:first-child > th,
+.table.dataTable > colgroup + thead > tr:first-child > td,
+.table.dataTable > colgroup + thead > tr:first-child > th,
+.table.dataTable > thead:first-child > tr:first-child > td,
+.table.dataTable > thead:first-child > tr:first-child > th {
+  white-space: nowrap;
+}
+
+.never {
+  display: none !important;
+}
+
+.overflow-auto .dataTables_wrapper .row:nth-child(2) {
+  overflow: auto;
+  margin: 0;
+}
+
+.overflow-auto .dataTables_wrapper .row:nth-child(2) .col-sm-12 {
+  padding: 0;
+}
+
+td.reassign-wrapper,
+th.selectAll-wrapper {
+  text-align: center;
+  width: 30px;
+  max-width: 30px;
+}
+
+th.selectAll-wrapper input.selectAll {
+  margin-top: 0;
+}
+
+.select2-container--default .select2-selection--multiple {
+  padding: 0px 12px;
+}
+.select2-container--default
+  .select2-selection--multiple
+  .select2-selection__rendered {
+  padding: 0;
+}
+
+/* overlay for append loading to specific element */
+.overlay-filter {
+  height: 100%;
+  left: 15px; /* align to box */
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 30px); /* remove padding */
+  z-index: 1;
+}
+.overlay-filter.show {
+  opacity: 1;
+}
+.overlay-filter::before {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #3498db;
+  content: '';
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  transform: translateX(-50%);
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* end overlay for append loading to specific element */
+
+.nav-tabs-custom {
+  overflow: hidden;
+}
+#tb-living-listing-index .popover {
+  max-width: fit-content;
+}
+
+#form-filter {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+  max-height: 680px;
+  max-width: 500px;
+  overflow-y: auto;
+  position: absolute;
+  right: 1%;
+  top: 70px;
+  z-index: 9;
+}
+#form-filter > div {
+  padding: 5px;
+  background-color: #fff;
+}
+#wrap-btn-showhide-filter {
+  padding: 5px;
+}
+#wrap-btn-showhide-filter .fa-filter {
+  font-size: 18px;
+}
+#wrap-btn-showhide-filter span {
+  margin: 0px 5px;
+}
+.select2-search.select2-search--inline {
+  width: 100%;
+}
+.select2-container--default .select2-results__option[aria-disabled=true] {
+    background-color: #ccc;
+    color: #666;
+    opacity: 0.6;
+}
+
+input.select2-search__field{
+    width: 100% !important;
+}
+input.select2-search__field {
+  width: 100% !important;
+}
+.nav-tabs-custom .tab-content .badge + .tooltip {
+  min-width: 150px;
+}

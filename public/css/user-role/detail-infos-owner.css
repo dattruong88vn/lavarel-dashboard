@@ -1,0 +1,88 @@
+.detail-infos-owner-page {
+    border-top: 1px solid #fff;
+    margin-top: -15px;
+}
+.body-infos-owner {
+    margin-top: 40px;
+}
+.owner-details {
+    position: relative;
+    padding: 0;
+    background-color:#3C8DBC;
+}
+.owner-details .owner-image {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+.owner-image img {
+    clear: both;
+    margin: auto;
+    position: relative;
+    width: 110px;
+    height: 110px;
+    z-index: 2;
+    top: 15px;
+    margin-top: 5px;
+}
+.update-img{
+    z-index: 3;
+    position: relative;
+    left: 89px;
+    top: 58px;
+    color: #07e1f6;
+}
+.owner-name {
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+    color: #fff;
+    top: 36px;
+    left: -40px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.area-manage {
+    margin-top: 10px;
+    color: #949090;
+    font-size: 16px;
+    margin-left: 195px;
+}
+.head-detail{
+    margin-bottom: 10px;
+}
+.title-col {
+    color: #9999B2;
+    margin-top: 10px;
+}
+.status-owner {
+    width: auto;
+    border-radius: 3px;
+}
+.status-active, .status-pending, .status-blocked{
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+    color: #FF9900;
+    top: 90px;
+    left: -95px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.status-active .fa-circle {
+    color: #99FF33;
+}
+.infos-contents {
+    margin-top: 10px;
+}
+.update-infos-contacts-owner{
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+}
+.item-new td{
+    font-weight: normal !important;
+}
+.unactivated td{
+    font-weight: normal !important;
+}

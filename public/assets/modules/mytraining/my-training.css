@@ -1,0 +1,204 @@
+.my-account-page{
+	background-color: #f1f4f5;
+	padding-top: 90px;
+}
+.bl-my-account{
+	background: #fff;
+	border-radius: 4px;
+	margin: 30px 0 50px;
+}
+.bl-info-account{
+	text-align: center;
+	padding-bottom: 22px;
+    border-bottom: 1px solid #d1d1d1;
+    margin: 30px 0 30px 10px;
+}
+.bl-info-account a .bl-img{
+	width: 98px;
+	height: 98px;
+	background-color: #bfbfbf;
+	font-size: 28px;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+    position: relative;
+    padding-top: 27px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+.bl-info-account .bl-img .span-camera{
+	height: 28px;
+	width: 28px;
+	background: url('/assets/images/version-4/icons/ic-camera.png') no-repeat center 8px #f17423;
+	position: absolute;
+	right: -4px;
+	top: 8px;
+	border-radius: 50%;
+}
+.bl-info-account p{
+	margin-bottom: 2px;
+}
+.bl-info-account .p-name{
+	font-size: 14px;
+	color: #474747;
+}
+.bl-info-account .p-name b{
+	font-size: 16px;
+	font-weight: 500;
+}
+.bl-info-account .p-member{
+	font-size: 13px;
+	color: #474747;
+	font-family: 'Open Sans', sans-serif;
+}
+.nav-info{
+	margin-left: 10px;
+}
+.nav-info>li>a{
+	font-weight: bold;
+	font-size: 14px;
+	color: #474747;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 1px solid #d1d1d1;
+	padding: 7px 30px;
+	margin-bottom: 22px;
+}
+.nav-info>li.active>a{
+	color: #f17423;
+}
+.nav-info>li>a:hover, .nav-info>li>a:visited, .nav-info>li>a:focus{
+	background-color: transparent;
+}
+.nav-info>li>a:before, .nav-info>li>a:after{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+.nav-info>li>a:after{
+	content: '';
+    display: inline-block;
+    right: 0;
+    top: 12px;
+    height: 10px;
+    width: 6px;
+    background-image: url('/assets/images/version-4/icons/ic-arrow.png');
+}
+.nav-info>li>a:before{
+	left: 0;
+	width: 22px;
+	height: 23px;
+	top: 4px;
+}
+.nav-info>li.li-1>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-information.png');
+}
+.nav-info>li.li-2>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-heart-2.png');
+}
+.nav-info>li.li-3>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-posted.png');
+}
+.nav-info>li.li-4>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-collection.png');
+}
+.nav-info>li.li-5>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-training.png');
+}
+.nav-info>li.li-6>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-logout.png');
+}
+.bl-my-account .col-left{
+	padding-right: 10px;
+}
+.bl-my-account .col-right{
+	border-left: 1px solid #d1d1d1;
+	padding: 0;
+	padding-right: 15px;
+	min-height: 600px;
+}
+.bl-my-account .bl-header-tab{
+	border-bottom: 1px solid #d1d1d1;
+	padding-left: 25px;
+	position: relative;
+	padding-bottom: 13px;
+}
+.bl-my-account .bl-header-tab h3{
+	font-weight: 500;
+	font-size: 18px;
+	color: #474747;
+	margin-bottom: 5px;
+}
+.bl-my-account .bl-header-tab p{
+	font-size: 14px;
+	color: #888;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 7px;
+}
+.bl-training{
+	padding: 15px 10px;
+}
+.bl-training .control-label{
+	margin-bottom: 12px;
+}
+.bl-training .form-control {
+    border: 1px solid #c1c1c1;
+    background-color: transparent;
+    color: #616161;
+    border-radius: 5px;
+    box-shadow: none;
+    height: 40px;
+    position: relative;
+    font-size: 16px;
+}
+.bl-training select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('/assets/images/version-4/icons/ic-select-3.png') no-repeat 96% center transparent;
+}
+.bl-info-training{
+	padding: 15px;
+}
+.bl-info-training .bl-info{
+	background: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.bl-info-training .bl-info .p-title{
+	font-size: 16px;
+    font-weight: bold;
+    color: #616161;
+}
+.bl-info-training .bl-info .p-info{
+	padding-left: 28px;
+	background-repeat: no-repeat;
+	background-position-x: left;
+	font-size: 14px;
+	color: #474747;
+	font-family: 'Open Sans', sans-serif;
+}
+.bl-info-training .bl-info .p-time{
+	background-image: url('/assets/images/version-4/icons/ic-time.png');
+	background-position-y: center;
+}
+.bl-info-training .bl-info .p-location{
+	background-image: url('/assets/images/version-4/icons/ic-location.png');
+	background-position-y: top;
+	line-height: 18px;
+	margin-bottom: 0;
+}
+.bl-info-training .bl-info .btn{
+	height: 39px;
+	width: 100%;
+	border-radius: 5px;
+	background-color: #555;
+	color: #fff;
+	font-size: 16px;
+}
+.bl-info-training .bl-info .btn-register{
+	background-color: #f17423
+}

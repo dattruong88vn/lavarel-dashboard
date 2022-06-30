@@ -1,0 +1,20 @@
+.type-project .item:last-child {
+	color: #ef7733;
+}
+
+.subitem {
+	margin-top: 30px;
+}
+
+.p-duan-detail .list-duan .group-tag:first-child {
+	border: 1px solid #dcdcdc;
+}
+body {
+	font-family: 'SF-UI-Display', sans-serif !important;
+}
+.entry-head-3 .ht2 {
+    font-weight: 500;
+}
+.entry-head-3:after{
+    height: 17px;
+}

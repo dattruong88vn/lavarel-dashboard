@@ -1,0 +1,37 @@
+.main {
+	position: relative;
+	width: 1240px;
+	margin: auto;
+	margin-top: 63px;
+}
+
+.main img {
+	max-width: 100%;
+}
+
+.product {
+	position: absolute;
+	display: block;
+	width: 22%;
+	height: 11%;
+}
+
+.p-path{
+	padding-top: 10px;
+}
+
+.p-path a{
+	color: #666;
+}
+
+.p-path .s-red{
+	color: #e65656;
+}
+
+.page-mobile .product {
+	width: 44%;
+    height: 11%;
+}
+.page-mobile .product:nth-child(n+5) {
+    height: 10%;
+}

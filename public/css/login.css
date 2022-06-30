@@ -1,0 +1,31 @@
+.login-page{
+    background: rgba(60, 141, 188, 0.8);
+}
+.login-box-body{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 30px 45px 45px 45px;
+    border-top: 5px solid #3c8dbc;
+}
+#frm-login .form-control{
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+    height: 47px;
+}
+.btn-login{
+    border: 0;
+    padding: 15px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.login-box-body h3{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,89 @@
+ /* ----------------------------------------------------------------------------
+ // Ezdz [izy-dizy]
+ // v0.4.3 - released 2014-12-16 11:29
+ // Licensed under the MIT license.
+ // https://github.com/jaysalvat/ezdz
+ // ----------------------------------------------------------------------------
+ // Copyright (C) 2014 Jay Salvat
+ // http://jaysalvat.com/
+ // ---------------------------------------------------------------------------*/
+
+.ezdz-dropzone {
+    position: relative;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #898989;
+    color: #a7a7a7;
+    overflow: hidden;
+    background: #f0f0f0;
+    margin-bottom: 19px;
+
+}
+
+.ezdz-dropzone div {
+    /* */
+    background: url('../images/basket/icon-upload.png') no-repeat center top;
+    padding-top: 20px;
+    margin-top: 20%
+}
+
+.ezdz-dropzone span {
+    background: black;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    font-weight: normal;
+    max-width: 90%;
+    vertical-align: middle;
+    padding: 4%;
+    line-height: 10px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ezdz-dropzone img {
+    max-width: 100%;
+    max-height: 100%;
+    /*margin-top: -3px;*/
+    vertical-align: middle;
+}
+
+.ezdz-dropzone [type="file"] {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.ezdz-focus {
+    border: 1px dashed #164b85;
+}
+
+.ezdz-enter {
+    border: 1px dashed #164b85;
+}
+
+.ezdz-accept {
+    border: 1px dashed #164b85;
+}
+
+.ezdz-reject {
+    border: 1px dashed #164b85;
+}
+
+
+.ezdz-accept div, .ezdz-enter div {
+    background: none;
+    padding-top:0;
+    margin-top: 0;
+    font-size: 0
+}

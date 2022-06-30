@@ -1,0 +1,200 @@
+.lien-he{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+.lien-he .form-control-feedback {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.lien-he h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 10px;
+}
+.des-lienhe{
+    margin-bottom: 18px;
+    text-align: justify;
+}
+.des-lienhe .p-support{
+    font-size: 16px;
+    font-weight: bold;
+}
+.des-lienhe p a{
+    color: #f17423;
+}
+.lien-he .form-control{
+    height: 41px;
+    border-color: #c7c7c7;
+    box-shadow: none;
+    color: #333;
+    border-radius: 5px;
+}
+.lien-he textarea.form-control{
+    height: 119px;
+}
+.block-row{
+    padding-top: 2px;
+}
+.block-row .form-group{
+    margin-bottom: 18px;
+}
+.lien-he .btn-send{
+    background-color: #f17423;
+    border: 0;
+    height: 45px;
+    color: #fff;
+    font-size: 16px;
+    padding: 6px 17.5%;
+    margin: 7px 0 25px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.block-jobs h2{
+    font-size: 36px;
+    font-weight: 300;
+    background: url('/assets/modules/lien-he/images/bg-news.jpg') no-repeat center transparent;
+    background-size: cover;
+    height: 90px;
+    text-align: center;
+    color: #fff;
+    padding-top: 25px;
+    margin: 0;
+}
+.block-jobs .bl-info{
+    background-color: #f5f5f5;
+    padding: 25px 25px 40px;
+}
+.block-jobs p{
+    text-align: justify;
+}
+.block-jobs p.p-welcome{
+    margin-bottom: 15px;
+}
+.block-jobs .mailto{
+    color: #333;
+}
+.lien-he .icon-info{
+    position: relative;
+    padding: 5px 0 8px 42px;
+}
+.lien-he .icon-info a{
+    color: #333;
+}
+.lien-he .icon-info.telephone{
+    margin-top: 5px;
+}
+.lien-he .icon-info:before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+.lien-he .icon-info.telephone:before{
+    background-image: url('/assets/modules/lien-he/images/ic-hotline.png');
+}
+.lien-he .icon-info.email:before{
+    background-image: url('/assets/modules/lien-he/images/ic-email.png');
+}
+
+#popup-confirm-information .modal-body{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#popup-confirm-information .modal-body h1{
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#popup-confirm-information .modal-body p{
+    font-size: 18px;
+}
+#popup-confirm-information .modal-body h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#popup-confirm-information .bl-btn-group .btn{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 30px 10px 65px;
+    margin-right: 10px;
+    position: relative;
+}
+#popup-confirm-information .bl-btn-group .btn:last-child{
+    margin-right: 0;
+}
+#popup-confirm-information .bl-btn-group .btn-gray{
+    background-color: #6b6b6b;
+}
+#popup-confirm-information .bl-btn-group .btn-blue{
+    background-color: #164b85;
+}
+#popup-confirm-information .bl-btn-group .btn-red{
+    background-color: #fb7533;
+}
+#popup-confirm-information .bl-btn-group .btn:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/iconweb.svg?v=03.06.2019');
+    background-position-y: -30px;
+}
+#popup-confirm-information .bl-btn-group .btn-gray:before{
+    background-position-x: -600px;
+}
+#popup-confirm-information .bl-btn-group .btn-blue:before{
+    background-position-x: -570px;
+}
+#popup-confirm-information .bl-btn-group .btn-red:before{
+    background-position-x: -540px;
+}
+
+@media (min-width: 1200px){
+    .lien-he .container {
+        width: 1053px;
+    }
+}
+
+@media (min-width: 768px){
+    #popup-confirm-information .modal-dialog {
+        width: 740px;
+    }
+    .block-jobs h2{
+        font-size: 30px;
+    }
+}
+@media(max-width: 414px){
+    .lien-he{
+        padding: 35px 15px 50px;
+    }
+    .block-jobs h2{
+        font-size: 30px;
+        padding-top: 27px;
+    }
+    .lien-he .icon-info{
+        margin-bottom: 10px;
+    }
+    .p-message{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 320px){
+    .block-jobs h2{
+        font-size: 24px;
+        padding-top: 32px;
+    }
+}

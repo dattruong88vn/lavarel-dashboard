@@ -1,0 +1,218 @@
+.bl-info-land h1{
+	text-align: center;
+	font-size: 30px;
+}
+.bl-info-land .p-introduce{
+	text-align: center;
+	color: #666;
+	margin-bottom: 60px;
+}
+.bl-info-land .p-path{
+	color: #666;
+}
+.bl-info-land .p-path .s-red{
+	color: #e65656;
+}
+.bl-border-title{
+	border-top: 1px solid #c6c6c6;
+}
+.title-h2{
+	font-size: 24px;
+	font-weight: normal;
+	border: 1px solid #c6c6c6;
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 4px;
+	padding: 10px 20px;
+	position: absolute;
+	left: 50%;
+	top: -45px;
+}
+
+.bl-land-monopoly{
+	position: relative;
+	padding: 60px 0;
+}
+.bl-land-monopoly .title-h2{
+	margin-left: -215px;
+}
+.bl-land-hightlight{
+	position: relative;
+	text-align: center;
+	padding: 60px 0;
+}
+.bl-land-hightlight .title-h2{
+	margin-left: -130px;
+}
+.bl-land-hightlight img{
+	width: 100%;
+}
+.bl-land-hightlight a{
+	color: #fff;
+}
+.bl-land-hightlight .p-slogan{
+	font-size: 20px;
+	margin: 20px 0 40px;
+}
+.bl-land-hightlight .col-sm-12{
+	padding: 0 8px;
+}
+.bl-land-hightlight .col-sm-6, .bl-land-hightlight .col-sm-3{
+	padding: 8px;
+}
+.bl-land-hightlight .bl-info{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -36px;
+}
+.bl-land-hightlight .col-sm-6 .bl-info{
+	margin-left: -110px;
+}
+.bl-land-hightlight .col-sm-6.col-long .bl-info{
+	margin-left: -145px;
+}
+.bl-land-hightlight .col-sm-3 .bl-info{
+	margin-left: -85px;
+}
+.bl-land-hightlight .col-sm-6.col-binhthanh .bl-info{
+	margin-left: -135px;
+}
+.bl-land-hightlight .bl-info p{
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.bl-land-hightlight .bl-info h3{
+	font-size: 28px;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+.block-listing .row{
+	margin: 0 -8px;
+}
+.block-listing .col-sm-3{
+	padding: 0 8px;
+}
+.block-listing .blocks{
+	position: relative;
+	background: rgba(0,0,0,0);
+	color: #fff;
+}
+.block-listing .blocks img{
+	height: 190px;
+	width: 100%;
+}
+.block-listing .blocks a{
+	color: #fff;
+	display: inline-block;
+}
+.block-listing .bl-value{
+	position: absolute;
+	bottom: 4px;
+	z-index: 2;
+	padding: 0 10px;
+	width: 100%;
+	text-shadow: 0 2px 7px rgba(0,0,0,.75);
+}
+.block-listing .bl-price{
+	font-size: 25px;
+}
+.block-listing .bl-info-listing{
+	font-size: 16px;
+}
+.block-listing .bl-info-listing .elements{
+    padding-top: 4px;
+    min-height: 30px;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: auto;
+    padding-left: 25px;
+    margin-right: 20px;
+    position: relative;
+}
+.block-listing .bl-info-listing .elements:last-child{
+	margin-right: 0;
+}
+.block-listing .bl-info-listing .elements:before{
+	content: '';
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url('/assets/images/iconweb.svg?v=03.06.2019');
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	background-position-y: -6px;
+}
+.block-listing .bl-info-listing .elements.acreage:before{
+	background-position-x: -305px;
+}
+.block-listing .bl-info-listing .elements.bedroom:before{
+	background-position-x: -275px;
+}
+.block-listing .bl-info-listing .elements.bathroom:before{
+	background-position-x: -245px;
+}
+.block-listing .bl-info-listing .elements.incense:before{
+	background-position-x: -215px;
+}
+.block-listing .bl-like{
+	background: url('/assets/images/iconweb.svg?v=03.06.2019') no-repeat 0 0;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 10px;
+	bottom: 45px;
+	z-index: 3;
+}
+.block-listing .bl-like.active{
+	background-position: 0 0;
+}
+.block-listing .bl-watched{
+	font-size: 12px;
+	padding: 3px 7px 1px 20px;
+	border-radius: 3px;
+	position: absolute;
+	top: 10px;
+	right: 8px;
+	font-style: italic;
+	background-color: rgba(0,0,0,.45);
+}
+.block-listing .bl-watched:before{
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('/assets/images/iconweb.svg?v=03.06.2019') no-repeat -334px -4px transparent;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.block-listing .bl-checked{
+	text-transform: uppercase;
+	font-size: 14px;
+	bottom: 70px;
+	color: #fff;
+	padding-left: 22px;
+	font-weight: 400;
+}
+.block-listing .bl-checked:before{
+	content: '';
+	display: inline-block;
+	background: url('/assets/images/iconweb.svg?v=03.06.2019') no-repeat -245px -34px transparent;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 7px;
+    top: 0;
+}
+.block-listing .block-info{
+	padding: 10px 8px;
+	position: relative;
+	background-color: #eee;
+	color: #666;
+}
+.block-listing .block-info p{
+	margin-bottom: 0;
+}

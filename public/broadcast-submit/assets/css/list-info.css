@@ -1,0 +1,87 @@
+
+body{
+	background: url('../images/bg-pc.jpg') no-repeat center;
+	position: relative;
+	color: #333;
+}
+.i-red{
+	color: #ff0000;
+	font-style: normal;
+}
+.bl-title{
+	background-color: #f5f5f5;
+	text-transform: uppercase;
+	color: #165aa9;
+	font-size: 16px;
+	border-left: 8px solid #165aa9;
+	border-radius: 4px;
+	padding: 8px 15px 8px 10px;
+}
+.bl-title .span-note{
+	text-transform: none;
+	color: #666;
+	display: inline-block;
+	float: right;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.content-info{
+	background-color: #fff;
+	width: 665px;
+	border-radius: 10px;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 10px 20px rgba(0,0,0,.1);
+	margin: 0 auto 100px;
+	padding: 15px 15px 5px;
+}
+.bl-logo img{
+	margin: 0 auto;
+	display: block;
+	padding: 40px 0 50px;
+}
+.bl-info .row, .bl-import .row{
+	margin: 20px 5px;
+}
+.bl-info .form-group{
+	margin-bottom: 8px;
+}
+.bl-info .label-info{
+	background-color: transparent;
+	font-weight: normal;
+}
+.bl-import .form-control{
+	border-color: #ddd;
+	box-shadow: none;
+	height: 30px;
+}
+.bl-import textarea.form-control{
+	height: 70px;
+	width: 100% !important;
+}
+.bl-import .btn-send{
+	background-color: #165aa9;
+	border: 1px solid #024899;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 8px 25px;
+	margin-top: 10px;
+}
+@media(max-width: 414px){
+	body{
+		background: url('../images/bg-mobile.jpg') no-repeat center;
+		background-size: cover;
+	}
+	.content-info{
+		width: auto;
+		margin: 0 12px 30px;
+	}
+	.bl-logo img{
+		padding: 35px 0 30px;
+	}
+	.bl-title .span-note{
+		font-size: 10px;
+		padding-top: 5px;
+	}
+}

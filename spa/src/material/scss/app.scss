@@ -1,0 +1,63 @@
+#spa-main {
+    _min-height: 100vh;
+    .tooltip-inner {
+        background: #000;
+    }
+    .filter-button {
+        float: right;
+    }
+    .listing-table {
+        min-width: 2000px;
+    }
+    .filter-box {
+        width: 500px;
+        padding: 0px 20px;
+        position: absolute;
+        right: 0px;
+        z-index: 1000;
+    }
+    .rdtPicker thead tr:first-of-type th:hover {
+        background: none;
+    }
+    .rdtPicker table thead th,
+    table thead tr,
+    table tfoot th,
+    table tfoot tr {
+        background: none;
+        font-weight: normal;
+        color: #000;
+    }
+    .date-range-inline {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .date-range-inline + .date-range-inline {
+        padding-left: 10px;
+    }
+    .filter-closed {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        z-index: 10;
+    }
+    .bsa-tabs {
+        background: #fff;
+        padding: 0px 10px;
+        & > div > div{
+            text-align: center;
+            padding: 10px 20px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .-active{
+            border-top: 2px solid #00f;
+        }
+    }
+
+    #lead-list_wrapper {
+        > div > div.col-sm-12 {
+            overflow: auto;
+        }
+    }
+}

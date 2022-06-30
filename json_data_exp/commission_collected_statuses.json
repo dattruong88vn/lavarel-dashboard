@@ -1,0 +1,17 @@
+{
+    "result": true,
+    "code": "200",
+    "message": "Thao tác thành công",
+    "validatedMessage": null,
+    "data": [
+          {
+            "value": 1,
+            "label": "Thu đủ"
+          },
+          {
+            "value": 0,
+            "label": "Thu chưa đủ"
+          }
+    ],
+    "additional": null
+}

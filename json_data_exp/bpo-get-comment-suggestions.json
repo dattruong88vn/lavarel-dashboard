@@ -1,0 +1,28 @@
+{
+    "result": true,
+    "code": 200,
+    "message": null,
+    "technicalMessage": null,
+    "data": [
+        {
+            "suggestionId": 1,
+            "content": "Bán nhanh trong 10 ngày"
+        },
+        {
+            "suggestionId": 2,
+            "content": "Chủ nhà giảm giá, sẽ bán nhanh được trong tháng"
+        },
+        {
+            "suggestionId": 3,
+            "content": "Bán trong 1 nốt nhạc"
+        },
+        {
+            "suggestionId": 4,
+            "content": "Khả năng khó bán vì chủ nhà tăng giá"
+        },
+        {
+            "suggestionId": 5,
+            "content": "Hy vọng bán nhanh được"
+        }
+    ]
+}

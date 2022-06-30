@@ -1,0 +1,2 @@
+export const SHOW_HIDE_MODAL = 'SHOW_HIDE_MODAL';
+export const SET_LIST_HISTORY = 'SET_LIST_HISTORY';

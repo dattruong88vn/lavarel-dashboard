@@ -1,0 +1,39 @@
+.compare-score-container {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px 15px 10px 0px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    .flex-score {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-between;
+        .score-left {
+            display: flex;
+            flex-direction: column;
+        }
+        .score-right {
+            display: flex;
+            flex-direction: column;
+        }
+        .score-label {
+            text-align: center;
+            width: 100%;
+            font-weight: 1000;
+            font-size: 18px;
+        }
+    }
+    .flex-warning {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        .title {
+            color: #e08e00;
+            font-size: 13px;
+            font-weight: 1000;
+            margin: 0.5rem 0;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+
+.index .bl-search {
+    background: url(/assets/images/special/noel/mobile/banner.jpg) no-repeat;
+}
+.index .bl-search h1{
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+}

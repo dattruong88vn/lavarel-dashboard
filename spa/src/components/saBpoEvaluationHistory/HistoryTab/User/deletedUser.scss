@@ -1,0 +1,42 @@
+.deleted-user-container {
+    padding: 15px 0px 15px 0px;
+    .deleted-user {
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        display: flex;
+        padding: 15px 0px 15px 0px;
+
+        .text-left {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            .image-text {
+                padding: 10px 10px 5px 5px;
+                margin: 0px;
+                display: flex;
+                flex-direction: row;
+                .image {
+                    margin: 0px;
+                }
+                .black-title {
+                    color: black;
+                    margin: 0px;
+                    padding-left: 3px;
+                    font-weight: 1000;
+                }
+            }
+
+            .nomal-title {
+                padding: 5px 10px 5px 25px;
+                color: gray;
+                margin: 0px;
+            }
+        }
+        .text-right {
+            color: gray;
+            padding: 10px 10px 5px 25px;
+            margin: 0px;
+            margin-left: 5%;
+        }
+    }
+}

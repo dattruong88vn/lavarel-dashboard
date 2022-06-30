@@ -1,0 +1,27 @@
+{
+    "result": true,
+    "code": "200",
+    "message": "Thao tác thành công",
+    "validatedMessage": null,
+    "data": {
+        "totalItems": 2,
+        "totalPages": 1,
+        "list": [
+            {
+                "commissionId": 1,
+                "commissionName": "Hoa hồng cho BA Tây Bá Lợi Á",
+                "positionName": "BA Staff",
+                "name": "Hoa hồng cố định",
+                "period": "7/2020"
+            },
+            {
+                "commissionId": 2,
+                "commissionName": "Hoa hồng cho SA Alijero",
+                "positionName": "SA Staff",
+                "name": "Hoa hồng theo doanh thu tích lũy",
+                "period": "7/2020"
+            }
+        ]
+    },
+    "additional": null
+}

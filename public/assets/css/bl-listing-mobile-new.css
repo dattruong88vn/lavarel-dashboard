@@ -1,0 +1,161 @@
+.bl-listing-mobile{
+	position: relative;
+	background-color: #f2f2f2;
+	color: #7a7a7a;
+	font-size: 13px;
+	display: table;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	padding: 0 20px;
+	margin-bottom: 35px;
+}
+.bl-listing-mobile .bl-listing-app{
+	position: relative;
+	z-index: 1;
+}
+.bl-listing-mobile .bg-white{
+	width: 100%;
+	height: 125px;
+	background-color: #fff;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	position: absolute;
+	bottom: -9px;
+	left: 0;
+	z-index: 0;
+}
+.bl-listing-mobile .bl-img{
+	text-align: center;
+	position: relative;
+}
+.bl-listing-mobile .bl-img img{
+	width: 100%;
+	border-radius: 10px;
+	height: 105px;
+}
+.bl-listing-mobile .bl-img p{
+	color: #f17423;
+	font-size: 14px;
+	padding-top: 5px;
+	display: block;
+}.bl-listing-mobile .bl-img p.active{
+	color: #8a8a8a;
+}
+.bl-listing-mobile .bl-info{
+	padding-left: 20px;
+}
+.bl-listing-mobile .bl-price{
+    font-size: 21px;
+    color: #5e5e5e;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 15px;
+}
+.bl-listing-mobile .bl-price .span-price{
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+}
+.bl-listing-mobile .bl-price .span-price:after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 22px;
+    background-color: #b8b8b8;
+    position: absolute;
+    top: 4px;
+    right: 1px;
+}
+.bl-listing-mobile .bl-price .p-title-rent{
+	font-size: 18px;
+	line-height: 22px;
+}
+.bl-listing-mobile .col-utilities{
+	text-align: center;
+	padding: 0 5px;
+	width: 33.33%;
+}
+.bl-listing-mobile .col-utilities:first-child{
+	padding-left: 0;
+}
+.bl-listing-mobile .col-utilities:last-child{
+	padding-right: 0;
+}
+.bl-listing-mobile .col-utilities .p-number{
+	font-size: 18px;
+	color: #5e5e5e;
+	font-weight: 500;
+}
+.bl-listing-mobile .bl-describe{
+	border-top: 1px solid #f4f4f4;
+	padding: 10px 0;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 45px;
+    margin: 10px 0;
+}
+.bl-listing-mobile .bl-value .bl-like:after{
+	content: '';
+    display: inline-block;
+    background-image: url(/assets/images/svg-icons.svg?v=03.06.2019);
+    background-repeat: no-repeat;
+    background-color: transparent;
+	width: 33px;
+    height: 33px;
+    position: absolute;
+    right: -20px;
+    top: -2px;
+}
+.bl-listing-mobile .bl-value .bl-like:after {
+    background-position: -1137px -1131px;
+}
+.bl-listing-mobile .bl-value .bl-like.active:after {
+    background-position: -1222px -1131px;
+}
+.bl-detail .p-describe{
+	font-family: 'Open Sans', sans-serif;
+	color: #5e5e5e;
+	margin-top: 10px;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 36px;
+}
+.bl-listing-mobile .bl-describe .p-number-apartment{
+	color: #7a7a7a;
+	font-family: 'Open Sans', sans-serif;
+}
+.bl-listing-mobile.rent{
+	margin-bottom: 20px;
+}
+.bl-listing-mobile.rent .bg-white{
+    bottom: 5px;
+    height: 110px;
+}
+.redirectProductDetail {
+    color: #7a7a7a;
+}
+@media(max-width: 375px){
+	.bl-listing-mobile.buy{
+		font-size: 12px;
+	}
+	.bl-listing-mobile.buy .col-utilities .p-number{
+		font-size: 16px;
+	}
+	.bl-listing-mobile.buy .col-utilities{
+		padding: 0 4px;
+	}
+	.bl-listing-mobile.buy .bl-img p{
+		font-size: 12px;
+	}
+}
+@media(max-width: 360px){
+	.bl-listing-mobile.buy .col-utilities{
+		padding: 0 2px;
+	}
+}

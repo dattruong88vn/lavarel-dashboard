@@ -1,0 +1,301 @@
+svg > g > g:last-child { pointer-events: none }
+.my-account-page{
+	padding-top: 37px;
+}
+.bl-my-account .col-right{
+	padding: 0 15px;
+	background-color: #fff;
+}
+.bl-header h3{
+	font-size: 18px;
+	font-weight: 500;
+	color: #474747;
+	margin: 17px 0 18px;
+}
+.bl-customer-filter{
+	position: relative;
+	background-color: #f7f7f7;
+	padding: 18px 20px 0;
+	border-bottom: 1px solid #e3e3e3;
+}
+.bl-customer-filter .nav-tabs>li.active>a,
+.bl-customer-filter .nav-tabs>li.active>a:focus,
+.bl-customer-filter .nav-tabs>li.active>a:hover{
+	font-size: 14px;
+	color: #676767;
+	font-weight: bold;
+}
+.bl-customer-filter .nav-tabs{
+	border-bottom: 0;
+}
+.bl-customer-filter .nav-tabs>li>a{
+	font-size: 14px;
+	color: #676767;
+	font-weight: bold;
+	border-radius: 6px 6px 0 0;
+	padding: 17px 20px 12px;
+}
+.bl-filter{
+	position: absolute;
+	top: 18px;
+	right: 15px;
+}
+.bl-filter .form-control{
+	height: 34px;
+	border: 1px solid #c6c6c6;
+	background-color: transparent;
+	font-size: 13px;
+	color: #676767;
+	margin-right: 15px;
+	width: 225px;
+}
+.bl-filter .dropdown-menu{
+	border-color: #e3e3e3;
+}
+.bl-filter .dropdown-menu .col-sm-12{
+	padding: 0 5px;
+}
+.bl-filter .dropdown-menu .form-control{
+	width: 100%;
+	height: 28px;
+}
+.bl-filter .dropdown-menu .control-label{
+	font-size: 14px;
+    color: #676767;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.bl-filter .dropdown-menu .col-button{
+	text-align: center;
+	border-top: 1px solid #e3e3e3;
+}
+.bl-filter .dropdown-menu .col-button .btn-apply{
+	background-color: transparent;
+	color: #f1792b;
+	font-family: 'Open Sans', sans-serif;
+}
+.div-choose-date{
+	padding: 3px 5px 18px;
+    display: table;
+}
+.bl-filter .bl-inline{
+	position: relative;
+}
+.bl-filter .bl-inline:after{
+	content: '';
+	display: inline-block;
+	border-left: 1px solid #e3e3e3;
+	width: 34px;
+	height: 22px;
+	position: absolute;
+	right: 17px;
+    top: 6px;
+    cursor: pointer;
+}
+/*.bl-filter .bl-inline.bl-calendar:after{
+	background: url('/assets/images/version-4/icons/ic-calendar-3.png') no-repeat center transparent;
+}*/
+/*.bl-filter .bl-inline.bl-input-search:after{
+	background: url('/assets/images/version-4/icons/ic-search-2.png') no-repeat center transparent;
+}*/
+.bl-customer-info .tab-content>.tab-pane{
+	padding: 18px 0;
+}
+.block-customer .row{
+	margin: 0 -8px;
+}
+.block-customer .col-lg-6{
+	padding: 0 8px;
+}
+.customer-info{
+	font-size: 15px;
+	color: #676767;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px;
+	box-shadow: 0 3px 5px rgba(227,227,227,.54);
+	padding: 13px 15px 5px;
+	margin: 9px 0;
+}
+.bl-deposit{
+	position: absolute;
+	right: 20px;
+    top: 22px;
+}
+.bl-deposit .p-info{
+	margin-bottom: 5px;
+}
+.bl-deposit .p-date{
+	font-style: italic;
+	font-size: 14px;
+	color: #b7b7b7;
+    text-align: right;
+}
+.bl-table-chart{
+	padding-bottom: 20px;
+}
+.bl-table-chart .row{
+	margin: 0 -5px;
+}
+.bl-table-chart .bl-border{
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    padding: 0;
+    margin: 0 5px;
+}
+.bl-table-chart .bl-title-header{
+	display: table;
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 15px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #676767;
+}
+.bl-table-chart .bl-info{
+	padding: 15px 10px 20px;
+	font-size: 14px;
+    color: #676767;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    display: table;
+    width: 100%;
+}
+.bl-table-chart .col-finance .bl-info{
+	padding: 18px 15px 20px;
+}
+.bl-table-chart .col-finance .bl-title-header{
+	padding-left: 15px;
+}
+.bl-pay-info{
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+.bl-pay-info:last-child{
+	border-bottom: 0;
+}
+.bl-pay-info p{
+	margin-bottom: 8px;
+}
+.bl-pay-info b{
+	font-weight: bold;
+	font-size: 24px;
+}
+.block-customer .bl-header{
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+.block-customer .bl-header h3{
+	margin-bottom: 0;
+}
+.block-customer .bl-header .bl-filter{
+	top: -15px;
+	right: -15px;
+}
+/*.bl-filter .bl-inline.bl-filter-status:after {
+    background: url('/assets/images/version-4/icons/ic-select-7.png') no-repeat center transparent;
+}*/
+.block-customer .bl-filter .dropdown-menu{
+	width: 92%;
+}
+.block-customer .bl-filter .dropdown-menu ul{
+	padding: 0;
+}
+.block-customer .bl-filter .bl-filter-status .form-control{
+	width: 168px;
+}
+.block-customer .bl-filter .dropdown-menu li{
+	list-style: none;
+}
+.block-customer .bl-filter .dropdown-menu li a{
+	display: block;
+	padding: 8px 12px;
+}
+.block-customer .bl-filter .dropdown-menu li a:hover{
+	background-color: #f5f5f5;
+}
+.block-customer .bl-filter .bl-status .p-info{
+	font-size: 13px;
+	margin-bottom: 0;
+}
+.block-customer .bl-filter .bl-status .p-info:before{
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+	top: 4px;
+}
+.piechart{
+    width: 220px;
+    height: 220px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.search-by-name{
+    z-index: 99;
+    position: relative;
+    top: -26px;
+    left: 200px;
+    cursor: pointer;
+}
+.search-by-date{
+    z-index: 99;
+    position: relative;
+    top: -26px;
+    left: 200px;
+    cursor: pointer;
+}
+.search-by-status{
+    left: 132px;
+    z-index: 99;
+    position: relative;
+    top: -17px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.bl-my-account .col-right-customer{
+    min-height: 617px;
+}
+.total-listing, .total-listing:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    float: right;
+}
+.bl-pagination .paginate:last-child, .bl-pagination .inactive, .bl-pagination .inactive, 
+.bl-pagination .paginate:first-child{
+    background-color: #fff;
+}
+.bl-pagination .current{
+    background-color: #4281c3;
+    border-color: #4281c3;
+    color: #fff;
+}
+@media(max-width: 1024px){
+	.block-customer .bl-header .bl-filter{
+		position: relative;
+		top: 0;
+		right: 0;
+		left: 0;
+		margin: 20px 0;
+		float: left !important;
+	}
+}
+@media(max-width: 768px){
+	.row-eq-height{
+		display: block;
+	}
+	.bl-table-chart .col-chart{
+		margin-bottom: 20px;
+	}
+}
+
+.bl-table-chart .bl-border.col-chart {
+	width: auto;
+	flex: auto;
+}
+
+.block-customer .bl-header  {
+	position: relative;
+}

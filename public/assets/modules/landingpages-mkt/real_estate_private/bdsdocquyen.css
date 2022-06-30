@@ -1,0 +1,349 @@
+body{
+    max-width: 1440px;
+    margin:0 auto;
+    margin-top: 43px;
+}
+.land-monopoly{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-size: 16px;
+    background-color: #fff;
+}
+.color-orange{
+    color: #ef7431;
+}
+.h-title{
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.h-title:before{
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+
+}
+
+.bl-land{
+    position: relative;
+    background-color: #f6f6f6;
+    padding: 5px 0;
+}
+.bl-land .bl-title{
+    position: relative;
+}
+.bl-land .bl-title:before{
+    content: '';
+    display: inline-block;
+    border: 3px solid #e4e4e4;
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    right: 0;
+}
+.bl-land .bl-title h2{
+    background: url(/assets/modules/landingpages-mkt/real_estate_private/images/ic-title.png) no-repeat left center #f6f6f6;
+    font-weight: 900;
+    font-size: 32px;
+    display: inline-block;
+    color: #144270;
+    padding: 20px 25px 20px 90px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.bl-land-info,.bl-listing{
+    position: relative;
+}
+.bl-land-info .bl-listing{
+    border: 1px solid #144270;
+}
+.bl-land-info a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.bl-land-info img{
+    width: 100%;
+}
+.bl-land-info .col-middle .bl-listing{
+    margin-bottom: 30px;
+}
+.bl-listing-info{
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 20px;
+    height: 65px;
+}
+.col-middle .bl-listing-info, .col-small .bl-listing-info{
+    padding-top: 12px;
+}
+.bl-listing-info .p-title{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.col-middle .bl-listing-info .p-title{
+    font-size: 15px;
+}
+.bl-listing-info .p-price{
+    font-size: 37px;
+    position: absolute;
+    top: 7px;
+    right: 20px;
+}
+.col-middle .bl-listing-info .p-price{
+    font-size: 22px;
+    top: 12px;
+}
+.col-small .bl-listing-info .p-price{
+    font-size: 22px;
+    top: 5px;
+}
+.bl-listing-info .bl-info .elements{
+    padding: 5px 10px 0 28px;
+    display: inline-block;
+    font-size: 16px;
+}
+.bl-listing-info .bl-info .acreage{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/ic-acreage.png') no-repeat left 5px transparent;
+}
+.bl-listing-info .bl-info .bedroom{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/ic-bedroom.png') no-repeat left 5px transparent;
+}
+.bl-listing-info .bl-info .bathroom{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/ic-bathroom.png') no-repeat left 5px transparent;
+}
+.col-icon-small .bl-listing-info .bl-info .elements{
+    font-size: 12px;
+    padding: 5px 10px 0 23px;
+}
+.col-icon-small .bl-listing-info .bl-info .acreage{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/ic-acreage-small.png') no-repeat left 5px transparent;
+}
+.col-icon-small .bl-listing-info .bl-info .bedroom{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/ic-bedroom-small.png') no-repeat left 5px transparent;
+}
+.col-icon-small .bl-listing-info .bl-info .bathroom{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/ic-bathroom-small.png') no-repeat left 5px transparent;
+}
+.bl-resgiter-info{
+    padding-top: 25px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 45px;
+}
+.bl-resgiter-info h3{
+    background-color: #144270;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+}
+.bl-resgiter-info .bl-info{
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #696969;
+}
+.bl-resgiter-info .bl-info b{
+    color: #000;
+    padding-top: 10px;
+    display: inline-block;
+}
+.bl-resgiter-info .bl-info .form-group{
+    margin-bottom: 8px;
+}
+.bl-resgiter-info .bl-info .form-control{
+    background-color: #f6f6f6;
+    border-color: #eee;
+    height: 40px;
+    border-radius: 2px;
+    box-shadow: none;
+}
+.bl-resgiter-info .bl-info textarea.form-control{
+    height: 90px;
+    max-width: 100%;
+}
+.bl-resgiter-info .bl-info .btn-send{
+    background-color: #fb7533;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 2px;
+    color: #fff;
+    width: 100%;
+    padding: 13px 0 10px;
+    margin: 10px 0;
+}
+
+.bl-environment{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/bg_company_footer.jpg') no-repeat center transparent;
+    background-size: cover;
+    padding: 30px 0 45px;
+    color: #14498d;
+}
+
+.bl-environment .img-responsive{
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+.bl-environment .h-title{
+    margin-bottom: 55px;
+    color: #14498d;
+}
+.bl-environment .h-title:before{
+    background-color: rgba(21,75,141,.2);
+    margin-left: -25%;
+    width: 50%;
+}
+.bl-contact .p-company{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.bl-contact .p-address{
+    font-size: 20px;
+    line-height: 25px;
+}
+.bl-contact .p-address a, .bl-contact .p-address a:hover{
+    color: #14498d;
+    text-decoration: none;
+}
+#image-about-company img{
+    height: 181px;
+}
+.form-control-feedback{
+    position: absolute;
+    top: 3px;
+    right: 9px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+.btn-send.disable{
+    opacity: 0.5;
+}
+.p-path{
+    margin-left: 15px;
+}
+.head-img-banner {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.bl-title .btn-readmore{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/button-xemtatca.png') no-repeat center transparent;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -20px;
+    width: 135px;
+    height: 50px;
+}
+.bl-bds{
+    background-color: rgba(9,76,151,.1);
+    position: relative;
+    padding: 30px 0 45px;
+}
+.bl-procedure{
+    padding: 10px 0 50px;
+}
+.bl-procedure .h-title-new{
+    font-weight: 500;
+    color: #005aa5;
+    margin: 30px 0 55px;
+}
+.bl-procedure .h-title-new:before{
+    background-color: #1366ac;
+    margin-left: -18.3%;
+    width: 36.5%;
+    height: 5px;
+    bottom: -15px;
+}
+.bl-video{
+    margin: 5px auto 40px;
+    position: relative;
+    display: table;
+}
+.bl-tc{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/bg-tc.jpg') no-repeat center transparent;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    padding: 25px 0 30px;
+}
+.bl-tc .title-tc{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.bl-tc h2.title-tc{
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.bl-tc .col-left{
+    padding-left: 100px;
+}
+.bl-item-tc .p-district{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    padding-left: 30px;
+}
+.bl-address{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/ic-address.png') no-repeat left center transparent;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.bl-address p{
+    margin: 2px 0;
+}
+.bl-address .p-title{
+    font-size: 16px;
+    font-weight: 700;
+}
+.bl-address .p-address{
+    font-size: 14px;
+    font-weight: 400;
+}
+.bl-aboutus{
+    background: url('/assets/modules/landingpages-mkt/real_estate_private/images/bg-aboutus.jpg') no-repeat center transparent;
+    position: relative;
+    padding: 50px 0 60px;
+}
+.bl-aboutus .title-about{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #005aa5;
+}
+.bl-aboutus h3.title-about{
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.bl-aboutus .bl-text{
+    font-size: 20px;
+    color: #005aa5;
+}
+.bl-aboutus .bl-text p{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,59 @@
+#main .t-detail h1 {
+    margin-top:0;
+}
+.item.item-transparent .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.4;
+    display:none;
+    z-index:4;
+}
+.item.item-transparent .text {
+    z-index:5;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    color:#fff;
+    display:none;
+}
+.item.item-transparent a {
+    position: relative;
+}
+.project-detail-feature .zoom {
+    left:5px !important;
+    top: 5px !important;
+}
+.list-social .active {
+    color: #337ab7;
+}
+.custom-gallery .item:first-child {
+    padding-bottom:15px;
+}
+.list-layout-2.pdf .title {
+    position: relative;
+    padding-right: 50px;
+}
+#main .scroll-bds-rent {
+    display:none;
+}
+#main .scroll-bds-buy {
+    display:none;
+}
+#rental {
+    display:none;
+}
+#vendor {
+    display:none;
+}
+#nearby {
+    display:none;
+}
+#rental .item , #vendor .item {
+    background-color: #fff;
+    border-top: unset;
+}

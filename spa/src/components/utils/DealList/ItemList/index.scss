@@ -1,0 +1,106 @@
+@import "../../../../material/scss/vars.scss";
+.deal-list {
+    font-size:11px;
+    .item-list {
+        padding-bottom: $distanceItem;
+    
+        .item {
+            border-top-width: 0;
+            margin-bottom: 0;
+            padding-bottom: 0px;
+    
+            + .item {
+                border-top: 1px solid #ddd;
+            }
+            .box-body {
+                display: flex;
+            }
+    
+            .deal-id {
+                a {
+                    margin-left: 2px;
+                }
+            }
+    
+            .deal-date {
+                .expected-closing-date {
+                    span {
+                        color: #E74C3C;
+                        font-weight: bold;
+                    }
+                }
+            }
+    
+            .feedbacks {
+                display: block;
+                overflow: hidden;
+    
+                .rating-section {
+                    display: flex;
+                    margin-top: 5px;
+                    padding-left: 15px;
+    
+                    > span {
+                        color: #337ab7;
+                        cursor: pointer;
+                        margin-left: $distanceItem;
+                        text-decoration: underline;
+                    }
+                }
+                .nav-tabs {
+                    margin-left: $distanceItem;
+                    padding-top: $distanceItem;
+    
+                    .tab-item {
+                        color: #000;
+                        padding: 5px 10px;
+    
+                        &.active {
+                            background: #eee;
+                        }
+    
+                        a {
+                            background: transparent;
+                            border: none;
+                            padding: 0;
+                        }
+                    }
+                }
+                .tab-content {
+                    margin-top: 15px;
+                    overflow: hidden;
+    
+                    .tab-pane {
+                        &.active {
+                            opacity: 1;
+                        }
+    
+                        > ul {
+                            list-style: none;
+                            padding-left: 15px;
+    
+                            > li + li {
+                                margin-top: 5px;
+                            }
+    
+                            li.name {
+                                background: #ddd;
+                                border-radius: 10px;
+                                font-size: $tabContentFontSize;
+                                padding: 3px 5px;
+                                text-align: center;
+                            }
+                            li.item-content {
+                                font-size: $tabContentFontSize;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .btn {
+                font-size: $fontSize;
+            }
+        }
+    }
+}

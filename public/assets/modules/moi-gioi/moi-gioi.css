@@ -1,0 +1,1195 @@
+body{
+    background-color: #fff;
+}
+.agentpage{
+    background-color: #fff;
+    font-size: 17px;
+    color: #000;
+}
+.agentpage .title-propzy{
+    font-size: 40px;
+    color: #000;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container{
+    padding: 0 15px;
+}
+.agentpage .container-new-agent{
+    padding: 0 5%;
+}
+
+/*banner-agentpage*/
+.banner-agentpage{
+    background: url('/assets/modules/moi-gioi/images/backgrounds/banner-moi-gioi.png') no-repeat center;
+    background-size: cover;
+    min-height: 451px;
+    position: relative;
+}
+.banner-agentpage .row-banner{
+    margin-top: 15%;
+}
+.banner-agentpage h1{
+    font-size: 45px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.banner-agentpage .slogan{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 0 20px 20px;
+    z-index: 8;
+}
+.banner-agentpage .slogan-1{
+    background: url('/assets/modules/moi-gioi/images/backgrounds/bg-blue.png') repeat center;
+    max-width: 52%; 
+    height: 67px;
+}
+.banner-agentpage .slogan-1:after{
+    content: '';
+    background: url('/assets/modules/moi-gioi/images/backgrounds/bg-blue-1.png') no-repeat top center;
+    position: absolute;
+    width: 25px;
+    height: 74px;
+    right: -24px;
+    top: 0
+}
+.banner-agentpage .slogan-2{
+    background: url('/assets/modules/moi-gioi/images/backgrounds/bg-black.png') repeat center;
+    max-width: 55%;
+    height: 68px;
+    margin-top: 5px;
+    position: relative;
+    padding-right: 10px;
+}
+.banner-agentpage .slogan-2:after{
+    content: '';
+    background: url('/assets/modules/moi-gioi/images/backgrounds/bg-black-1.png') no-repeat top center;
+    position: absolute;
+    width: 25px;
+    height: 74px;
+    right: -25px;
+    top: 0;
+}
+.banner-agentpage .slogan-2 .border-top{
+    background-image: url('/assets/modules/moi-gioi/images/backgrounds/border-top.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 5px;
+    width: 14%;
+    position: absolute;
+    top: -5px;
+    right: -25px;
+}
+.banner-agentpage .image-banner{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+/*become agentpage*/
+.become-agentpage{
+    background: url('/assets/modules/moi-gioi/images/backgrounds/bg-become-agentpage.png') no-repeat center;
+    background-size: cover;
+    font-size: 17px;
+    color: #000;
+    position: relative;
+    padding: 30px 0 50px;
+}
+.become-agentpage .container-new{
+    position: relative;
+}
+.become-agentpage .container-new > p {
+    text-align: center;
+}
+.become-agentpage .title-become-agent{
+    font-weight: 700;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 30px 30px 30px 105px;
+    position: relative;
+    z-index: 8;
+    margin-bottom: 0;
+}
+.become-agentpage .col-left .title-become-agent{
+    color: #323232;
+    background-image: url('/assets/modules/moi-gioi/images/icons/icon8.png');
+}
+.become-agentpage .col-right .title-become-agent{
+    color: #f66d3e;
+    background-image: url('/assets/modules/moi-gioi/images/icons/icon9.png');
+}
+.become-agentpage .list-become-agent{
+    padding-left: 30px;
+    position: relative;
+}
+.become-agentpage .list-become-agent:before{
+    border-left: 1px solid #868686;
+    content: '';
+    display: inline-block;
+    min-height: 70%;
+    position: absolute;
+    left: 43px;
+    top: 0;
+}
+.become-agentpage .col-right .list-become-agent:before{
+    border-color: #f66d3e;
+}
+.become-agentpage .list-become-agent li{
+    background-repeat: no-repeat;
+    background-position: left 15px;
+    padding-left: 75px;
+    padding-top: 15px;
+    position: relative;
+    min-height: 88px;
+    z-index: 8;
+}
+.become-agentpage .list-become-agent li:last-child{
+    min-height: 120px;
+}
+.become-agentpage .col-left .list-become-agent li{
+    background-image: url('/assets/modules/moi-gioi/images/icons/icon-list-gray.png');
+}
+.become-agentpage .col-right .list-become-agent li{
+    background-image: url('/assets/modules/moi-gioi/images/icons/icon-list-orange.png');
+}
+.become-agentpage .line-li{
+    border-left: 1px solid #868686;
+    min-height: 48%;
+    position: absolute;
+    top: 32%;
+}
+.become-agentpage .line-gray{
+    left:  8.8%;
+}
+.become-agentpage .line-orange{
+    border-color: #f66d3e;
+    left: 55.1%;
+}
+
+/*activity-agentpage*/
+.activity-agentpage{
+    padding-bottom: 50px;
+}
+.activity-agentpage .container-new-agent{
+    position: relative;
+}
+.activity-agentpage .title-propzy{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.activity-agentpage .information-bds{
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+    min-height: 65px;
+}
+.activity-agentpage .media{
+    margin-top: 35px;
+}
+.activity-agentpage .media-body{
+    padding: 15px 0 0 15px;
+}
+.activity-agentpage .line-activity{
+    border-left: 1px dashed #989898;
+    height: 62%;
+    position: absolute;
+    opacity: 0.4;
+    top: 34%;
+}
+.activity-agentpage .line-activity-left{
+    left: 8%;
+}
+.activity-agentpage .line-activity-right{
+    left: 54.4%;
+}
+
+
+
+/*why-become-agentpage*/
+.why-become-agentpage{
+    font-size: 15px;
+    color: #000;
+    position: relative;
+}
+.why-become-agentpage .line-top{
+    width: 40%;
+    border-top: 1px solid #c2c2c2;
+    display: table;
+    margin: 0 auto;
+}
+.why-become-agentpage .row{
+    margin-right: 0
+}
+.why-become-agentpage .title-propzy{
+    margin-top: 40px;
+    margin-bottom: 0
+}
+.why-become-agentpage .line{
+    border: 1px solid #164b85;
+    height: 55%;
+    position: absolute;
+    top: 29%;
+    right: 46.7%;
+}
+.why-become-agentpage .col-right{
+    margin-top: 30px;
+    padding-right: 7.7%;
+}
+.why-become-agentpage .col-right .media-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.why-become-agentpage .col-right .media{
+    margin-top: 20px;
+}
+.why-become-agentpage .col-right .media-body p{
+    line-height: 18px;
+}
+.why-become-agentpage .col-right .pull-left{
+    padding-right: 15px;
+}
+
+/*agentpage-portal*/
+.agentpage-portal{
+    background: url('/assets/modules/moi-gioi/images/backgrounds/bg-agentpage-portal.png') no-repeat right center;
+    background-size: cover;
+    min-height: 535px;
+    font-size: 15px;
+    padding-top: 30px;
+}
+.agentpage-portal .title-agent-portal{
+    font-size: 25px;
+    font-weight: normal;
+    color: #164b85;
+    margin-bottom: 15px;
+}
+.agentpage-portal .row-agentportal{
+    width: 55%;
+}
+.agentpage-portal .block-2 p{
+    margin-bottom: 15px;
+}
+.agentpage-portal .btn-agentpage-portal{
+    background-color: #9dce40;
+    padding: 11px 4.5%;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.agentpage-portal .row-agentportal ul{
+    padding-left: 30px;
+}
+.agentpage-portal .row-agentportal li{
+    list-style: initial;
+}
+
+/*language: English*/
+.banner-agentpage .slogan-1.slogan-1-en{
+    max-width: 54%; 
+}
+
+.banner-agentpage .bl-buttons{
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.banner-agentpage .bl-buttons a {
+    background: rgba(230, 86, 86, 1);
+    background: -moz-linear-gradient(top, rgba(230, 86, 86, 1) 0%, rgba(230, 86, 86, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(22,78,139,1)), color-stop(100%, rgba(13,57,108,1)));
+    background: -webkit-linear-gradient(top, rgba(230, 86, 86, 1) 0%, rgba(230, 86, 86, 1) 100%);
+    background: -o-linear-gradient(top, rgba(230, 86, 86, 1) 0%, rgba(230, 86, 86, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(230, 86, 86, 1) 0%, rgba(230, 86, 86, 1) 100%);
+    background: linear-gradient(to bottom, rgba(230, 86, 86, 1) 0%, rgba(230, 86, 86, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#164e8b', endColorstr='#0d396c', GradientType=0 );
+    font-size: 19px;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 3px;
+    width: 130px;
+}
+.agentpage li{
+    list-style: none;
+}
+@media(max-width: 1920px){
+    .why-become-agentpage  .line {
+        right: 47.6%;
+    }
+}
+@media(max-width: 1765px){
+    .why-become-agentpage  .line {
+        right: 47.5%;
+    }
+}
+@media(max-width: 1620px){
+    .why-become-agentpage  .line {
+        right: 47.2%;
+    }
+}
+@media(max-width: 1510px){
+    .why-become-agentpage  .line {
+        right: 47%;
+    }
+}
+@media(max-width: 1440px){
+    .why-become-agentpage  .line {
+        right: 46.8%;
+    }
+}
+
+@media(max-width: 1300px){
+    .why-become-agentpage  .line{
+        right: 46.5%;
+    }
+}
+@media(max-width: 1260px){
+    .why-become-agentpage  .line{
+        right: 46.5%;
+        top: 27%;
+    }
+    .why-become-agentpage .col-right{
+        margin-top: 10px;
+    }
+}
+@media(max-width: 1199px){
+    .why-become-agentpage  .line{
+        right: 46.2%;
+    }
+    .activity-agentpage .line-activity-left{
+        left: 8.6%;
+    }
+    .activity-agentpage .line-activity-right{
+        left: 55.2%;
+    }
+    .banner-agentpage .slogan{
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .become-agentpage .list-become-agent li{
+        min-height: 110px;
+    }
+}
+@media(max-width: 1160px){
+    .why-become-agentpage  .line{
+        right: 46.1%;
+        top: 29%;
+    }
+    .why-become-agentpage  .col-right .media{
+        margin-top: 15px;
+    }
+    .why-become-agentpage  .title-propzy{
+        margin-top: 30px;
+    }
+}
+@media(max-width: 1150px){
+}
+
+@media(max-width: 1090px){
+    .why-become-agentpage  .col-left{
+        margin-top: 15px;
+    }
+    .why-become-agentpage  .col-right{
+        margin-top: 0
+    }
+    .why-become-agentpage  .line{
+        right: 45.6%;
+        top: 35%;
+    }
+}
+@media(max-width: 1024px){
+    .agentpage-portal{
+        background: #fff;
+        min-height: auto;
+    }
+    .agentpage{
+        margin-top: 43px;
+    }
+    .agentpage-portal .row-agentportal{
+        width: 100%;
+    }
+    .why-become-agentpage .title-propzy{
+        padding: 0 10px;
+    }
+    .banner-agentpage .row-banner{
+        margin-top: 17%;
+    }
+}
+@media(max-width: 991px){
+    .banner-agentpage .image-banner{
+        display: none;
+    }
+    .banner-agentpage .slogan {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .banner-agentpage .slogan-1{
+        max-width: 76%;
+    }
+    .banner-agentpage .slogan-2{
+        max-width: 84.5%;
+    }
+    .why-become-agentpage {
+        padding: 20px 0 50px;
+    }
+    .why-become-agentpage  .col-left{
+        display: none;
+    }
+    .why-become-agentpage  .col-right{
+        width: 100%;
+        padding: 0 12%;
+    }
+    .why-become-agentpage .col-right .media{
+        margin-top: 35px;
+    }
+    .why-become-agentpage .line{
+        right: 85.4%;
+    }
+    .activity-agentpage .information-bds{
+        min-height: 100%;
+    }
+    .activity-agentpage .col-left{
+        margin-bottom: 60px;
+    }
+    .activity-agentpage .line-activity{
+        height: 32%;
+    }
+    .activity-agentpage .line-activity-left{
+        left: 9.7%;
+        top: 18%;
+    }
+    .activity-agentpage .line-activity-right{
+        left: 9.7%;
+        top: 66%;
+    }
+    .become-agentpage .list-become-agent li{
+        min-height: 80px;
+    }
+    .become-agentpage .col-right .list-become-agent:before, .become-agentpage .col-right.col-right-en .list-become-agent:before{
+        min-height: 66%;
+    }
+    /*language: English*/
+    .banner-agentpage .slogan-1.slogan-1-en{
+        max-width: 83%; 
+    }
+}
+@media(max-width: 920px){
+    .why-become-agentpage  .line{
+        right: 85.1%;
+    }
+}
+@media(max-width: 840px){
+    .why-become-agentpage  .line{
+        right: 84.9%;
+    }
+}
+@media (max-width: 780px){
+    .agentpage-portal .row-agentportal{
+        width: 100%;
+    }
+    .banner-agentpage .row-banner{
+        margin-top: 23%;
+    }
+}
+@media (max-width: 765px){
+    .become-agentpage .list-become-agent:before{
+        left: 8.6%;
+    }
+}
+@media(max-width: 752px){
+    .banner-agentpage .slogan{
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .banner-agentpage .slogan-2{
+        padding-right: 12px;
+    }
+}
+@media (max-width: 748px){
+    .become-agentpage .list-become-agent:before{
+        left: 8.7%;
+    }
+}
+@media (max-width: 740px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 10%;
+    }
+}
+@media (max-width: 739px){
+    .become-agentpage .list-become-agent:before{
+        left: 8.8%;
+    }
+}
+@media(max-width: 730px){
+    .why-become-agentpage .line{
+        right: 84.5%;
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 9%;
+    }
+    .become-agentpage .col-right .list-become-agent:before{
+        top: 15%;
+    }
+}
+@media(max-width: 715px){
+    .become-agentpage .list-become-agent:before{
+        left: 9.2%;
+    }
+}
+@media(max-width: 707px){
+    .become-agentpage .list-become-agent:before{
+        left: 9.3%;
+    }
+}
+@media(max-width: 700px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 10.5%;
+    }
+}
+@media(max-width: 699px){
+    .become-agentpage .list-become-agent:before{
+        left: 9.4%;
+    }
+}
+@media(max-width: 690px){
+    .banner-agentpage .slogan-1{
+        padding-right: 0
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 9.5%;
+    }
+    .become-agentpage .col-right .list-become-agent:before{
+        top: 15%;
+    }
+}
+@media(max-width: 680px){
+    .why-become-agentpage .line{
+        right: 84%;
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 9.7%;
+    }
+}
+@media(max-width: 670px){
+    .become-agentpage .list-become-agent:before{
+        left: 9.8%;
+    }
+}
+@media(max-width: 660px){
+    .become-agentpage .list-become-agent:before{
+        left: 9.9%;
+    }
+}
+@media(max-width: 650px){
+    .become-agentpage .list-become-agent:before{
+        left: 10.1%;
+    }
+}
+@media(max-width: 642px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 10.9%;
+    }
+}
+@media(max-width: 640px){
+    .become-agentpage .list-become-agent:before{
+        left: 10.3%;
+    }
+}
+@media(max-width: 630px){
+    .become-agentpage .list-become-agent:before{
+        left: 10.5%;
+    }
+}
+@media(max-width: 620px){
+    .become-agentpage .list-become-agent:before{
+        left: 10.7%;
+    }
+}
+@media(max-width: 611px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 11.2%;
+    }
+}
+@media(max-width: 610px){
+    .become-agentpage .list-become-agent:before{
+        left: 10.8%;
+    }
+}
+@media(max-width: 600px){
+    .become-agentpage .list-become-agent:before{
+        left: 10.9%;
+    }
+}
+@media(max-width: 599px){
+    .become-agentpage .list-become-agent:before{
+        left: 11%;
+    }
+}
+@media(max-width: 590px){
+    .become-agentpage .list-become-agent:before{
+        left: 11.1%;
+    }
+    .become-agentpage .col-right .list-become-agent:before{
+        top: 10%;
+    }
+}
+@media(max-width: 580px){
+    .become-agentpage .list-become-agent:before{
+        left: 11.3%;
+    }
+}
+@media(max-width: 575px){
+    .become-agentpage .list-become-agent:before{
+        left: 11.5%;
+    }
+}
+@media(max-width: 569px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 11.6%;
+    }
+    .become-agentpage .col-right.col-right-en .list-become-agent:before{
+        top: 13%;
+    }
+}
+@media(max-width: 566px){
+    .become-agentpage .list-become-agent:before{
+        left: 11.7%;
+    }
+    .become-agentpage .col-right .list-become-agent:before{
+        top: 11%;
+    }
+}
+@media(max-width: 557px){
+    .activity-agentpage .line-activity-left{
+        top: 22%;
+    }
+    /*language: English*/
+    .activity-agentpage .line-activity-left.line-activity-left-en{
+        top: 19%;
+    }
+}
+@media(max-width: 556px){
+    .become-agentpage .list-become-agent:before{
+        left: 12%;
+    }
+}
+@media(max-width: 546px){
+    .become-agentpage .list-become-agent:before{
+        left: 12.1%;
+    }
+}
+@media(max-width: 542px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 12%;
+    }
+    .why-become-agentpage .line{
+        top: 33%;
+    }
+}
+@media(max-width: 539px){
+    .why-become-agentpage  .line{
+        right: 83%;
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 12.3%;
+    }
+}
+@media(max-width: 529px){
+    .become-agentpage .list-become-agent:before{
+        left: 12.5%;
+    }
+}
+@media(max-width: 520px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 12.5%;
+    }
+    .banner-agentpage .slogan-1{
+        max-width: 84%;
+    }
+    .banner-agentpage .slogan-2{
+        max-width: 92.5%;
+    }
+}
+@media(max-width: 519px){
+    .become-agentpage .list-become-agent:before{
+        left: 12.8%;
+    }
+}
+@media(max-width: 510px){
+    .become-agentpage .list-become-agent:before{
+        left: 13%;
+    }
+}
+@media(max-width: 500px){
+    .become-agentpage .list-become-agent:before{
+        left: 13.2%;
+    }
+    .become-agentpage .col-right .list-become-agent:before{
+        top: 7%;
+    }
+}
+@media(max-width: 495px){
+    .become-agentpage .line-gray, .become-agentpage .line-orange{
+        left: 14.6%;
+    }
+}
+@media(max-width: 490px){
+    .become-agentpage .list-become-agent:before{
+        left: 13.5%;
+    }
+    .become-agentpage .col-left.col-left-en .list-become-agent:before{
+        top: 15%;
+    }
+}
+@media(max-width: 480px){
+    .become-agentpage .list-become-agent:before{
+        left: 13.9%;
+    }
+    .become-agentpage .col-right.col-right-en .list-become-agent:before{
+        top: 13%;
+    }
+}
+@media(max-width: 475px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 13%;
+    }
+}
+@media(max-width: 470px){
+    .why-become-agentpage .line{
+        top: 33%;
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 14.2%;
+    }
+}
+@media(max-width: 460px){
+    .become-agentpage .list-become-agent:before{
+        left: 14.5%;
+    }
+}
+@media(max-width: 452px){
+    .activity-agentpage .line-activity-right{
+        top: 67%;
+    }
+}
+@media(max-width: 450px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 13.7%;
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 14.9%;
+    }
+}
+@media(max-width: 445px){
+    /*language: English*/
+    .activity-agentpage .line-activity-right.line-activity-right-en{
+        top: 65%;
+    }
+}
+@media(max-width: 440px){
+    .why-become-agentpage .line{
+        top: 36%;
+    }
+    .activity-agentpage .line-activity-left.line-activity-left-en{
+        top: 20%;
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 15.3%;
+    }
+}
+@media(max-width: 430px){
+    .become-agentpage .list-become-agent:before{
+        left: 15.6%;
+    }
+}
+@media(max-width: 422px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 14.5%;
+    }
+}
+@media(max-width: 420px){
+    .banner-agentpage .row-banner{
+        margin-top: 45%;
+    }
+    .banner-agentpage .bl-buttons{
+        padding-left: 0;
+        text-align: center;
+    }
+    .banner-agentpage h2{
+        text-align: center;
+        padding-left: 0;
+    }
+    .banner-agentpage .slogan{
+        height: 100%;
+        max-width: 100%;
+    }
+    .banner-agentpage .slogan:after{
+        display: none
+    }
+    .banner-agentpage .slogan-2 .border-top{
+        display: none;
+    }
+    /*language: English*/
+    .banner-agentpage .slogan-1.slogan-1-en{
+        max-width: 100%; 
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 16%;
+    }
+    .become-agentpage .col-right .list-become-agent:before{
+        top: 5%;
+    }
+    .become-agentpage .col-right.col-right-en .list-become-agent:before{
+        top: 10%;
+    }
+}
+@media(max-width: 410px){
+    .become-propzy-agent .list-become-agent:before{
+        left: 16.4%;
+    }
+    .become-propzy-agent .col-right.col-right-en .list-become-agent:before{
+        top: 8%;
+    }
+}
+@media(max-width: 400px){
+    .why-become-agentpage  .line{
+        right: 81%;
+    }
+    .agentpage-portal .btn-agentpage-portal{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        display: table;
+        margin: 0 auto;
+    }
+    .activity-agentpage .line-activity-left.line-activity-left-en{
+        top: 18%;
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 16.9%;
+    }
+    .become-agentpage .col-right.col-right-en .list-become-agent:before{
+        top: 8%;
+    }
+    .become-agentpage .col-left.col-left-en .list-become-agent:before{
+        top: 13.2%;
+    }
+}
+@media(max-width: 395px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 15%;
+    }
+}
+@media(max-width: 390px){
+    .become-agentpage .list-become-agent:before{
+        left: 17.4%;
+    }
+}
+@media(max-width: 385px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 15.5%;
+    }
+}
+@media(max-width: 380px){
+    .become-agentpage .list-become-agent:before{
+        left: 17.9%;
+    }
+}
+@media(max-width: 375px){
+    .become-agentpage .list-become-agent:before{
+        left: 17.7%;
+    }
+}
+@media(max-width: 370px){
+    .become-agentpage .list-become-agent:before{
+        left: 18.4%;
+    }
+}
+@media(max-width: 360px){
+    .become-agentpage .list-become-agent:before{
+        left: 18.9%;
+    }
+}
+@media(max-width: 359px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 16%;
+    }
+    .activity-agentpage .line-activity-left{
+        top:20%;
+    }
+}
+@media(max-width: 354px){
+    .activity-agentpage .line-activity-left{
+        top: 22%;
+    }
+}
+@media(max-width: 350px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 16.5%;
+        height: 30%;
+    }
+    .become-agentpage .list-become-agent:before{
+        left: 19.4%;
+    }
+}
+@media(max-width: 330px){
+    .activity-agentpage .line-activity-left, .activity-agentpage .line-activity-right{
+        left: 17%;
+    }
+}
+@media(max-width: 320px){
+    .become-agentpage .list-become-agent:before{
+        left: 20%;
+    }
+}
+
+#popup-confirm-information .modal-body{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#popup-confirm-information .modal-body h1{
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#popup-confirm-information .modal-body p{
+    font-size: 18px;
+}
+#popup-confirm-information .modal-body h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#popup-confirm-information .bl-btn-group .btn{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 30px 10px 65px;
+    margin-right: 10px;
+    position: relative;
+}
+#popup-confirm-information .bl-btn-group .btn:last-child{
+    margin-right: 0;
+}
+#popup-confirm-information .bl-btn-group .btn-gray{
+    background-color: #6b6b6b;
+}
+#popup-confirm-information .bl-btn-group .btn-blue{
+    background-color: #164b85;
+}
+#popup-confirm-information .bl-btn-group .btn-red{
+    background-color: #fb7533;
+}
+#popup-confirm-information .bl-btn-group .btn:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/iconweb.svg?v=03.06.2019');
+    background-position-y: -30px;
+}
+#popup-confirm-information .bl-btn-group .btn-gray:before{
+    background-position-x: -600px;
+}
+#popup-confirm-information .bl-btn-group .btn-blue:before{
+    background-position-x: -570px;
+}
+#popup-confirm-information .bl-btn-group .btn-red:before{
+    background-position-x: -540px;
+}
+
+@media (min-width: 768px){
+    #popup-confirm-information .modal-dialog {
+        width: 740px;
+    }
+}
+.agentpage-portal .btn-agentpage-portal {
+    background-color: #fb7533;
+    padding: 11px 4.5%;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: none;
+}
+.banner-agentpage .row-banner .btn-buy{
+    background-color: #fb7533;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 40px;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    padding-top: 6px;
+    margin-top: 25px;
+}
+#modal-confirm-stop-contact .modal-body, #modal-confirm-request-contact .modal-body{
+    padding: 25px;
+}
+#modal-confirm-stop-contact .modal-body p, #modal-confirm-request-contact .modal-body p {
+    color: #676767;
+    font-size: 24px;
+    line-height: 32px;
+    position: relative;
+    padding-top: 70px;
+}
+#modal-confirm-stop-contact .modal-body p:before, #modal-confirm-request-contact .modal-body p:before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    background: url(/assets/images/version-4/icons/confirm.png) no-repeat;
+}
+#modal-confirm-stop-contact .modal-body .btn-confirm-stop, #modal-confirm-request-contact .modal-body .btn-confirm-contact {
+    font-size: 18px;
+    color: #fff;
+    background-color: #F17423;
+    margin: 20px 0 25px;
+    width: 350px;
+    height: 46px;
+}
+#form-check-phone .form-control {
+	border: 0;
+	border-bottom: 1px solid #d1d1d1;
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 13px;
+	height: 38px;
+	padding-left: 33px;
+}
+#form-check-phone .div-phone, #form-check-phone .div-fullname{
+	margin-bottom: 10px;
+	position: relative;
+}
+#form-check-phone .div-phone:before{
+	content: '';
+	display: inline-block;
+	width: 25px;
+	position: absolute;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0;
+	background-image: url(/assets/images/svg-icons.svg);
+	background-position: -950px -84px;
+	height: 25px;
+	top: 6px;
+}
+
+#form-check-phone .div-fullname:before{
+	content: '';
+	display: inline-block;
+	width: 25px;
+	position: absolute;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0;
+	background-image: url(/assets/images/svg-icons.svg);
+	background-position: -922px -80px;
+	height: 25px;
+	top: 4px;
+}
+.send-check-phone{
+	height: 46px;
+	width: 245px;
+	color: #fff!important;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #f17423;
+	border-radius: 30px;
+	margin: 25px 15px 15px 0;
+}
+.bl-otp{
+	background-color: #f1f4f5;
+}
+.form-otp{
+	background: #fff;
+	border-radius: 4px;
+	margin: 10px auto 10px;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.form-otp h2{
+	font-size: 28px;
+	color: #474747;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.form-otp .p-send{
+	font-size: 13px;
+	color: #474747;
+	font-family: 'Open Sans', sans-serif;
+}
+.form-otp .p-import{
+	font-size: 13px;
+	color: #474747;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	padding-top: 8px;
+}
+.form-otp .otp-item{
+	border: 0;
+	border-bottom: 2px solid #e3e3e3;
+	width: 38px;
+	margin-right: 5px;
+	font-size: 28px;
+	text-align: center;
+	color: #676767;
+}
+.form-otp #confirm-otp{
+	display: inherit;
+	background-color: #f17423;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	border: 0;
+	box-shadow: none;
+	border-radius: 40px;
+	height: 45px;
+	width: 155px;
+	color: #fff;
+	margin: auto;
+	margin-top: 40px;
+}
+.form-otp .p-re-send{
+	font-size: 13px;
+	color: #474747;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 25px;
+}
+.form-otp .p-re-send a{
+	color: #f17423;
+	background: url('/assets/images/version-4/icons/ic-refresh.png') no-repeat right center transparent;
+	padding-right: 15px;
+}
+@media (max-width: 768px){
+    #modal-confirm-stop-contact .modal-body .btn-confirm-stop, #modal-confirm-request-contact .modal-body .btn-confirm-contact {
+        font-size: 18px;
+        color: #fff;
+        background-color: #F17423;
+        margin: 20px 0 25px;
+        width: 150px;
+        height: 46px;
+    }
+}

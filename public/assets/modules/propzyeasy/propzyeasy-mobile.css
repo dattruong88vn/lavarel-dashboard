@@ -1,0 +1,238 @@
+.container-easy{
+    margin-top: 50px;
+}
+.content-easy{
+    color: #074cb0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    text-decoration: none;
+    float: none;
+    height: auto;
+}
+.banner-top{
+    height: auto;
+    max-height: 659px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    z-index: 13;
+}
+.img-top{
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
+}
+.col-1{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    z-index: 1;
+    padding-top: 17px;
+}
+.col-2{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    z-index: 1;
+    background: url('/assets/modules/propzyeasy/images/bg-content.jpg') no-repeat center 0;
+    background-position: center top;
+}
+.constrained{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1326px;
+}
+.row{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1324px;
+}
+.col-6{
+    float: left;
+    position: relative;
+    max-width: 624px;
+    width: 100%;
+}
+.text-img{
+    color: #ff7612;
+    font-family: 'UTM Impact', Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+.row-5{
+    margin: 20px 20px 0;
+    padding-bottom: 5px;
+    position: relative;
+}
+.item-1{
+    float: left;
+    margin: 5px 10px 0 0;
+    width: 100%;
+    max-width: 31px;
+    height: auto;
+}
+.text{
+    font-weight: 300;
+    line-height: 1.2;
+}
+.item-2{
+    float: left;
+    margin: 14px 22px 0 0;
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+}
+.col-8{
+    float: right;
+    position: relative;
+    width: 100%;
+    max-width: 624px;
+}
+.img-block{
+    display: block;
+    max-width: 624px;
+    height: auto;
+    width: 100%;
+}
+.text-7 {
+    color: #ff7612;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+    text-align: center;
+}
+.text-7-mobile{
+    color: #ff7612;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 10px;
+}
+.hold-text{
+    margin: 10px 190px;
+}
+.item-3{
+    float: left;
+    margin: 13px 15px 0 0;
+}
+.item-4{
+    float: left;
+    margin: 14px 16px 0 0;
+}
+.help-block{
+    margin-top: -2px;
+}
+.box-dang-ky{
+    margin: 25px auto 0;
+    position: relative;
+    padding: 0px 18px;
+}
+.fullname{
+    margin: 9px auto 0;
+    min-height: 25px;
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    background: #f4f6f6;
+}
+.text-8{
+    margin: 0 auto;
+}
+.text-8>*{
+    font-size: 24px;
+    font-weight: 300;
+}
+.phone-contact{
+    margin: 9px 0 0;
+    margin: 9px auto 0;
+    min-height: 23px;
+    position: relative;
+    max-width: 580px;
+    width: 100%;
+    background: #f4f6f6;
+}
+.email-contact{
+    margin: 9px auto 0;
+    min-height: 26px;
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    background: #f4f6f6;
+}
+.demand-contact{
+    margin: 10px auto 0;
+    min-height: 24px;
+    height: 100px;
+    width: 100%;
+    max-width: 579px;
+    background: #f4f6f6;
+    font-size: 24px;
+    font-weight: 300;
+}
+.img-send{
+    display: block;
+    margin: 0 auto;
+}
+.send-request{
+    display: block;
+    margin: 18px auto 10px;
+}
+.form-control {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    height: 38px !important;
+    font-size: 16px !important;
+    color: #484848;
+}
+
+#name::placeholder, #phone::placeholder, #email::placeholder, #demand::placeholder  {
+    color: #074cb0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.btn-request{
+    background-color: #FF7612;
+    color: #fff;
+    display: block;
+    margin: -4px auto;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.p-path{
+	padding-top: 10px;
+    margin-left: 10px;
+}
+.p-path a{
+	color: #666;
+}
+.p-path .s-red{
+	color: #e65656;
+}
+.name, .phone, .email{
+    padding: 3px 12px;
+}

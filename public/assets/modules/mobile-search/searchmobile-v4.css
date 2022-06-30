@@ -1,0 +1,40 @@
+.modalFilter .max240 {
+    max-width: 240px;
+}
+.modalFilter .btn-close {
+    top: 5px;
+    right: 5px;
+}
+.search-more {
+    padding-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.form-listing-filter p {
+    margin: 5px auto;
+    padding: 0px 24px;
+    padding-left: 0px;
+    background: url(/assets/images/ver-4/select.svg) no-repeat right center;
+    background-color: transparent;
+    background-position: 50px;
+    background-size: 35%;
+}
+.form-subscribe-mail .form-contact .input, .form-subscribe-mail .form-contact .select{
+    margin-bottom: 0px;
+}
+.form-subscribe-mail .select{
+    padding-right: 35px;
+}
+.form-listing-filter p {
+    font-size: 12px;
+}
+.item .group {
+	margin-top: 4px;
+}
+.for-project-content .wcontent .label {
+    position: relative;
+}
+.for-project-content .wcontent .label .price2 {
+    bottom:0;
+    top: auto;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="32px" viewBox="0 0 34 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>menu - material</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.7%" y="-28.7%" width="109.3%" height="157.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.34375   0 0 0 0 0.165592275   0 0 0 0 0.0646362305  0 0 0 0.241989357 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#-Menu-bottom" transform="translate(-246.000000, -1.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g filter="url(#filter-1)" id="menu-bottom">
+                <g>
+                    <g id="Menu" transform="translate(225.000000, 0.482767)">
+                        <g id="Group-5" transform="translate(13.000000, 9.000000)">
+                            <g id="menu---material" transform="translate(13.000000, 0.000000)">
+                                <g id="ico-chat" transform="translate(1.000000, 1.517233)">
+                                    <path d="M18.9754028,-5.68434189e-14 L3.02459716,-5.68434189e-14 C1.35687255,-5.68434189e-14 0,1.40751377 0,3.13810237 L0,13.2659882 C0,14.9926759 1.35096435,16.3979606 3.01385497,16.4040906 L3.01385497,21 L9.37980959,16.4040906 L18.9754028,16.4040906 C20.6431274,16.4040906 22,14.9962981 22,13.2659882 L22,3.13810237 C22,1.40751377 20.6431274,-5.68434189e-14 18.9754028,-5.68434189e-14 Z M20.7109375,13.2659882 C20.7109375,14.258757 19.9323974,15.066653 18.9754028,15.066653 L8.97536619,15.066653 L4.30291747,18.4400608 L4.30291747,15.066653 L3.02459716,15.066653 C2.06760256,15.066653 1.2890625,14.258757 1.2890625,13.2659882 L1.2890625,3.13810237 C1.2890625,2.14505492 2.06760256,1.33743764 3.02459716,1.33743764 L18.9754028,1.33743764 C19.9323974,1.33743764 20.7109375,2.14505492 20.7109375,3.13810237 L20.7109375,13.2659882 Z" id="Shape" stroke="#EF7733" stroke-width="0.4"></path>
+                                    <polygon id="Path" points="6 5 16 5 16 6 6 6"></polygon>
+                                    <polygon id="Path" points="6 8 16 8 16 9 6 9"></polygon>
+                                    <polygon id="Path" points="6 11 16 11 16 12 6 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

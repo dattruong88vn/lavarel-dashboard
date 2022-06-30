@@ -1,0 +1,154 @@
+
+.bl-account{
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px 15px;
+}
+.bl-account .title-info{
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	padding: 0 15px;
+    display: inline-block;
+    padding-right: 33px;
+    line-height: 22px;
+    margin: 5px 0 25px;
+    position: relative;
+}
+.bl-account .title-info:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('/assets/images/svg-icons.svg?v=03.06.2019') no-repeat -536px -354px transparent;
+    position: absolute;
+    top: -1px;
+    right: -2px;
+}
+.bl-account .control-label{
+	text-align: left;
+	font-size: 14px;
+	color: #474747;
+    margin-bottom: 8px;
+}
+.bl-account .div-avatar a{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	/*background: url('/assets/images/version-4/img-avatar.png') no-repeat center;*/
+	margin: 25px 0 13px 15px;
+}
+.bl-account .btn-save{
+	background-color: #fff;
+	border-radius: 30px;
+	width: 100%;
+	color: #f17423;
+	font-size: 16px;
+	font-weight: bold;
+	height: 42px;
+	margin: 30px 0 30px 15px;
+    border: 1px solid #f17423;
+}
+.bl-account .col-agent .bl-input-new.not-icon{
+	margin-left: 18px;
+}
+.bl-my-account .bl-radio{
+	padding-top: 10px;
+}
+.bl-my-account .bl-radio input[type="radio"] {
+    opacity: 0;
+}
+.bl-my-account .bl-radio label {
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 13px;
+    color: #888;
+}
+.bl-my-account .bl-radio label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    margin-left: -20px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out;
+    top: -3px;
+}
+.bl-my-account .bl-radio label::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    left: 10px;
+    top: 3px;
+    margin-left: -20px;
+    border-radius: 50%;
+    background: #8e8e8e;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+.bl-my-account .bl-radio input[type="radio"]:checked + label::after {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+.bl-account .bl-input-new.not-icon .form-control-new{
+	padding-left: 0;
+}
+.bl-account .col-customer .control-label{
+	font-weight: normal;
+}
+.bl-account .col-customer .control-label span{
+	font-weight: bold;
+}
+.bl-account .col-customer select.form-control{
+	height: 38px;
+	border-color: #d1d1d1;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('/assets/images/version-4/icons/ic-select-4.png') no-repeat 96% center transparent;
+    color: #848484;
+    box-shadow: none;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.bl-my-account .col-cooperate .bl-radio{
+    padding-top: 0;
+}
+.bl-account .col-cooperate .control-label{
+    margin-bottom: 0;
+}
+.bl-account .control-label.label-active{
+    font-size: 13px;
+    font-weight: 400;
+    float: right;
+    padding-right: 15px;
+    font-style: italic;
+    text-decoration: underline;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.col-experience {
+    margin-top: 5px;
+}
+.col-identity-card{
+    margin-top: 15px;
+}

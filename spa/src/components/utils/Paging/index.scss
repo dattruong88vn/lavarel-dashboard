@@ -1,0 +1,29 @@
+.pagination-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .pagination-item {
+        display: inline-block;
+    }
+
+    .pagination {
+        > li > a,
+        > li > span {
+            border: none;
+            color: #000;
+        }
+
+        .page-link {
+            z-index:0;
+        }
+    
+        li.active {
+            > a, > a:focus, > a:hover {
+                background-color: #4caf50;
+                border-color: #4caf50;
+            }
+        }
+    }
+}

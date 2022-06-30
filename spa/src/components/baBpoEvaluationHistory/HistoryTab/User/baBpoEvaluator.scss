@@ -1,0 +1,82 @@
+.ba-bpo-evaluator-container {
+    padding: 15px 0px 15px 0px;
+    .bpo-evaluator {
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        flex-direction: column;
+        padding: 15px 0px 15px 0px;
+
+        .bpo-evaluator-top {
+            display: flex;
+            .text-left {
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                .rate {
+                    padding: 5px 10px 5px 25px;
+                    margin: 0px;
+                }
+                .two-text {
+                    margin: 0px;
+                    display: flex;
+                    flex-direction: row;
+                }
+                .orange-title {
+                    padding: 10px 10px 5px 0;
+                    color: #e08e00;
+                    font-weight: 1000;
+                    margin: 0px;
+                }
+                .nomal-title {
+                    padding: 10px 10px 5px 25px;
+                    color: black;
+                    margin: 0px;
+                }
+                .bold-title {
+                    padding: 10px 10px 5px 25px;
+                    color: black;
+                    margin: 0px;
+                    font-weight: 1000;
+                }
+                .nomal-title-gray {
+                    padding: 10px 10px 5px 25px;
+                    color: gray;
+                    margin: 0px;
+                }
+                .collapse-button {
+                    color: rgb(23, 108, 235);
+                    width: fit-content;
+                    padding: 10px 10px 10px 25px;
+                    background: none;
+                    border: none;
+                    &:focus {
+                        outline: none;
+                        &:active {
+                            box-shadow: none;
+                            background-color: #fff;
+                            border: none;
+                        }
+                    }
+                }
+            }
+            .text-right {
+                color: gray;
+                padding: 10px 10px 5px 25px;
+                margin: 0px;
+                margin-left: 5%;
+            }
+        }
+
+        .collapsible {
+            max-height: 0;
+            transition: max-height 0.25s ease-out;
+            overflow: hidden;
+            padding: 5px 10px 5px 25px;
+        }
+        .collapsible.active {
+            max-height: fit-content;
+            transition: max-height 0.25s ease-in;
+            overflow: auto;
+        }
+    }
+}

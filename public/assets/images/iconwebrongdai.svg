@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1233.901px" height="443px" viewBox="0 0 1233.901 443" enable-background="new 0 0 1233.901 443" xml:space="preserve">
+<rect x="0.001" fill="none" width="30" height="30"/>
+<rect x="60.004" fill="none" width="30" height="30"/>
+<rect x="90.004" fill="none" width="30" height="30"/>
+<g>
+	<rect x="0" y="120" fill="none" width="30" height="30"/>
+	<rect x="0" y="150" fill="none" width="30" height="30"/>
+	<rect x="0" y="180" fill="none" width="30" height="30"/>
+	<rect x="30.001" y="120" fill="none" width="30" height="30"/>
+	<rect x="30.001" y="150" fill="none" width="30" height="30"/>
+	<rect x="30.001" y="180" fill="none" width="30" height="30"/>
+	<rect x="60.004" y="120" fill="none" width="30" height="30"/>
+	<rect x="60.004" y="150" fill="none" width="30" height="30"/>
+	<rect x="60.004" y="180" fill="none" width="30" height="30"/>
+</g>
+<g>
+	<rect x="0" y="30" fill="none" width="30" height="30"/>
+	<rect x="0" y="60" fill="none" width="30" height="30"/>
+	<rect x="0" y="90" fill="none" width="30" height="30"/>
+	<rect x="30.001" y="30" fill="none" width="30" height="30"/>
+	<rect x="30.001" y="60" fill="none" width="30" height="30"/>
+	<rect x="30.001" y="90" fill="none" width="30" height="30"/>
+	<rect x="60.004" y="30" fill="none" width="30" height="30"/>
+	<rect x="60.004" y="60" fill="none" width="30" height="30"/>
+	<rect x="60.004" y="90" fill="none" width="30" height="30"/>
+</g>
+<g>
+	<path fill="#999999" d="M14.984,25.735l4.965-5.125c0.122-0.126,0.318-0.126,0.44,0c0.122,0.126,0.122,0.328,0,0.454l-5.186,5.353
+		c-0.122,0.126-0.318,0.126-0.44,0l-5.184-5.353c-0.06-0.062-0.092-0.145-0.092-0.226s0.03-0.164,0.092-0.226
+		c0.122-0.126,0.318-0.126,0.44,0L14.984,25.735z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#999999" d="M14.487,5.083h1v21.041h-1V5.083z"/>
+	<path fill="#999999" d="M14.968,5.289l4.951,5.125c0.122,0.126,0.317,0.126,0.439,0c0.122-0.126,0.122-0.328,0-0.454l-5.171-5.353
+		c-0.122-0.126-0.317-0.126-0.439,0L9.579,9.96c-0.06,0.062-0.092,0.145-0.092,0.226s0.03,0.164,0.092,0.226
+		c0.122,0.126,0.317,0.126,0.439,0L14.968,5.289z"/>
+</g>
+<g>
+	<path fill="#999999" d="M55.224,15.496l-5.125-4.965c-0.126-0.122-0.126-0.318,0-0.44c0.126-0.122,0.328-0.122,0.454,0l5.353,5.186
+		c0.126,0.122,0.126,0.318,0,0.44l-5.353,5.184c-0.062,0.06-0.145,0.092-0.226,0.092c-0.081,0-0.164-0.03-0.226-0.092
+		c-0.126-0.122-0.126-0.318,0-0.44L55.224,15.496z"/>
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#999999" d="M34.576,14.974l20.875,0.038l-0.002,1l-20.875-0.038
+			L34.576,14.974z"/>
+		<path fill="#999999" d="M34.778,15.512l5.125-4.951c0.126-0.122,0.126-0.317,0-0.439c-0.126-0.122-0.328-0.122-0.454,0
+			l-5.353,5.171c-0.126,0.122-0.126,0.317,0,0.439l5.353,5.169c0.062,0.06,0.145,0.092,0.226,0.092s0.164-0.03,0.226-0.092
+			c0.126-0.122,0.126-0.317,0-0.439L34.778,15.512z"/>
+	</g>
+</g>
+</svg>

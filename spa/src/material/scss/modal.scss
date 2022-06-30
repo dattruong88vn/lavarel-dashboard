@@ -1,0 +1,62 @@
+.modal-expand-matrix {
+    z-index: 1048;
+
+    a {
+        cursor: pointer;
+    }
+
+    .modal-dialog {
+        width: 90%;
+
+        .modal-body {
+            background: #F3F3F3;
+    
+            .nav-item {
+                padding: 10px 15px;
+                border-right: 1px solid #D4D4D4;
+                cursor: pointer;
+    
+                &.active {
+                    font-weight: bold;
+                    background: white;
+                    border: 1px solid #D4D4D4;
+                    border-right: none;
+                }
+            }
+
+            .panel-matrix {
+                _min-height: 950px;
+                padding: 0 10px;
+                background: white;
+                border: 1px solid #D4D4D4;
+                overflow-x: hidden;
+                overflow-y: auto;
+
+                .label-box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+
+                .column-label {
+                    padding: 10px;
+                    background: #F3F3F3;
+                    border: 1px solid #D4D4D4;
+                    text-align: center;
+
+                    &:first-child {
+                        width: 64%;
+                    }
+
+                    &:last-child {
+                        width: 36%;
+                    }
+                }
+
+                .table {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

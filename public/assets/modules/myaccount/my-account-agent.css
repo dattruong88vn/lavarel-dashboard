@@ -1,0 +1,236 @@
+.my-account-page{
+	background-color: #f1f4f5;
+	padding-top: 90px;
+}
+.bl-my-account{
+	background: #fff;
+	border-radius: 4px;
+	margin: 30px 0 50px;
+}
+.bl-info-account{
+	text-align: center;
+	padding-bottom: 22px;
+    border-bottom: 1px solid #d1d1d1;
+    margin: 30px 0 30px 10px;
+}
+.bl-info-account a .bl-img{
+	width: 98px;
+	height: 98px;
+	background-color: #bfbfbf;
+	font-size: 28px;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+    position: relative;
+    padding-top: 27px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+.bl-info-account .bl-img .span-camera{
+	height: 28px;
+	width: 28px;
+	background: url('/assets/images/version-4/icons/ic-camera.png') no-repeat center 8px #f17423;
+	position: absolute;
+	right: -4px;
+	top: 8px;
+	border-radius: 50%;
+}
+.bl-info-account p{
+	margin-bottom: 2px;
+}
+.bl-info-account .p-name{
+	font-size: 14px;
+	color: #474747;
+}
+.bl-info-account .p-name b{
+	font-size: 16px;
+	font-weight: 500;
+}
+.bl-info-account .p-member{
+	font-size: 13px;
+	color: #474747;
+	font-family: 'Open Sans', sans-serif;
+}
+.nav-info{
+	margin-left: 10px;
+}
+.nav-info>li>a{
+	font-weight: bold;
+	font-size: 14px;
+	color: #474747;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 1px solid #d1d1d1;
+	padding: 7px 30px;
+	margin-bottom: 22px;
+}
+.nav-info>li.active>a{
+	color: #f17423;
+}
+.nav-info>li>a:hover, .nav-info>li>a:visited, .nav-info>li>a:focus{
+	background-color: transparent;
+}
+.nav-info>li>a:before, .nav-info>li>a:after{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+.nav-info>li>a:after{
+	content: '';
+    display: inline-block;
+    right: 0;
+    top: 12px;
+    height: 10px;
+    width: 6px;
+    background-image: url('/assets/images/version-4/icons/ic-arrow.png');
+}
+.nav-info>li>a:before{
+	left: 0;
+	width: 20px;
+	height: 23px;
+	top: 4px;
+}
+.nav-info>li.li-1>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-information.png');
+}
+.nav-info>li.li-2>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-heart-2.png');
+}
+.nav-info>li.li-3>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-posted.png');
+}
+.nav-info>li.li-4>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-collection.png');
+}
+.nav-info>li.li-5>a:before{
+	background-image: url('/assets/images/version-4/icons/ic-logout.png');
+}
+.bl-my-account .col-left{
+	padding-right: 10px;
+}
+.bl-my-account .col-right{
+	border-left: 1px solid #d1d1d1;
+	padding: 0;
+	padding-right: 15px;
+}
+.bl-account{
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px 15px;
+}
+.bl-account .title-info{
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	background: url('/assets/images/version-4/icons/ic-setting') no-repeat right center;
+	padding: 0 15px;
+    display: inline-block;
+    padding-right: 33px;
+    line-height: 22px;
+    margin-top: 0;
+}
+.bl-account .control-label{
+	text-align: left;
+	font-size: 14px;
+	color: #474747;
+}
+.bl-account .div-avatar a{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	background: url('/assets/images/version-4/img-avatar.png') no-repeat center;
+	margin: 25px 0 13px 15px;
+}
+.bl-account .btn-save{
+	background-color: #f17423;
+	border-radius: 5px;
+	width: 100%;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	height: 42px;
+	margin: 30px 0 30px 15px;
+}
+.bl-account .col-agent .bl-input-new.not-icon{
+	margin-left: 18px;
+}
+.bl-my-account .bl-radio{
+	padding-top: 20px;
+}
+.bl-my-account .bl-radio input[type="radio"] {
+    opacity: 0;
+}
+.bl-my-account .bl-radio label {
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 13px;
+    color: #888;
+}
+.bl-my-account .bl-radio label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    margin-left: -20px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out;
+    top: -3px;
+}
+.bl-my-account .bl-radio label::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    left: 10px;
+    top: 3px;
+    margin-left: -20px;
+    border-radius: 50%;
+    background: #8e8e8e;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+.bl-my-account .bl-radio input[type="radio"]:checked + label::after {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+.bl-account .bl-input-new.not-icon .form-control-new{
+	padding-left: 0;
+}
+.bl-account .col-customer .control-label{
+	font-weight: normal;
+}
+.bl-account .col-customer .control-label span{
+	font-weight: bold;
+}
+.bl-account .col-customer select.form-control{
+	height: 38px;
+	border-color: #d1d1d1;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('/assets/images/version-4/icons/ic-select-4.png') no-repeat 96% center transparent;
+    color: #848484;
+    box-shadow: none;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 20px;
+}

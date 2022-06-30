@@ -1,0 +1,35 @@
+{
+  "result":true,
+  "code":"200",
+  "message":"Thao tác thành công",
+  "validatedMessage":null,
+  "data": {
+    "id": 155908,
+    "information_detail": {
+      "liveDate": "21 Ngaỳ trước",
+      "acreage": 34,
+      "width": 14,
+      "length": 4,
+      "price": "4 tỷ",
+      "year": 2012,
+      "structure": "1 trệt , 1 lửng",
+      "position": "Mặt tiền (10m)",
+      "bedRooms": 3,
+      "badRooms": 3,
+      "hirePrice": 0,
+      "label": "Unclassified"
+    },
+    "information_zoning": {
+      "type_of_zoning": "N/A",
+      "acreage_of_zoning": "N/A",
+      "remaining_area": "N/A",
+      "lo_gioi": "N/A",
+      "note": "N/A"
+    }, 
+    "fileImages": [
+      "https://i.pinimg.com/564x/27/16/22/2716227e50ec4b6804f7b4ed62e4369f.jpg",
+      "https://i.pinimg.com/564x/63/46/22/6346228e721500d95e3852cb8093508d.jpg",
+      "https://i.pinimg.com/236x/dc/0a/0c/dc0a0cd0d9799a921cd5923458d807e3.jpg"
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+.invite-header,
+.list-departments-header {
+    text-align: center;
+    display: block !important;
+    border-bottom: 1px solid #dedcdc;
+    padding-bottom: 6px;
+}
+.content-contact {
+    border: 3px solid #3c8dbc !important;
+}
+.invite-input,
+.create-input {
+    width: 100%;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.invite-email,
+.invite-phone {
+    width: 50%;
+}
+.department {
+    width: 100%;
+}
+.input-require {
+    color: red;
+}
+.text-label {
+    padding-top: 8px;
+    text-align: left;
+}
+.row-invite {
+    margin-bottom: 10px;
+}
+.add-contacts {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+}
+.text-area {
+    margin-top: 10px;
+}
+
+.content-create-department,
+.content-update-department {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid;
+    margin-top: 25px;
+}
+.content-create-password {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -73px;
+}
+.create-header,
+.update-header {
+    font-weight: 900;
+    font-size: 20px !important;
+}
+.form-control {
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+    height: 47px;
+}
+.form-control:focus {
+    border-color: #3c8dbc !important;
+    box-shadow: none;
+}
+.username,
+.password,
+.confirm_password {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.create-password {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 120px;
+}
+.password-errors {
+    text-align: left;
+}
+.list-departments {
+    float: right;
+    font-weight: 600;
+}
+.create_department_name,
+.create_department_type,
+.create_department_manage,
+.create_department_shortname,
+.create_department_unit,
+.department_name,
+.department_type,
+.department_manage,
+.department_shortname,
+.create_countryId,
+.create_wardIds_select_container,
+.wardIds_select_container,
+.department_unit,
+.countryId {
+    width: 65% !important;
+    border-radius: 4px;
+}
+.districtIds,
+.create_districtIds,
+.create_wardIds {
+    width: 50%;
+    border-radius: 4px;
+}
+.body-create-department,
+.body-update-department {
+    margin-top: 50px;
+}
+.label-department {
+    padding-top: 8px;
+    text-align: right;
+}
+.add-department,
+.department-submit,
+.department-cancel,
+.cancel-create,
+.update-department,
+.cancel-update,
+.department-cancel,
+.create-department {
+    width: 100px;
+    margin-top: 20px;
+    float: left;
+    margin-right: 15px;
+}
+.modal-update-department .update-department,
+.modal-update-department .cancel-update,
+.modal-create-department .create-department,
+.modal-create-department .cancel-create,
+.modal-department .department-submit,
+.modal-department .department-cancel {
+    float: right;
+}
+.create-department-page .selectize-control.multi .selectize-input > div,
+.edit-department-content .selectize-control.multi .selectize-input > div {
+    float: left;
+}
+.create-department-page .selectize-input > input,
+.edit-department-content .selectize-input > input {
+    float: left;
+}
+.create-department-page .error,
+.edit-department-content .error {
+    text-align: left;
+}
+.list-departments-content .treeview ul li {
+    _background: #7cd1b2;
+    _color: #fff;
+    background: #fff;
+    color: black;
+    margin-bottom: 2px;
+}
+.list-departments-content .treeview ul li:hover {
+    background: #fff;
+    color: #428bca;
+}
+.list-departments-content .glyphicon-minus:before,
+.glyphicon-plus:before {
+    margin-left: -20px;
+}
+.list-departments-content .treeview span.icon {
+    margin-right: -5px !important;
+}
+.list-departments-content .btn-update {
+    float: right;
+    margin-right: -10px !important;
+}
+.btn-create {
+    float: right;
+    margin-left: 20px;
+}
+.quick-add-layout {
+    height: 120px;
+}
+.quick-add-layout tbody {
+    height: 80px;
+}
+#create-position {
+    width: 98%;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.avatar img {
+    width: 128px;
+    height: 128px;
+}
+
+.create-contact label {
+    font-weight: normal;
+}
+
+.create-contact .form-control {
+    background: #ffffff;
+    border: 1px solid #d2d6de;
+    margin: 0px;
+    padding: 16px;
+    padding: 4px 12px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.create-contact textarea.form-control {
+    height: auto;
+}
+
+#avatar-profile {
+    width:100px;
+    height: 100px;
+    cursor: pointer;
+}

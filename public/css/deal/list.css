@@ -1,0 +1,63 @@
+.popover{
+    max-width:600px;
+}
+
+#inputDealId::-webkit-outer-spin-button,
+#inputDealId::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#inputDealId input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, .3);
+}
+
+.collected-content {
+  background: #fff;
+  z-index: 2000;
+  width: 920px;
+  padding: 24px 32px;
+  border-radius: 4px;
+  max-height: 560px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.modal-row {
+margin-bottom: 12px;
+display: flex;
+align-items: center;
+}
+
+.collect-button {
+display: flex;
+justify-content: flex-end;
+}
+
+.collect-money-row-add,
+.collect-money-row-delete{
+cursor: pointer;
+}
+
+#lead-list_filter, #list-deal-matrix_filter{
+display:none;
+}
+
+.filter-content .select2{
+width:100%!important;
+}

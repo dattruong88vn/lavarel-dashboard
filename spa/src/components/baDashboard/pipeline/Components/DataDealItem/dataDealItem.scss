@@ -1,0 +1,74 @@
+.deal-item-container {
+    padding: 0px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    .top-label {
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        min-height: 20px;
+        text-align: center;
+    }
+    .bottom-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .space {
+            width: 10px;
+        }
+        .column-content {
+            display: flex;
+            flex-direction: column;
+            padding: 0px 0px;
+            .two-text {
+                padding: 2px 2px;
+                cursor: pointer;
+                border: 1px solid white;
+            }
+            .two-text:hover {
+                border: 1px solid #3c8dbc;
+                border-radius: 3px;
+            }
+            .normal-text {
+                font-weight: 500;
+                padding: 0px 0px;
+                font-size: 13px;
+                display: flex;
+                justify-content: left;
+            }
+
+            .two-value {
+                display: flex;
+                flex-direction: row;
+                padding-top: 0px;
+                .value-yellow {
+                    background-color: #f8ec47;
+                    height: 18px;
+                    width: 18px;
+                    border-radius: 3px;
+                    color: black;
+                    font-size: 11px;
+                    display: flex;
+                    justify-content: center;
+                    padding: 2px 2px;
+                    margin: 2px 2px;
+                    cursor: pointer;
+                }
+                .value-green {
+                    background-color: #1a9d52;
+                    height: 18px;
+                    width: 18px;
+                    border-radius: 3px;
+                    color: white;
+                    font-size: 11px;
+                    display: flex;
+                    justify-content: center;
+                    padding: 2px 2px;
+                    margin: 2px 2px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

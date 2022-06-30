@@ -1,0 +1,37 @@
+version: '3.7'
+services:
+  # The Application
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: propzyrepo/laravel-app:${TAG}
+    container_name: dashboard-app-${TAG}
+    working_dir: /var/www
+    restart: unless-stopped
+    extra_hosts:
+      - "devdashboard.propzy.vn:10.1.2.185"
+    volumes:
+      - ./:/var/www/
+      - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+      - ./cacert.pem:/var/www/cacert.pem
+    tty: true
+    ports:
+      - "${PHP_PORT}:9000"
+# The Web Server
+  web:
+    image: nginx:1.17-alpine
+    container_name: dashboard-web-${TAG}
+    restart: unless-stopped
+    extra_hosts:
+      - "devdashboard.propzy.vn:10.1.2.185"
+    tty: true
+    ports:
+      - "${PORT}:${PORT}"
+      #- "443:443"
+    volumes:
+      - ./:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - ./cacert.pem:/var/www/cacert.pem
+    depends_on:
+      - app

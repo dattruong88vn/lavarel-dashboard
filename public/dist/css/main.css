@@ -1,0 +1,136 @@
+.cus-filter {
+	clear: both;
+	width: 100%
+}
+.cus-filter .form-group {
+	width: 19% !important;
+	margin: 0 1% 0 0
+}
+.cus-request {
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+.cus-request label {
+	width: 100%;
+	clear: both;
+	display: block;
+	overflow: hidden;
+}
+.cus-request input {
+	width: 30% !important;
+	float: left;
+	margin-right: 1%
+}
+.label-assign {
+    background-color: #000 !important;
+    float:right;
+}
+
+.nav-stacked > li > p {
+	padding: 10px 15px;
+}
+.cus-checkbox .checkbox {
+	display: inline-block;
+	width: 30%
+}
+.info-box-number i {
+	font-weight: normal;
+}
+.nav-stacked > li > span {
+	margin: 10px;
+	display: inline-block;
+}
+.nav-stacked > li > i {
+	
+}
+.nav-stacked > li > span > a {
+	display: inline-block;
+	color: #fff;
+	font-size: 13px;
+	padding: 5px;
+	cursor: pointer;
+
+}
+.tran-detail .control-label {
+	padding-top: 0;
+	text-align: right;
+}
+.tran-detail .form-group {
+	width: 100%;
+	clear: both;
+	padding: 10px 0
+}
+.box-footer {
+	border: 0
+}
+
+.txt-dv {
+	display: inline-block;
+	width: 90%;
+	margin-right: 2%
+}
+.radio label, .checkbox label {
+	margin-right: 10px
+}
+.sub-checkbox {
+	margin-left: 30px
+}
+.w-15 {
+	width: 15%
+}
+.check-all input {
+	margin-right: 10px
+}
+.content {
+	min-height: inherit;
+}
+.cus-l-label .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+}
+.logo-company {
+	width: 80px;
+	height: 80px
+}
+.logo-company img {
+	width: 100%
+}
+
+.file-preview-image {
+	height: auto !important;
+	width: 120px !important; 
+}
+
+.note-title {
+	font-weight: bold;
+}
+.note-content {
+	color: #777;
+	padding: 5px 0
+}
+.add-note {
+	margin-right: 10px
+}
+.ch-textare {
+	width: 100%;
+	margin-bottom: 10px;
+	text-indent: 10px;
+	padding: 10px;
+	border: solid 1px #ccc
+}
+.icon-yes {
+	background: url('../img/yes.png') no-repeat center;
+	background-size: 35px 44px;
+	width: 35px;
+	height: 44px;
+	display: inline-block;
+}
+.icon-no {
+	background: url('../img/no.png') no-repeat center;
+	background-size: 45px 54px;
+	width: 45px;
+	height: 54px;
+	display: inline-block;
+}

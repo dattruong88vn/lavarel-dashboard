@@ -1,0 +1,41 @@
+.thankyou-page{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    font-size: 16px;
+    background-color: #fff;
+    color: #1e1e1e;
+}
+.bl-banner{
+	background: url('/assets/images/landing-page/thanks/banner-thanks.jpg') no-repeat center transparent;
+	height: 314px;
+	background-size: cover;
+	color: #fff;
+	font-weight: 300;
+	font-size: 45px;
+	text-align: center;
+	padding-top: 100px;
+}
+.bl-banner p{
+	margin-bottom: 0;
+	line-height: 48px;
+}
+.bl-info-thanks{
+	padding: 35px 0 70px;
+	text-align: center;
+}
+.bl-info-thanks p{
+	font-weight: 300;
+	font-size: 45px;
+	margin-bottom: 80px;
+}
+.bl-info-thanks .btn-backhome{
+	color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    background-color: #f17423;
+    padding: 17px 30px 0;
+    height: 57px;
+    display: inline-block;
+    border-radius: 8px;
+	margin-top: 60px;
+}

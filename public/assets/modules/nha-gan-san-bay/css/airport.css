@@ -1,0 +1,226 @@
+.airport{
+	background-color: #fff;
+}
+.p-path{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.airport a:hover, .airport a:focus{
+	text-decoration: none;
+}
+.col-listing{
+    padding:0 10px;
+}
+.bl-listings{
+	background-color: #eef7fa;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 10px;
+}
+.bl-listings .row{
+	margin-right: 0;
+	margin-left: 0;
+}
+.bl-district{
+	background-color: #4389c8;
+	background-repeat: no-repeat;
+	margin-bottom: 25px;
+}
+.bl-district .bx-wrapper{
+	box-shadow: none;
+	background-color: transparent;
+	border: 0;
+	margin: 0;
+}
+.bl-district .bx-wrapper .bx-pager{
+	display: none;
+}
+.bl-district .bx-wrapper .bx-prev{
+	background: url('/assets/images/icons/ic-prev.png');
+	width: 20px;
+	height: 40px;
+	left: -25px;
+    top: 40%;
+}
+.bl-district .bx-wrapper .bx-next{
+	background: url('/assets/images/icons/ic-next.png');
+	width: 20px;
+	height: 40px;
+	right: -25px;
+    top: 40%;
+}
+.bl-district .bx-wrapper .bx-next:hover, .bl-district .bx-wrapper .bx-next:focus{
+	background-position: 0 0;
+}
+.bl-district.bl-right{
+	background-position: left center;
+    background-size: contain;
+}
+.bl-district.bl-left{
+	background-position: right center;
+    background-size: contain;
+}
+.bl-district.bl-listing-1{
+	background-image: url('/assets/images/bg-govap.jpg');
+}
+.bl-district.bl-listing-2{
+	background-image: url('/assets/images/bg-tanbinh.jpg');
+}
+.bl-district.bl-listing-3{
+	background-image: url('/assets/images/bg-phunhuan.jpg');
+}
+.bl-district.bl-listing-4{
+	background-image: url('/assets/images/bg-q12.jpg');
+}
+.bl-district.bl-listing-5{
+	background-image: url('/assets/images/bg-tanphu.jpg');
+}
+.bl-district .bl-title a{
+    color: #fff;
+}
+.bl-district .bl-title{
+	color: #fff;
+	font-size: 19px;
+	text-shadow: 0 2px 7px rgba(5,85,138,.75);
+    text-align: center;
+    padding-top: 42%;
+}
+.bl-district.bl-right .bl-title{
+    margin-left: 60px;
+}
+.bl-district.bl-left .bl-title{
+    margin-right: 60px;
+}
+.bl-district .bl-title span{
+	font-size: 36px;
+	font-weight: bold;
+}
+.bl-district .blocks {
+    position: relative;
+    background: rgba(0,0,0,0);
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+}
+.bl-district a .blocks{
+	color: #fff;
+}
+.bl-district .bl-value {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    padding: 2px 15px;
+    width: 100%;
+    background-color: rgba(0,0,0,.7);
+}
+
+.bl-info-listing .elements {
+    padding-top: 6px;
+    min-height: 30px;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: auto;
+    padding-left: 42px;
+    padding-right: 15px;
+    position: relative;
+    border-left: 1px solid #363633;
+}
+.bl-info-listing .elements:first-child{
+	border-left: 0;
+	padding-left: 27px;
+}
+.bl-info-listing .elements:before {
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    left: 12px;
+    top: 5px;
+}
+.bl-info-listing .elements.acreage:before{
+	background-image: url('/assets/images/icons/ic-acreage.png');
+	left: 0;
+}
+.bl-info-listing .elements.bedroom:before{
+	background-image: url('/assets/images/icons/ic-bed.png');
+}
+.bl-info-listing .elements.bathroom:before{
+	background-image: url('/assets/images/icons/ic-bath.png');
+}
+.bl-district .block-info {
+    padding: 5px 15px;
+    position: relative;
+    background-color: #fff;
+    color: #515151;
+    font-size: 15px;
+    height: 75px;
+}
+.bl-district a .block-info p{
+	height: 42px;
+	margin-bottom: 0;
+	line-height: 16px;
+}
+.bl-district a .block-info .bl-price{
+	font-size: 22px;
+	font-weight: bold;
+	color: #ff9800;
+	line-height: 20px;
+}
+
+.bl-info img{
+    width: 50px;
+}
+.bl-footer .title{
+    font-size: 28px;
+    color: #175ba9;
+    text-align: center;
+    position: relative;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+.bl-footer .title:after{
+	content: '';
+	display: inline-block;
+	width: 465px;
+	border-top: 2px dashed #4876b5;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	margin-left: -232px;
+}
+.bl-footer .bl-info{
+    text-align: center;
+    color: #175ba9;
+    font-size: 16px;
+    padding: 15px 0;
+}
+.bl-footer .bl-info p{
+	padding-top: 20px;
+	line-height: 22px;
+}
+.bl-posting{
+	padding: 15px 0 25px;
+}
+.bl-posting .btn-posting{
+    float: right;
+    background-color: #ff9800;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-radius: 0;
+    padding: 11px 45px 6px;
+    height: 55px;
+}
+.bl-posting .col-right p{
+	font-size: 14px;
+	color: #303030;
+	line-height: 21px;
+}
+.bl-posting .col-right p .p-tel{
+    color: #ff9800;
+    font-size: 20px;
+}
+
+

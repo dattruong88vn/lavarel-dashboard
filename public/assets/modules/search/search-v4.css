@@ -1,0 +1,61 @@
+/* 
+    Created on : Feb 14, 2020, 11:06:37 AM
+    Author     : Minh Nguyen
+*/
+
+.page-listing .group-header .active {
+    color: #EF7733;
+}
+.search-page-listing{
+    padding-top: 30px;
+}
+
+.item .group {
+	margin: 8px 0px;
+}
+
+.list-layout-0 .item .divtext {
+	padding-bottom: 40px !important;
+	height: 260px;
+}
+
+.list-layout-1 .item {
+	height: 290px;
+}
+
+.list-layout-1.list-layout-1-2 .item {
+	height: auto;
+}
+
+.list-layout-1 .item .wcontent {
+    height: auto;
+}
+
+.item .wprice {
+	position: absolute;
+	bottom: 5px;
+	left: 10px !important;
+	right: 10px !important;
+}
+
+.page-listing .list-duan .group-tag {
+	margin-top: 30px;
+}
+
+.list-duan .group-tag:first-child {
+	border: 1px solid #dcdcdc;
+}
+.list-layout-0 .item .divtext.height-buy{
+    height: 210px;
+}
+
+.list-layout-1 .item .title {
+	height: 48px !important;
+}
+
+.list-layout-1 .item .price2 {
+	margin-right: 32px;
+}
+#view-as-grid .btnlike {
+    right: 1px;
+}

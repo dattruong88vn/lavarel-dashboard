@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 30 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>menu - material</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.7%" y="-29.2%" width="109.3%" height="158.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.34375   0 0 0 0 0.165592275   0 0 0 0 0.0646362305  0 0 0 0.241989357 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="24" height="24"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#-Menu-bottom" transform="translate(-308.000000, -6.000000)">
+            <g id="menu-bottom">
+                <g filter="url(#filter-1)">
+                    <g id="Menu" transform="translate(283.000000, 0.000000)">
+                        <g id="Group-5" transform="translate(24.000000, 9.000000)">
+                            <g id="menu---material" transform="translate(4.000000, 0.000000)">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <path d="M2,6 L22,6 L22,7.11111111 L2,7.11111111 L2,6 Z M2,12.6666667 L2,11.5555556 L22,11.5555556 L22,12.6666667 L2,12.6666667 Z M2,18.2222222 L2,17.1111111 L22,17.1111111 L22,18.2222222 L2,18.2222222 Z" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

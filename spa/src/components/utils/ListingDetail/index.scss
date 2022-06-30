@@ -1,0 +1,37 @@
+.deal-listing-info {
+    font-size: 11px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    .listing-info-container {
+        padding: 10px 15px;
+
+        .fa.red-text, .fa.green-text {
+            margin: 2px 2px 0 0;
+        }
+        .red-text {
+            color:#E74C3C;
+            font-weight: 700;
+        }
+        .green-text {
+            color:#00a65a;
+            font-weight: 700;
+        }
+        .block-price-info {
+            display:flex;
+            p {
+                padding: 0 3px;
+                margin:0;
+            }
+        }
+        .block-call {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            label {
+                font-size:13px;
+            }
+            button {
+                font-size: 11px;
+            }
+        }
+    }
+}

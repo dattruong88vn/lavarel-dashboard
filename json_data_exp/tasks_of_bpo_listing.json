@@ -1,0 +1,119 @@
+{
+  "result": true,
+  "code": "200",
+  "message": "Thao tác thành công",
+  "validatedMessage": null,
+  "data": [
+    {
+      "listingId": 1,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 4,
+      "BA": 4,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 2,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 5,
+      "BA":  3,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 3,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 4,
+      "BA":  3,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 4,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 0,
+      "BA":  2,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 5,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 3,
+      "BA":  5,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 6,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 2,
+      "BA":  5,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 7,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 0,
+      "BA":  5,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 8,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 5,
+      "BA":  0,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 9,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 0,
+      "BA":  2,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 10,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 5,
+      "BA":  3,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }, {
+      "listingId": 11,
+      "address": "1/52 Đường Tân Xuân 1, Xã Tân Xuân Huyện Hóc Mon",
+      "price": "4 tỷ",
+      "acreage": 44,
+      "bpo": 5,
+      "BA":  3,
+      "images": [
+        "https://i.pinimg.com/564x/3d/e0/cf/3de0cfc575c0ac3f247aa5f3993ed411.jpg"
+      ]
+    }
+  ]
+}

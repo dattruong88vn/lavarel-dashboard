@@ -1,0 +1,146 @@
+.container-incentives{
+    margin-top: 50px;
+}
+.content-incentives{
+    height: auto;
+    max-height: 2280px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    z-index: 1;
+}
+.img-incentives{
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
+}
+.footer{
+    margin: 43px auto 0;
+    position: relative;
+    max-width: 1043px;
+    width: 100%;
+}
+.box-dang-ky{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 630px;
+    background: url('/assets/modules/landingpages-mkt/uudai/images/bg-desktop.jpg') no-repeat center 0;
+    background-position: center top;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.col{
+    margin: 0 auto;
+    min-height: 236px;
+    padding: 20px 30px 20px;
+    position: relative;
+    width: 100%;
+    max-width: 590px;
+}
+.text-14{
+    color: #b29980;
+    font-size: 23px;
+}
+.text-15{
+    margin: 48px 0 0;
+    color: #b29980;
+    font-size: 23px;
+}
+.text-16{
+    margin: 51px 0 0;
+    color: #b29980;
+    font-size: 23px;
+}
+.goi-yeu-cau{
+    display: block;
+    margin: 10px auto 0;
+}
+.img-send{
+    display: block;
+    margin: 0 auto;
+}
+.btn-request{
+    background-color: #c7b6a5;
+    color: #fff;
+    display: block;
+    margin: -4px auto;
+    padding: 6px 25px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.form-control-feedback {
+    top: 6px;
+}
+.send-request {
+    height: 50px;
+    padding-top: 2px;
+}
+.form-control {
+    box-shadow: none;
+    height: 46px;
+    font-size: 16px;
+    color: #484848;
+}
+.fullname{
+    margin: 9px auto 0;
+    min-height: 25px;
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+}
+.phone-contact{
+    margin: 9px auto 0;
+    min-height: 23px;
+    position: relative;
+    max-width: 580px;
+    width: 100%;
+}
+.email-contact{
+    margin: 9px auto 0;
+    min-height: 26px;
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+}
+.demand-contact{
+    margin: 10px auto 0;
+    min-height: 24px;
+    height: 100px;
+    width: 100%;
+    max-width: 579px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.demand{
+    height: auto !important;
+}
+.link-image {
+	position: absolute;
+	display: block;
+}
+.content-incentives a {
+    top: 39%;
+    left: 41%;
+    width: 18%!important;
+    height: 3.2%;
+}
+.content-incentives .a-mobile {
+    top: 43.4%;
+    left: 35%;
+    width: 30%!important;
+    height: 3.2%;
+}
+.p-path{
+	padding-top: 10px;
+    margin-left: 10px;
+}
+.p-path a{
+	color: #666;
+}
+.p-path .s-red{
+	color: #e65656;
+}

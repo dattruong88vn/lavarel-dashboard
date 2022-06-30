@@ -1,0 +1,20 @@
+.grouping-container {
+    padding: 0px 15px;
+    background-color: white;
+    display: flex;
+    .view-group {
+        padding: 0px 5px 0px 5px;
+        display: flex;
+        align-items: center;
+        .group-select {
+            padding: 0px 5px 0px 5px;
+            height: 30px;
+            margin-left: 8px;
+        }
+        .check-box {
+            margin: 0px 5px 0px 5px;
+            width: 17px;
+            height: 17px;
+        }
+    }
+}

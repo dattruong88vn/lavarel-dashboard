@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="30px" viewBox="0 0 38 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>reply_all - material</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.3%" y="-60.5%" width="116.6%" height="221.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0980392157   0 0 0 0 0.247058824   0 0 0 0 0.407843137  0 0 0 0.578408062 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="01.-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MB---01.1a---Home-/-Listing-DA-/-HEART" transform="translate(-257.000000, -696.000000)" fill="#FFFFFF">
+            <g id="Group-26" transform="translate(0.000000, 680.000000)">
+                <g id="btt_chiase" filter="url(#filter-1)" transform="translate(50.000000, 11.000000)">
+                    <g id="Group-20">
+                        <path d="M226.82,15.32 C229.513347,15.6933352 231.666659,16.7999908 233.28,18.64 C234.626673,20.1866744 235.533331,22.1399882 236,24.5 C234.973328,23.033326 233.713341,21.9566701 232.22,21.27 C230.726659,20.5833299 228.926677,20.24 226.82,20.24 L226.82,23.64 L221,17.82 L226.82,12 L226.82,15.32 Z M221.82,14.5 L218.5,17.82 L221.82,21.14 L221.82,23.64 L216,17.82 L221.82,12 L221.82,14.5 Z" id="reply_all---material" transform="translate(226.000000, 18.250000) scale(-1, 1) translate(-226.000000, -18.250000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

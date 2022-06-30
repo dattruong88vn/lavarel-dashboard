@@ -1,0 +1,64 @@
+#modal-deal-phanhuyich{
+	font-family: 'Roboto', sans-serif;
+    color: #666;
+}
+#modal-deal-phanhuyich .modal-body{
+    padding: 30px 12px 20px;
+}
+#modal-deal-phanhuyich .modal-content .close{
+    opacity: 1;
+}
+#modal-deal-phanhuyich .modal-content .img-success{
+    margin: 20px 0;
+}
+
+#modal-deal-phanhuyich .modal-content{
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    border: 0;
+    color: #333;
+    background: url('/assets/images/homepage/bg-popup.jpg') no-repeat center transparent;
+    background-size: cover;
+}
+#modal-deal-phanhuyich h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff5400;
+    text-transform: uppercase;
+    margin: 0;
+}
+#modal-deal-phanhuyich .bl-title p{
+    color: #165aa9;
+}
+#modal-deal-phanhuyich .p-row-1{
+	font-weight: 500;
+	font-size: 16px;
+    margin-bottom: 3px;
+}
+#modal-deal-phanhuyich .p-row-2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#modal-deal-phanhuyich .btn-detail-popup{
+    background: #f65211;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 8%;
+    margin: 22px 0 20px;
+    height: 42px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+@media (min-width: 768px){
+    #modal-deal-phanhuyich .modal-dialog {
+        width: 700px;
+    }
+}
+@media (max-width: 320px){
+    #modal-deal-phanhuyich .bl-title img{
+        width: 100%;
+    }
+}

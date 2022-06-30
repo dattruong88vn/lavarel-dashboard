@@ -1,0 +1,51 @@
+version: '3.7'
+services:
+
+  # The Application
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: myrepo/laravel-app
+    container_name: laravel-app
+    working_dir: /var/www
+    restart: unless-stopped
+    volumes:
+      - ./:/var/www/
+      - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    tty: true
+    ports:
+      - "9000:9000"
+  npm:
+    build:
+      context: ./
+      dockerfile: NpmDockerfile
+    command: >
+      sh -c "npm install &&
+             npm i -D webpack &&
+             npm run watch"
+    image: myrepo/laravel-npm
+    container_name: laravel-npm
+    working_dir: /var/www
+    restart: unless-stopped
+    volumes:
+      - ./:/var/www/
+    tty: true
+    ports:
+      - "8000:8000"
+    depends_on:
+      - app
+# The Web Server
+  web:
+    image: nginx:1.17-alpine
+    container_name: webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    depends_on:
+      - app

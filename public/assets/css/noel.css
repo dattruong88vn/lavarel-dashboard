@@ -1,0 +1,15 @@
+
+.index .bl-search {
+    background: url(/assets/images/special/noel/banner.jpg) no-repeat;
+    background-size: cover;
+    padding: 35px 10px 45px;
+    text-align: center;
+    height: 444px;
+    position: relative;
+}
+.index .bl-search h1{
+    font-weight: 600;
+    font-size: 42px;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+}

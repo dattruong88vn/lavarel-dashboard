@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>person - material</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.7%" y="-29.2%" width="109.3%" height="158.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.34375   0 0 0 0 0.165592275   0 0 0 0 0.0646362305  0 0 0 0.241989357 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#-Menu-bottom" transform="translate(-38.000000, -2.000000)" stroke="#FFFFFF" stroke-width="0.86436">
+            <g id="menu-bottom">
+                <g filter="url(#filter-1)">
+                    <g id="Login" transform="translate(13.000000, 0.000000)">
+                        <g id="Group" transform="translate(12.000000, 9.000000)">
+                            <g id="person---material" transform="translate(16.000000, 0.000000)">
+                                <path d="M12,14.2634731 C13.113778,14.2634731 14.3353227,14.4251481 15.6646707,14.748503 C17.1736602,15.1257504 18.3952049,15.6287394 19.3293413,16.257485 C20.4431193,16.9940157 21,17.8203547 21,18.7365269 L21,21 L3,21 L3,18.7365269 C3,17.8203547 3.55688066,16.9940157 4.67065868,16.257485 C5.60479509,15.6287394 6.82633976,15.1257504 8.33532934,14.748503 C9.66467731,14.4251481 10.886222,14.2634731 12,14.2634731 Z M12,12 C11.1916127,12 10.4461112,11.7979062 9.76347305,11.3937126 C9.08083491,10.9895189 8.53742717,10.4461112 8.13323353,9.76347305 C7.7290399,9.08083491 7.52694611,8.33533338 7.52694611,7.52694611 C7.52694611,6.71855883 7.7290399,5.96407536 8.13323353,5.26347305 C8.53742717,4.56287075 9.08083491,4.01048106 9.76347305,3.60628743 C10.4461112,3.20209379 11.1916127,3 12,3 C12.8083873,3 13.5538888,3.20209379 14.2365269,3.60628743 C14.9191651,4.01048106 15.4625728,4.56287075 15.8667665,5.26347305 C16.2709601,5.96407536 16.4730539,6.71855883 16.4730539,7.52694611 C16.4730539,8.33533338 16.2709601,9.08083491 15.8667665,9.76347305 C15.4625728,10.4461112 14.9191651,10.9895189 14.2365269,11.3937126 C13.5538888,11.7979062 12.8083873,12 12,12 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

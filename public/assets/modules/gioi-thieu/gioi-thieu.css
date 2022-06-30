@@ -1,0 +1,183 @@
+.aboutus-page{
+    background-color: #fff;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutus-page h2.title{
+    text-align: center;
+    color: #363636;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid #f1792b;
+    display: inline-block;
+    padding-bottom: 1px;
+    margin-bottom: 35px;
+}
+.aboutus-page h3.title{
+    text-align: center;
+    color: #676767;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0 0 22px;
+}
+.bl-banner-info img{
+    width: 100%;
+}
+.bl-banner-info p{
+    color: #676767;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 12px;
+    text-align: justify;
+}
+.bl-banner-info p.p-director{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #363636;
+}
+.bl-banner-info p.p-director span{
+    color: #f17423;
+    font-weight: 500;
+}
+.bl-aboutus-1 .bl-bg{
+    background-color: #f3f3f3;
+    padding: 20px 25px 60px;
+}
+.bl-aboutus-1 .div-text p, .bl-aboutus-1 .block-2 p.text{
+    color: #676767;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 12px;
+    text-align: justify;
+}
+.bl-aboutus-1{
+    padding-top: 40px;
+}
+.bl-aboutus-1 .block-1 ul{
+    padding: 0 0 10px;
+}
+.bl-aboutus-1 .block-1 li{
+    list-style: none;
+    position: relative;
+    color: #676767;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding:0 0 2px 30px;
+    font-size: 15px;
+}
+.bl-aboutus-1 .block-1 li:before{
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #676767;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+.bl-aboutus-1 .block-2 h3.title{
+    margin: 25px 0 35px;
+}
+.bl-aboutus-1 .block-2 p.text{
+    text-align: center;
+}
+.bl-aboutus-1 .block-2 p.title{
+    font-weight: 500;
+    font-size: 16px;
+    color: #f17423;
+    text-align: center;
+    padding-top: 90px;
+}
+.bl-aboutus-1 .block-2 p.title:before {
+    content: '';
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -37px;
+    background-image: url(/assets/images/svg-icons.svg?v=03.06.2019);
+    background-repeat: no-repeat;
+}
+.bl-aboutus-1 .block-2 p.title.title-1:before {
+    background-position: -636px -819px;
+}
+.bl-aboutus-1 .block-2 p.title.title-2:before {
+    background-position: -745px -816px;
+}
+.bl-aboutus-1 .block-2 p.title.title-3:before {
+    background-position: -853px -816px;
+}
+.aboutus-page .bl-aboutus-2 h2.title{
+    margin: 40px 0 60px;
+}
+.bl-aboutus-2 ul{
+    position: relative;
+    padding: 0;
+}
+.bl-aboutus-2 ul:before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 3px;
+    background-color: #eaeaea;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bl-aboutus-2 li{
+    list-style: none;
+    color: #676767;
+    padding: 5px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    padding: 0 0px 25px 35px;
+}
+.bl-aboutus-2 li:last-child{
+    padding-bottom: 0;
+}
+.bl-aboutus-2 li span{
+    display: inline-block;
+}
+.bl-aboutus-2 li:before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 2px rgba(176,176,176,.35);
+    position: absolute;
+    left: -8px;
+    top: 0;
+    background-color: #f17423;
+}
+.bl-aboutus-2 .span-year{
+    color: #676767;
+    font-weight: 700;
+}
+.bl-aboutus-3{
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 60px;
+}
+.aboutus-page .bl-aboutus-3 h2.title{
+    margin: 50px 0 80px;
+}
+.bl-aboutus-3 a{
+    display: inline-block;
+}
+.bl-aboutus-3 a p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #f17423;
+    padding-top: 20px;
+}

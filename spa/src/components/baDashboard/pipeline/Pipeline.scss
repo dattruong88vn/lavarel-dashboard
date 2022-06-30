@@ -1,0 +1,38 @@
+.sale-pipeline-container {
+    padding: 0px 0px;
+}
+
+.sale-pipeline-overlay {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.sale-pipeline-content {
+    color: #1a9d52;
+}
+
+.sale-pipeline-spinner {
+    padding: 0px;
+    svg circle {
+        stroke: #1a9d52 !important;
+    }
+}
+/*
+MyLoader_wrapper
+MyLoader_overlay
+MyLoader_content
+MyLoader_spinner
+*/
+
+.custom-modal {
+    .modal-dialog {
+        .modal-content {
+            width: 100%;
+        }
+    }
+}
+
+.sales-pipeline {
+    .custom-col-md-12 {
+        min-height: 1000px;
+    }
+}

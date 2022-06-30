@@ -1,0 +1,17 @@
+{
+    "result": true,
+    "code": "200",
+    "message": "Thao tác thành công",
+    "validatedMessage": null,
+    "data": [
+        {
+            "name": "Mua",
+            "id": 1
+        },
+        {
+            "name": "Thuê",
+            "id": 2
+        }
+    ],
+    "additional": null
+}
